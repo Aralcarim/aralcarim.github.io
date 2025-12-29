@@ -1,0 +1,77 @@
+import React from 'react';
+import Layout from '../layout/Layout';
+import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+
+const Home = () => {
+    const { t } = useTranslation();
+
+    return (
+        <Layout>
+            <section className="hero" style={{
+                position: 'relative',
+                height: 'calc(100vh - 80px)',
+                marginTop: '-80px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                background: `url('/assets/hero-banner.png') no-repeat center center/cover`
+            }}>
+                <div style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    background: 'rgba(255, 255, 255, 0.4)'
+                }}></div>
+
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 1, delay: 0.5 }}
+                    className="hero-content text-center"
+                    style={{ position: 'relative', zIndex: 1 }}
+                >
+                    <p style={{
+                        textTransform: 'uppercase',
+                        letterSpacing: '5px',
+                        fontSize: '1.2rem',
+                        marginBottom: '1rem'
+                    }}>{t('home.intro')}</p>
+
+                    <h1 style={{
+                        fontSize: '4rem',
+                        margin: '20px 0',
+                        lineHeight: 1.2
+                    }}>
+                        Vaclav <span className="text-gold">&</span> Cinzia
+                    </h1>
+
+                    <div style={{
+                        display: 'inline-block',
+                        borderTop: '1px solid #333',
+                        borderBottom: '1px solid #333',
+                        padding: '10px 40px',
+                        marginTop: '20px'
+                    }}>
+                        <p style={{
+                            fontSize: '1.5rem',
+                            fontWeight: 600,
+                            letterSpacing: '2px',
+                            margin: 0
+                        }}>{t('home.date')}</p>
+                        <p style={{
+                            fontSize: '1rem',
+                            margin: '5px 0 0',
+                            textTransform: 'uppercase',
+                            letterSpacing: '3px'
+                        }}>{t('home.location')}</p>
+                    </div>
+                </motion.div>
+            </section>
+        </Layout>
+    );
+};
+
+export default Home;

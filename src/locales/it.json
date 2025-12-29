@@ -1,0 +1,58 @@
+{
+    "nav": {
+        "home": "Home",
+        "story": "La Nostra Storia",
+        "events": "Eventi",
+        "rsvp": "RSVP",
+        "gallery": "Galleria"
+    },
+    "home": {
+        "intro": "Ci sposiamo",
+        "date": "13 giugno 2025",
+        "location": "San Marco in Lamis, Italia"
+    },
+    "story": {
+        "title": "La Nostra Storia",
+        "p1": "Tutto è iniziato in una fresca sera d'autunno a Praga. Vaclav correva verso una conferenza tecnologica e Cinzia ammirava l'architettura vicino al Ponte Carlo. Di solito, percorsi come i loro non si incrociano - uno concentrato sul codice, l'altra sull'arte - ma il destino ha un modo divertente di far incontrare le persone.",
+        "p2": "Un caffè condiviso in un bar lungo il fiume si è trasformato in ore di conversazione su tutto, dal calcolo quantistico all'arte del Rinascimento italiano. Hanno capito che, nonostante i loro diversi background, condividevano gli stessi valori, lo stesso amore per l'avventura e lo stesso sogno di costruire una bella vita insieme.",
+        "p3": "Cinque anni, innumerevoli viaggi e una bellissima proposta a Venezia dopo, eccoci qui. Non vediamo l'ora di iniziare il nostro prossimo capitolo con tutti voi al nostro fianco."
+    },
+    "events": {
+        "title": "Il Grande Giorno",
+        "ceremony": {
+            "title": "La Cerimonia",
+            "time": "14:00",
+            "location": "Cattedrale di San Vito"
+        },
+        "reception": {
+            "title": "Il Ricevimento",
+            "time": "17:00",
+            "location": "Palazzo Lobkowicz"
+        },
+        "transport": "Trasporto",
+        "transport_desc": "Saranno fornite navette dalla cerimonia al luogo del ricevimento utilizzando tram storici.",
+        "directions": "Indicazioni"
+    },
+    "rsvp": {
+        "title": "RSVP",
+        "deadline": "Fateci sapere se potrete esserci entro il 1° Agosto 2025.",
+        "name": "Nome Completo",
+        "email": "Indirizzo Email",
+        "attending": "Parteciperete?",
+        "yes": "Accetto con gioia",
+        "no": "Rifiuto con rammarico",
+        "guests": "Numero di Ospiti",
+        "dietary": "Restrizioni Alimentari",
+        "dietary_placeholder": "Eventuali allergie o preferenze?",
+        "submit": "Invia RSVP",
+        "guest_count": "{{count}} Ospite",
+        "guest_count_plural": "{{count}} Ospiti",
+        "alert": "Grazie per la tua risposta, {{name}}! (Questo è un modulo demo)"
+    },
+    "gallery": {
+        "title": "Galleria Fotografica"
+    },
+    "footer": {
+        "hashtag": "#VanZiaMatrimonio2025"
+    }
+}

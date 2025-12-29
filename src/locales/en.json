@@ -1,0 +1,58 @@
+{
+    "nav": {
+        "home": "Home",
+        "story": "Our Story",
+        "events": "Events",
+        "rsvp": "RSVP",
+        "gallery": "Gallery"
+    },
+    "home": {
+        "intro": "We're getting married",
+        "date": "October 5, 2025",
+        "location": "Prague, Czech Republic"
+    },
+    "story": {
+        "title": "Our Story",
+        "p1": "It all started on a crisp autumn evening in Prague. Vaclav was rushing to a tech conference, and Cinzia was admiring the architecture near the Charles Bridge. Usually, paths like theirs don't cross—one focused on code, the other on art—but destiny has a funny way of bringing people together.",
+        "p2": "A shared coffee at a riverside cafe turned into hours of conversation about everything from quantum computing to Italian Renaissance art. They realized that despite their different backgrounds, they shared the same values, the same love for adventure, and the same dream of building a beautiful life together.",
+        "p3": "Five years, countless travels, and one beautiful proposal in Venice later, here we are. We can't wait to start our next chapter with all of you by our side."
+    },
+    "events": {
+        "title": "The Big Day",
+        "ceremony": {
+            "title": "The Ceremony",
+            "time": "2:00 PM",
+            "location": "St. Vitus Cathedral"
+        },
+        "reception": {
+            "title": "The Reception",
+            "time": "5:00 PM",
+            "location": "Lobkowicz Palace"
+        },
+        "transport": "Transportation",
+        "transport_desc": "Shuttles will be provided from the ceremony to the reception venue using historic trams.",
+        "directions": "Get Directions"
+    },
+    "rsvp": {
+        "title": "RSVP",
+        "deadline": "Please let us know if you can make it by August 1st, 2025.",
+        "name": "Full Name",
+        "email": "Email Address",
+        "attending": "Will you be attending?",
+        "yes": "Joyfully Accept",
+        "no": "Regretfully Decline",
+        "guests": "Number of Guests",
+        "dietary": "Dietary Restrictions",
+        "dietary_placeholder": "Any allergies or preferences?",
+        "submit": "Send RSVP",
+        "guest_count": "{{count}} Guest",
+        "guest_count_plural": "{{count}} Guests",
+        "alert": "Thank you for your response, {{name}}! (This is a demo form)"
+    },
+    "gallery": {
+        "title": "Photo Gallery"
+    },
+    "footer": {
+        "hashtag": "#VanZiaWedding2025"
+    }
+}

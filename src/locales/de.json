@@ -1,0 +1,58 @@
+{
+    "nav": {
+        "home": "Startseite",
+        "story": "Unsere Geschichte",
+        "events": "Ablauf",
+        "rsvp": "U.A.w.g.",
+        "gallery": "Fotos"
+    },
+    "home": {
+        "intro": "Wir heiraten",
+        "date": "5. Oktober 2025",
+        "location": "Prag, Tschechische Republik"
+    },
+    "story": {
+        "title": "Unsere Geschichte",
+        "p1": "Alles begann an einem kühlen Herbstabend in Prag. Vaclav eilte zu einer Tech-Konferenz, und Cinzia bewunderte die Architektur in der Nähe der Karlsbrücke. Normalerweise kreuzen sich solche Wege nicht – einer fokussiert auf Code, die andere auf Kunst – aber das Schicksal hat eine lustige Art, Menschen zusammenzubringen.",
+        "p2": "Ein gemeinsamer Kaffee in einem Café am Flussufer wurde zu stundenlangen Gesprächen über alles, von Quantencomputing bis zur Kunst der italienischen Renaissance. Sie erkannten, dass sie trotz ihrer unterschiedlichen Hintergründe dieselben Werte, dieselbe Abenteuerlust und denselben Traum teilten, ein wunderschönes Leben gemeinsam aufzubauen.",
+        "p3": "Fünf Jahre, unzählige Reisen und einen wunderschönen Heiratsantrag in Venedig später sind wir hier. Wir können es kaum erwarten, unser nächstes Kapitel mit euch allen an unserer Seite zu beginnen."
+    },
+    "events": {
+        "title": "Der Große Tag",
+        "ceremony": {
+            "title": "Die Trauung",
+            "time": "14:00 Uhr",
+            "location": "Veitsdom"
+        },
+        "reception": {
+            "title": "Der Empfang",
+            "time": "17:00 Uhr",
+            "location": "Palais Lobkowicz"
+        },
+        "transport": "Transport",
+        "transport_desc": "Shuttles werden von der Zeremonie zum Empfangsort mit historischen Straßenbahnen bereitgestellt.",
+        "directions": "Wegbeschreibung"
+    },
+    "rsvp": {
+        "title": "U.A.w.g.",
+        "deadline": "Bitte gebt uns bis zum 1. August 2025 Bescheid.",
+        "name": "Vollständiger Name",
+        "email": "E-Mail-Adresse",
+        "attending": "Werdet ihr dabei sein?",
+        "yes": "Wir kommen gerne",
+        "no": "Wir müssen leider absagen",
+        "guests": "Anzahl der Gäste",
+        "dietary": "Ernährungseinschränkungen",
+        "dietary_placeholder": "Allergien oder Vorlieben?",
+        "submit": "Absenden",
+        "guest_count": "{{count}} Gast",
+        "guest_count_plural": "{{count}} Gäste",
+        "alert": "Danke für deine Antwort, {{name}}! (Dies ist ein Demo-Formular)"
+    },
+    "gallery": {
+        "title": "Fotogalerie"
+    },
+    "footer": {
+        "hashtag": "#VanZiaHochzeit2025"
+    }
+}
