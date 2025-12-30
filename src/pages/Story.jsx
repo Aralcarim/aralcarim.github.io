@@ -2,59 +2,107 @@ import React from 'react';
 import Layout from '../layout/Layout';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import './Story.css';
+
+const ProfileCard = ({ name, movie, books, fact, quote, alignment }) => {
+    const { t } = useTranslation();
+    return (
+        <div className={`profile-info ${alignment}`}>
+            <h2 className="profile-name">{name}</h2>
+            <div className="profile-detail">
+                <strong>{t('story.profile.movie')}:</strong> {movie}
+            </div>
+            <div className="profile-detail">
+                <strong>{t('story.profile.books')}:</strong> {books}
+            </div>
+            <div className="profile-detail">
+                <strong>{t('story.profile.fact')}:</strong> {fact}
+            </div>
+            <div className="profile-detail">
+                <strong>{t('story.profile.quote')}:</strong> <em>"{quote}"</em>
+            </div>
+        </div>
+    );
+};
+
+const TimelineItem = ({ date, year, caption, image, side }) => {
+    return (
+        <motion.div
+            className={`timeline-item ${side}`}
+            initial={{ opacity: 0, x: side === 'left' ? -50 : 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.5 }}
+        >
+            <div className="timeline-content">
+                <div className="timeline-date">{date} {year}</div>
+                {image && <img src={image} alt={caption} className="timeline-img" />}
+                {!image && (
+                    <div className="timeline-img-placeholder">
+                        <span>{year}</span>
+                    </div>
+                )}
+                <p className="timeline-caption">{caption}</p>
+            </div>
+        </motion.div>
+    );
+};
 
 const Story = () => {
     const { t } = useTranslation();
 
+    const timelineEvents = [
+        { date: "January", year: "2022", caption: t('story.timeline.event1'), image: "/assets/timeline-1.png", side: "left" },
+        { date: "August", year: "2023", caption: t('story.timeline.event2'), image: null, side: "right" },
+        { date: "December", year: "2024", caption: t('story.timeline.event3'), image: null, side: "left" },
+        { date: "December", year: "2025", caption: t('story.timeline.event4'), image: null, side: "right" },
+        { date: "June", year: "2026", caption: t('story.timeline.event5'), image: null, side: "left" },
+    ];
+
     return (
         <Layout>
-            <div className="container" style={{ padding: '40px 20px' }}>
-                <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-                    <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        className="text-center"
-                    >
-                        <h1 style={{ fontSize: '3rem', marginBottom: '2rem' }}>{t('story.title')}</h1>
-                        <img
-                            src="/assets/couple.png"
-                            alt="Vaclav and Cinzia"
-                            style={{
-                                width: '100%',
-                                maxHeight: '500px',
-                                objectFit: 'cover',
-                                borderRadius: '8px',
-                                marginBottom: '2rem',
-                                boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
-                            }}
+            <div className="story-container">
+                {/* Profiles Section */}
+                <section className="profiles-section">
+                    <div className="container profile-grid">
+                        {/* Vaclav Info */}
+                        <ProfileCard
+                            name="Vaclav"
+                            movie={t('story.profile.vaclav.movie')}
+                            books={t('story.profile.vaclav.books')}
+                            fact={t('story.profile.vaclav.fact')}
+                            quote={t('story.profile.vaclav.quote')}
+                            alignment="text-right-md"
                         />
-                    </motion.div>
-
-                    <div style={{ fontSize: '1.1rem', lineHeight: 1.8 }}>
-                        <motion.p
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ delay: 0.2 }}
-                            style={{ marginBottom: '20px' }}>
-                            {t('story.p1')}
-                        </motion.p>
-                        <motion.p
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ delay: 0.3 }}
-                            style={{ marginBottom: '20px' }}>
-                            {t('story.p2')}
-                        </motion.p>
-                        <motion.p
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ delay: 0.4 }}
-                        >
-                            {t('story.p3')}
-                        </motion.p>
+                        {/* Vaclav Pic */}
+                        <div className="profile-pic-wrapper">
+                            <img src="/assets/vaclav-profile.png" alt="Vaclav" className="profile-pic" />
+                        </div>
+                        {/* Cinzia Pic */}
+                        <div className="profile-pic-wrapper">
+                            <img src="/assets/cinzia-profile.png" alt="Cinzia" className="profile-pic" />
+                        </div>
+                        {/* Cinzia Info */}
+                        <ProfileCard
+                            name="Cinzia"
+                            movie={t('story.profile.cinzia.movie')}
+                            books={t('story.profile.cinzia.books')}
+                            fact={t('story.profile.cinzia.fact')}
+                            quote={t('story.profile.cinzia.quote')}
+                            alignment="text-left-md"
+                        />
                     </div>
-                </div>
+                </section>
+
+                {/* Timeline Section */}
+                <section className="timeline-section">
+                    <div className="timeline-line"></div>
+                    <div className="container timeline-container">
+                        {timelineEvents.map((event, index) => (
+                            <TimelineItem key={index} {...event} />
+                        ))}
+                    </div>
+                </section>
             </div>
         </Layout>
     );

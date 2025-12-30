@@ -2,36 +2,91 @@
     "nav": {
         "home": "Home",
         "story": "La Nostra Storia",
+        "gallery": "Galleria",
         "events": "Eventi",
+        "faq": "FAQ",
+        "travel": "Viaggio & Alloggio",
+        "things_to_do": "Cose da fare in zona",
+        "things_to_know": "Cose da sapere",
+        "registry": "Lista Nozze",
+        "dress_code": "Dress Code",
+        "more": "Altro",
         "rsvp": "RSVP",
-        "gallery": "Galleria"
+        "contact": "Contattaci"
     },
     "home": {
         "intro": "Ci sposiamo",
-        "date": "13 giugno 2025",
-        "location": "San Marco in Lamis, Italia"
+        "date": "13 giugno 2026",
+        "location": "Le Querce di Mamre, Italia",
+        "countdown": {
+            "days": "Giorni",
+            "hours": "Ore",
+            "minutes": "Minuti",
+            "seconds": "Secondi"
+        }
     },
     "story": {
         "title": "La Nostra Storia",
-        "p1": "Tutto è iniziato in una fresca sera d'autunno a Praga. Vaclav correva verso una conferenza tecnologica e Cinzia ammirava l'architettura vicino al Ponte Carlo. Di solito, percorsi come i loro non si incrociano - uno concentrato sul codice, l'altra sull'arte - ma il destino ha un modo divertente di far incontrare le persone.",
-        "p2": "Un caffè condiviso in un bar lungo il fiume si è trasformato in ore di conversazione su tutto, dal calcolo quantistico all'arte del Rinascimento italiano. Hanno capito che, nonostante i loro diversi background, condividevano gli stessi valori, lo stesso amore per l'avventura e lo stesso sogno di costruire una bella vita insieme.",
-        "p3": "Cinque anni, innumerevoli viaggi e una bellissima proposta a Venezia dopo, eccoci qui. Non vediamo l'ora di iniziare il nostro prossimo capitolo con tutti voi al nostro fianco."
+        "profile": {
+            "movie": "Film Preferito",
+            "books": "Libri Preferiti",
+            "fact": "Curiosità",
+            "quote": "Citazione Preferita",
+            "vaclav": {
+                "movie": "The Imitation Game",
+                "books": "Clean Code, 1984",
+                "fact": "Risolve un cubo di Rubik in meno di 2 min",
+                "quote": "Stay hungry, stay foolish"
+            },
+            "cinzia": {
+                "movie": "La Dolce Vita",
+                "books": "La Divina Commedia",
+                "fact": "Ama dipingere ad acquerello",
+                "quote": "La vita è bella"
+            }
+        },
+        "timeline": {
+            "event1": "Primo incontro a Praga",
+            "event2": "Il nostro viaggio a Venezia",
+            "event3": "Andare a vivere insieme",
+            "event4": "Capodanno Insieme",
+            "event5": "Il Giorno del Matrimonio!"
+        }
     },
     "events": {
-        "title": "Il Grande Giorno",
-        "ceremony": {
-            "title": "La Cerimonia",
-            "time": "14:00",
-            "location": "Cattedrale di San Vito"
+        "title": "Programma",
+        "venue": {
+            "title": "Le Querce di Mamre",
+            "blurb": "Immersa nel cuore della Puglia, Le Querce di Mamre è un santuario senza tempo di bellezza mediterranea. Circondata da querce secolari e uliveti, questa location unisce il fascino rustico a un'eleganza raffinata, offrendo la cornice perfetta per la nostra festa.",
+            "directions": "Indicazioni"
         },
-        "reception": {
-            "title": "Il Ricevimento",
-            "time": "17:00",
-            "location": "Palazzo Lobkowicz"
-        },
-        "transport": "Trasporto",
-        "transport_desc": "Saranno fornite navette dalla cerimonia al luogo del ricevimento utilizzando tram storici.",
-        "directions": "Indicazioni"
+        "timeline": {
+            "ceremony": {
+                "title": "La Cerimonia",
+                "time": "12:30",
+                "desc": "Unitevi a noi mentre scambiamo le nostre promesse all'ombra di querce secolari in una sentita cerimonia all'aperto."
+            },
+            "entrees": {
+                "title": "Antipasti e Aperitivo",
+                "time": "13:30",
+                "desc": "Gustate una selezione di antipasti tipici pugliesi e rinfreschi in giardino, accompagnati da una musica soffusa."
+            },
+            "lunch": {
+                "title": "Pranzo e Festa",
+                "time": "14:30",
+                "desc": "Ci sposteremo all'interno per un autentico banchetto nuziale italiano, seguito da balli e festeggiamenti."
+            },
+            "cake": {
+                "title": "Taglio della Torta",
+                "time": "20:00",
+                "desc": "Un momento dolce mentre tagliamo insieme la nostra torta nuziale, segnando l'inizio di una serata magica sotto le stelle."
+            },
+            "afterparty": {
+                "title": "After Party e Open Bar",
+                "time": "21:00",
+                "desc": "La festa continua con open bar e musica travolgente per ballare tutta la notte fino a tardi."
+            }
+        }
     },
     "rsvp": {
         "title": "RSVP",
@@ -53,6 +108,137 @@
         "title": "Galleria Fotografica"
     },
     "footer": {
-        "hashtag": "#VanZiaMatrimonio2025"
+        "hashtag": "13 Giugno 2026"
+    },
+    "disclaimer": {
+        "title": "Informazioni Importanti RSVP",
+        "message": "Vi chiediamo gentilmente di rispondere entro il 31 marzo. Si prega di indicare eventuali esigenze alimentari nel modulo.",
+        "button": "Ho Capito"
+    },
+    "faq": {
+        "title": "Domande Frequenti (FAQ)",
+        "oneliner": "La maggior parte delle risposte si trova nel resto del sito, ma questa pagina è il più completa possibile per facilitare la ricerca.",
+        "categories": {
+            "venue": "Luogo e Orari",
+            "dress": "Dress Code",
+            "rsvp": "Dettagli RSVP",
+            "travel": "Viaggio e Alloggio",
+            "food": "Cibo e Bevande",
+            "gifts": "Regali",
+            "photo": "Fotografia e Cellulari",
+            "schedule": "Programma",
+            "weather": "Meteo e Piano B",
+            "culture": "Note Culturali / Religiose"
+        },
+        "questions": {
+            "when_wedding": "Quando sarà il matrimonio?",
+            "when_wedding_a": "Il matrimonio si terrà il 13 giugno 2026.",
+            "where_ceremony": "Dove sarà la cerimonia?",
+            "where_ceremony_a": "La cerimonia si terrà all'aperto presso Le Querce di Mamre, in Puglia.",
+            "where_reception": "Dove sarà il ricevimento?",
+            "where_reception_a": "Anche il ricevimento sarà a Le Querce di Mamre, passando dal giardino esterno alle sale interne.",
+            "arrival_time": "A che ora dovrebbero arrivare gli ospiti?",
+            "arrival_time_a": "Vi consigliamo di arrivare entro le 12:00 per accomodarvi con calma prima della cerimonia delle 12:30.",
+            "dress_code": "Qual è il dress code?",
+            "dress_code_a": "Il dress code è Formale / Black Tie Optional. Uomini: Abito o Smoking. Donne: Abito da sera o abito da cocktail elegante.",
+            "outdoor_elements": "Ci sono momenti all'aperto?",
+            "outdoor_elements_a": "La cerimonia e l'aperitivo iniziale sono all'aperto (su prato), mentre il pranzo e la festa sono all'interno.",
+            "how_rsvp": "Come posso confermare la mia presenza?",
+            "how_rsvp_a": "Potete confermare tramite la pagina RSVP di questo sito.",
+            "rsvp_deadline": "Scadenza per l'RSVP?",
+            "rsvp_deadline_a": "Vi preghiamo di farci sapere se potrete esserci entro il 31 marzo 2026.",
+            "plus_one": "Posso portare un accompagnatore?",
+            "plus_one_a": "A causa della capienza limitata, possiamo ospitare solo le persone indicate sull'invito.",
+            "children": "I bambini sono invitati?",
+            "children_a": "Amiamo i vostri piccoli, ma il nostro matrimonio sarà una festa per soli adulti.",
+            "how_get_there": "Come arrivo a destinazione?",
+            "how_get_there_a": "Gli aeroporti più vicini sono Bari (BRI) e Brindisi (BDS). Trovate indicazioni dettagliate sulla pagina Viaggio.",
+            "parking": "C'è disponibilità di parcheggio?",
+            "parking_a": "Sì, la location dispone di un ampio parcheggio gratuito.",
+            "hotels": "Ci sono hotel consigliati?",
+            "hotels_a": "Sì, abbiamo elencato diversi hotel consigliati in varie fasce di prezzo sulla pagina Viaggio.",
+            "transportation": "Sarà fornito un servizio di trasporto?",
+            "transportation_a": "Saranno organizzati servizi navetta dal centro città alla location. Ulteriori dettagli seguiranno.",
+            "food_provided": "Sarà servito del cibo?",
+            "food_provided_a": "Sì, serviremo un pranzo nuziale italiano completo a più portate e rinfreschi serali.",
+            "dietary": "Possono essere soddisfatte esigenze alimentari particolari?",
+            "dietary_a": "Assolutamente sì! Vi preghiamo di specificare eventuali allergie o esigenze nel modulo RSVP.",
+            "bar": "Il bar è aperto o a pagamento?",
+            "bar_a": "Avremo un open bar durante tutta la festa.",
+            "gifts_expected": "Sono previsti regali?",
+            "gifts_expected_a": "La vostra presenza è il regalo più bello, ma se desiderate farci un dono, apprezziamo molto la vostra generosità.",
+            "registry": "Avete una lista nozze?",
+            "registry_a": "Sì, trovate il link alla nostra lista nozze nella pagina dedicata.",
+            "gift_way": "C'è un modo preferito per fare un regalo?",
+            "gift_way_a": "I regali possono essere inviati tramite lista nozze o portati al matrimonio.",
+            "unplugged": "La cerimonia è 'unplugged'?",
+            "unplugged_a": "Sì, vi chiediamo di mettere via telefoni e macchine fotografiche durante la cerimonia per essere pienamente presenti con noi.",
+            "take_photos": "Possiamo scattare foto?",
+            "take_photos_a": "Siete i benvenuti a scattare foto durante il ricevimento!",
+            "hashtag": "Ci sarà un hashtag per il matrimonio?",
+            "hashtag_a": "Sì! Vi preghiamo di usare #VanZiaWedding2026 quando condividete le vostre foto.",
+            "schedule": "Qual è il programma della giornata?",
+            "schedule_a": "Il programma completo si trova nella pagina Programma.",
+            "reception_end": "A che ora finirà il ricevimento?",
+            "reception_end_a": "La festa si concluderà verso le 23:00.",
+            "rain": "Cosa succede se piove?",
+            "rain_a": "Abbiamo un piano B al coperto nella stessa location, quindi la festa continuerà indipendentemente dal tempo!",
+            "traditions": "Ci saranno tradizioni religiose o culturali particolari?",
+            "traditions_a": "Il matrimonio unirà tradizioni italiane e ceche, celebrate con una sentita cerimonia simbolica."
+        }
+    },
+    "travel": {
+        "title": "Viaggio e Alloggio",
+        "airports": {
+            "title": "Come Arrivare",
+            "desc": "Gli aeroporti più vicini sono Bari Karol Wojtyła (BRI) e Brindisi (BDS). Consigliamo di noleggiare un'auto per esplorare i meravigliosi paesaggi pugliesi."
+        },
+        "hotels": {
+            "title": "Dove Alloggiare",
+            "hotel1": "Masseria Relais - Un boutique hotel di lusso vicino alla location.",
+            "hotel2": "Hotel Apulia - Un soggiorno confortevole e moderno nella città vicina.",
+            "hotel3": "B&B Garden - Un affascinante bed & breakfast locale con vista."
+        }
+    },
+    "things_to_do": {
+        "title": "Cose da fare in zona",
+        "desc": "La Puglia è famosa per i suoi oliveti, i borghi bianchi e la splendida costa.",
+        "item1": {
+            "title": "Alberobello",
+            "desc": "Visita i famosi trulli, patrimonio mondiale dell'UNESCO."
+        },
+        "item2": {
+            "title": "Polignano a Mare",
+            "desc": "Scogliere mozzafiato e acque cristalline."
+        },
+        "item3": {
+            "title": "Ostuni",
+            "desc": "Esplora la 'Città Bianca' e le sue stradine medievali."
+        }
+    },
+    "things_to_know": {
+        "title": "Cose da sapere",
+        "desc": "Alcuni consigli utili per il vostro viaggio in Puglia.",
+        "tip1": "La valuta è l'Euro (€). La maggior parte dei posti accetta carte di credito.",
+        "tip2": "Il tempo a giugno è solitamente soleggiato e caldo (25-30°C).",
+        "tip3": "La mancia è gradita ma non obbligatoria in Italia."
+    },
+    "registry": {
+        "title": "Lista Nozze",
+        "desc": "La vostra presenza è l'unico regalo che desideriamo. Tuttavia, se volete onorarci con un dono, un contributo per il nostro viaggio di nozze sarebbe molto apprezzato.",
+        "link": "Vedi il nostro Fondo Viaggio"
+    },
+    "dress_code": {
+        "title": "Dress Code",
+        "desc": "Il dress code per il nostro matrimonio è Formale / Black Tie Optional.",
+        "gentlemen": "I signori sono invitati a indossare un abito o uno smoking.",
+        "ladies": "Le signore sono invitate a indossare un abito lungo o un abito da cocktail formale.",
+        "note": "La cerimonia e l'aperitivo si terranno su prato, si prega di scegliere le calzature di conseguenza."
+    },
+    "contact": {
+        "title": "Contatti",
+        "desc": "Se avete domande, non esitate a contattarci direttamente.",
+        "vaclav": "Vaclav: vaclav@example.com",
+        "cinzia": "Cinzia: cinzia@example.com"
     }
 }

@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { useTranslation } from 'react-i18next'; // Import useTranslation
-import LanguageSwitcher from '../components/LanguageSwitcher'; // Import LanguageSwitcher
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from '../components/LanguageSwitcher';
+import { motion, AnimatePresence } from 'framer-motion';
 import './Navbar.css';
 
 const Navbar = () => {
-    const { t } = useTranslation(); // Hook for translations
+    const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const location = useLocation();
 
@@ -27,13 +29,24 @@ const Navbar = () => {
         { name: t('nav.story'), path: '/story' },
         { name: t('nav.events'), path: '/events' },
         { name: t('nav.rsvp'), path: '/rsvp' },
+        { name: t('nav.faq'), path: '/faq' },
+        { name: t('nav.travel'), path: '/travel' },
+        { name: t('nav.things_to_know'), path: '/things-to-know' },
+        { name: t('nav.things_to_do'), path: '/things-to-do' },
+        { name: t('nav.registry'), path: '/registry' },
+    ];
+
+    const moreLinks = [
         { name: t('nav.gallery'), path: '/gallery' },
+        { name: t('nav.dress_code'), path: '/dress-code' },
+        { name: t('nav.contact'), path: '/contact' }
     ];
 
     return (
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-            <div className="container nav-container">
-                <Link to="/" className="nav-logo">
+            {/* Fluid container for more space */}
+            <div className="container-fluid nav-container" style={{ padding: '0 30px' }}>
+                <Link to="/" className="nav-logo" style={{ marginRight: '20px' }}>
                     Vaclav <span className="text-gold">&</span> Cinzia
                 </Link>
 
@@ -44,11 +57,48 @@ const Navbar = () => {
                             to={link.path}
                             className={`nav-link ${location.pathname === link.path ? 'active' : ''}`}
                             onClick={() => setIsOpen(false)}
+                            style={{ fontSize: '0.8rem', letterSpacing: '1px' }} // Reduce size slightly for fit
                         >
                             {link.name}
                         </Link>
                     ))}
-                    {/* Add Language Switcher inside menu for mobile, or beside it for desktop */}
+
+                    <div
+                        className="nav-link dropdown-trigger"
+                        onMouseEnter={() => setIsDropdownOpen(true)}
+                        onMouseLeave={() => setIsDropdownOpen(false)}
+                        style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '5px' }}
+                    >
+                        {t('nav.more')} <span style={{ fontSize: '0.6rem' }}>▼</span>
+
+                        <AnimatePresence>
+                            {isDropdownOpen && (
+                                <motion.div
+                                    initial={{ opacity: 0, y: 10 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    exit={{ opacity: 0, y: 10 }}
+                                    transition={{ duration: 0.2 }}
+                                    className="dropdown-menu"
+                                    style={{ minWidth: '150px' }}
+                                >
+                                    {moreLinks.map((link) => (
+                                        <Link
+                                            key={link.path}
+                                            to={link.path}
+                                            className="dropdown-item"
+                                            onClick={() => {
+                                                setIsOpen(false);
+                                                setIsDropdownOpen(false);
+                                            }}
+                                        >
+                                            {link.name}
+                                        </Link>
+                                    ))}
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
+                    </div>
+
                     <LanguageSwitcher />
                 </div>
 

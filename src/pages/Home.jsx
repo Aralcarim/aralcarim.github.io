@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../layout/Layout';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import Countdown from '../components/Countdown';
 
 const Home = () => {
     const { t } = useTranslation();
@@ -15,16 +16,8 @@ const Home = () => {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                background: `url('/assets/hero-banner.png') no-repeat center center/cover`
+                backgroundColor: 'var(--color-background)'
             }}>
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    bottom: 0,
-                    background: 'rgba(255, 255, 255, 0.4)'
-                }}></div>
 
                 <motion.div
                     initial={{ opacity: 0, scale: 0.9 }}
@@ -68,6 +61,9 @@ const Home = () => {
                             letterSpacing: '3px'
                         }}>{t('home.location')}</p>
                     </div>
+
+                    <Countdown />
+
                 </motion.div>
             </section>
         </Layout>

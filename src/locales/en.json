@@ -2,36 +2,91 @@
     "nav": {
         "home": "Home",
         "story": "Our Story",
-        "events": "Events",
+        "gallery": "Gallery",
+        "events": "Run of Show",
+        "faq": "FAQ",
+        "travel": "Travel & Accommodations",
+        "things_to_do": "Things to do",
+        "things_to_know": "Things to know",
+        "registry": "Registry",
+        "dress_code": "Dress Code",
+        "more": "More",
         "rsvp": "RSVP",
-        "gallery": "Gallery"
+        "contact": "Contact"
     },
     "home": {
         "intro": "We're getting married",
-        "date": "October 5, 2025",
-        "location": "Prague, Czech Republic"
+        "date": "June 13, 2026",
+        "location": "Le Querce di Mamre, Apulia, Italy",
+        "countdown": {
+            "days": "Days",
+            "hours": "Hours",
+            "minutes": "Minutes",
+            "seconds": "Seconds"
+        }
     },
     "story": {
         "title": "Our Story",
-        "p1": "It all started on a crisp autumn evening in Prague. Vaclav was rushing to a tech conference, and Cinzia was admiring the architecture near the Charles Bridge. Usually, paths like theirs don't cross—one focused on code, the other on art—but destiny has a funny way of bringing people together.",
-        "p2": "A shared coffee at a riverside cafe turned into hours of conversation about everything from quantum computing to Italian Renaissance art. They realized that despite their different backgrounds, they shared the same values, the same love for adventure, and the same dream of building a beautiful life together.",
-        "p3": "Five years, countless travels, and one beautiful proposal in Venice later, here we are. We can't wait to start our next chapter with all of you by our side."
+        "profile": {
+            "movie": "Favorite Movie",
+            "books": "Favorite Books",
+            "fact": "Fun Fact",
+            "quote": "Favorite Quote",
+            "vaclav": {
+                "movie": "The Imitation Game",
+                "books": "Clean Code, 1984",
+                "fact": "Can solve a Rubik's cube in under 2 mins",
+                "quote": "Stay hungry, stay foolish"
+            },
+            "cinzia": {
+                "movie": "La Dolce Vita",
+                "books": "The Divine Comedy",
+                "fact": "Loves painting watercolors",
+                "quote": "La vita è bella"
+            }
+        },
+        "timeline": {
+            "event1": "First meeting in Prague",
+            "event2": "Our trip to Venice",
+            "event3": "Moving in together",
+            "event4": "New Year's Eve Celebration",
+            "event5": "The Wedding Day!"
+        }
     },
     "events": {
-        "title": "The Big Day",
-        "ceremony": {
-            "title": "The Ceremony",
-            "time": "2:00 PM",
-            "location": "St. Vitus Cathedral"
+        "title": "Run of Show",
+        "venue": {
+            "title": "Le Querce di Mamre",
+            "blurb": "Nestled in the heart of Apulia, Le Querce di Mamre is a timeless sanctuary of Mediterranean beauty. Surrounded by ancient oak trees and olive groves, this venue combines rustic charm with refined elegance, providing the perfect backdrop for our celebration.",
+            "directions": "Get Directions"
         },
-        "reception": {
-            "title": "The Reception",
-            "time": "5:00 PM",
-            "location": "Lobkowicz Palace"
-        },
-        "transport": "Transportation",
-        "transport_desc": "Shuttles will be provided from the ceremony to the reception venue using historic trams.",
-        "directions": "Get Directions"
+        "timeline": {
+            "ceremony": {
+                "title": "The Ceremony",
+                "time": "12:30",
+                "desc": "Join us as we exchange our vows under the shade of ancient oaks in a heartfelt outdoor ceremony."
+            },
+            "entrees": {
+                "title": "Entrées & Apertifs",
+                "time": "13:30",
+                "desc": "Enjoy a selection of traditional Apulian starters and refreshments in the garden, accompanied by gentle music."
+            },
+            "lunch": {
+                "title": "Lunch & Party",
+                "time": "14:30",
+                "desc": "We move inside for an authentic Italian wedding feast, followed by dancing and celebration with our loved ones."
+            },
+            "cake": {
+                "title": "Cake Cutting",
+                "time": "20:00",
+                "desc": "A sweet moment as we cut our wedding cake together, marking the start of a magical evening under the stars."
+            },
+            "afterparty": {
+                "title": "After Party & Open Bar",
+                "time": "21:00",
+                "desc": "The celebration continues with an open bar and high-energy music to dance the night away until late."
+            }
+        }
     },
     "rsvp": {
         "title": "RSVP",
@@ -53,6 +108,137 @@
         "title": "Photo Gallery"
     },
     "footer": {
-        "hashtag": "#VanZiaWedding2025"
+        "hashtag": "June 13, 2026"
+    },
+    "disclaimer": {
+        "title": "Important RSVP Update",
+        "message": "We kindly ask you to RSVP by March 31st. Please ensure you mention any dietary requirements in the form.",
+        "button": "I Understand"
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "oneliner": "Most answers can be found on the rest of the website, but this page is as comprehensive as possible to allow for easy searching.",
+        "categories": {
+            "venue": "Location & Timing",
+            "dress": "Dress Code",
+            "rsvp": "RSVP Details",
+            "travel": "Travel & Accommodation",
+            "food": "Food & Drinks",
+            "gifts": "Gifts",
+            "photo": "Photography & Phones",
+            "schedule": "Schedule",
+            "weather": "Weather & Backup Plans",
+            "culture": "Cultural / Religious Notes"
+        },
+        "questions": {
+            "when_wedding": "When is the wedding?",
+            "when_wedding_a": "The wedding will take place on June 13, 2026.",
+            "where_ceremony": "Where is the ceremony?",
+            "where_ceremony_a": "The ceremony will be held outdoors at Le Querce di Mamre, Apulia.",
+            "where_reception": "Where is the reception?",
+            "where_reception_a": "The reception will also be at Le Querce di Mamre, transitioning from the outdoor garden to the indoor halls.",
+            "arrival_time": "What time should guests arrive?",
+            "arrival_time_a": "We recommend arriving by 12:00 PM to find your seat comfortably before the 12:30 PM ceremony.",
+            "dress_code": "What is the dress code?",
+            "dress_code_a": "The dress code is Formal / Black Tie Optional. Gentlemen: Suits or Tuxedos. Ladies: Evening gowns or elegant cocktail dresses.",
+            "outdoor_elements": "Are there outdoor elements?",
+            "outdoor_elements_a": "The ceremony and initial drinks are outdoors (on grass), while lunch and the party are indoors.",
+            "how_rsvp": "How do I RSVP?",
+            "how_rsvp_a": "You can RSVP directly on this website through the RSVP page.",
+            "rsvp_deadline": "RSVP deadline?",
+            "rsvp_deadline_a": "Please let us know if you can make it by March 31st, 2026.",
+            "plus_one": "Can I bring a plus one?",
+            "plus_one_a": "Due to venue capacity, we can only accommodate those named on the invitation.",
+            "children": "Are children invited?",
+            "children_a": "We love your little ones, but our wedding will be an adults-only celebration.",
+            "how_get_there": "How do I get there?",
+            "how_get_there_a": "The nearest airports are Bari (BRI) and Brindisi (BDS). Detailed directions are on the Travel page.",
+            "parking": "Is parking available?",
+            "parking_a": "Yes, there is ample complimentary parking available at the venue.",
+            "hotels": "Are there recommended hotels?",
+            "hotels_a": "Yes, we have listed several recommended hotels in various price ranges on the Travel page.",
+            "transportation": "Will transportation be provided?",
+            "transportation_a": "Shuttle services will be arranged from the main town center to the venue. More details to follow.",
+            "food_provided": "Will food be provided?",
+            "food_provided_a": "Yes, we will serve a full multi-course Italian wedding lunch and evening refreshments.",
+            "dietary": "Can dietary requirements be accommodated?",
+            "dietary_a": "Absolutely! Please specify any allergies or requirements in your RSVP form.",
+            "bar": "Is the bar open or cash?",
+            "bar_a": "We will have an open bar throughout the celebration.",
+            "gifts_expected": "Are gifts expected?",
+            "gifts_expected_a": "Your presence is the greatest gift, but if you wish to give, we appreciate your generosity.",
+            "registry": "Do you have a registry?",
+            "registry_a": "Yes, you can find our gift registry link on the Registry page.",
+            "gift_way": "Is there a preferred way to give a gift?",
+            "gift_way_a": "Gifts can be sent via the registry or brought to the wedding.",
+            "unplugged": "Is the ceremony unplugged?",
+            "unplugged_a": "Yes, we ask that you put away phones and cameras during the ceremony and be fully present with us.",
+            "take_photos": "Can we take photos?",
+            "take_photos_a": "You are welcome to take photos during the reception!",
+            "hashtag": "Will there be a wedding hashtag?",
+            "hashtag_a": "Yes! Please use #VanZiaWedding2026 when sharing your photos.",
+            "schedule": "What’s the order of events?",
+            "schedule_a": "The full schedule can be found on the Run of Show page.",
+            "reception_end": "What time will the reception end?",
+            "reception_end_a": "The celebration will conclude around 11:00 PM.",
+            "rain": "What happens if it rains?",
+            "rain_a": "We have an indoor backup plan at the same venue, so the celebration will go on regardless of the weather!",
+            "traditions": "Will there be religious or cultural traditions guests should know about?",
+            "traditions_a": "The wedding will blend Italian and Czech traditions, celebrated with a heartfelt symbolic ceremony."
+        }
+    },
+    "travel": {
+        "title": "Travel & Accommodations",
+        "airports": {
+            "title": "Getting There",
+            "desc": "The nearest airports are Bari Karol Wojtyła Airport (BRI) and Brindisi Airport (BDS). We recommend renting a car to explore the beautiful landscape of Apulia."
+        },
+        "hotels": {
+            "title": "Where to Stay",
+            "hotel1": "Masseria Relais - A luxury boutique hotel near the venue.",
+            "hotel2": "Hotel Apulia - A comfortable and modern stay in the nearby town.",
+            "hotel3": "B&B Garden - A charming local bed & breakfast with great views."
+        }
+    },
+    "things_to_do": {
+        "title": "Things to do in the area",
+        "desc": "Apulia is famous for its olive groves, white-washed hill towns, and stunning coastline.",
+        "item1": {
+            "title": "Alberobello",
+            "desc": "Visit the famous Trulli houses, a UNESCO World Heritage site."
+        },
+        "item2": {
+            "title": "Polignano a Mare",
+            "desc": "Breathtaking cliffs and crystal clear waters."
+        },
+        "item3": {
+            "title": "Ostuni",
+            "desc": "Explore the 'White City' and its winding medieval streets."
+        }
+    },
+    "things_to_know": {
+        "title": "Things to know",
+        "desc": "A few helpful tips for your trip to Apulia.",
+        "tip1": "Currency is Euro (€). Most places accept credit cards, but some cash is useful.",
+        "tip2": "Weather in June is usually sunny and warm (25-30°C).",
+        "tip3": "Tipping is appreciated but not mandatory in Italy."
+    },
+    "registry": {
+        "title": "Registry",
+        "desc": "Your presence is the only gift we need. However, if you wish to honor us with a gift, a contribution towards our honeymoon would be greatly appreciated.",
+        "link": "View our Honeymoon Fund"
+    },
+    "dress_code": {
+        "title": "Dress Code",
+        "desc": "The dress code for our wedding is Formal / Black Tie Optional.",
+        "gentlemen": "Gentlemen are invited to wear a suit or tuxedo.",
+        "ladies": "Ladies are invited to wear a floor-length gown or a formal cocktail dress.",
+        "note": "The ceremony and drinks will be held on grass, so please choose your footwear accordingly."
+    },
+    "contact": {
+        "title": "Contact Us",
+        "desc": "If you have any questions, feel free to reach out to us directly.",
+        "vaclav": "Vaclav: vaclav@example.com",
+        "cinzia": "Cinzia: cinzia@example.com"
     }
 }

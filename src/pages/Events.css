@@ -1,0 +1,118 @@
+.events-container {
+    padding-top: 40px;
+    background-color: var(--color-background);
+}
+
+.venue-header {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.venue-image-placeholder {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(135deg, #fce4ec 0%, #f3e5f5 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    color: var(--color-primary);
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-style: italic;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.venue-title {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    margin-bottom: 15px;
+}
+
+.venue-blurb {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.directions-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--color-gold);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.directions-btn:hover {
+    background-color: #c5a02c;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
+}
+
+/* Timeline Layout */
+.timeline-list {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+.timeline-list::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--color-gold);
+    opacity: 0.3;
+}
+
+.timeline-event {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.timeline-event::before {
+    content: '';
+    position: absolute;
+    left: -39px;
+    top: 5px;
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border: 3px solid var(--color-gold);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.event-time {
+    color: var(--color-gold);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-family: var(--font-heading);
+}
+
+.event-title {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    margin-bottom: 8px;
+}
+
+.event-desc {
+    color: #666;
+    line-height: 1.6;
+    font-size: 1rem;
+}

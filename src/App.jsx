@@ -1,24 +1,43 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
+
+// Layout and Common
+import Navbar from './layout/Navbar';
+import Footer from './layout/Footer';
+import DisclaimerModal from './components/DisclaimerModal';
+
+// Pages
 import Home from './pages/Home';
 import Story from './pages/Story';
 import Events from './pages/Events';
 import RSVP from './pages/RSVP';
+import FAQ from './pages/FAQ';
 import Gallery from './pages/Gallery';
+import Travel from './pages/Travel';
+import ThingsToDo from './pages/ThingsToDo';
+import ThingsToKnow from './pages/ThingsToKnow';
+import Registry from './pages/Registry';
+import DressCode from './pages/DressCode';
+import Contact from './pages/Contact';
 
-// Wrap Routes in a component to use useLocation hook for AnimatePresence
 const AnimatedRoutes = () => {
   const location = useLocation();
-
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/story" element={<Story />} />
         <Route path="/events" element={<Events />} />
-        <Route path="/rsvp" element={<RSVP />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/rsvp" element={<RSVP />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/travel" element={<Travel />} />
+        <Route path="/things-to-do" element={<ThingsToDo />} />
+        <Route path="/things-to-know" element={<ThingsToKnow />} />
+        <Route path="/registry" element={<Registry />} />
+        <Route path="/dress-code" element={<DressCode />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </AnimatePresence>
   );
@@ -27,7 +46,12 @@ const AnimatedRoutes = () => {
 function App() {
   return (
     <Router>
-      <AnimatedRoutes />
+      <Navbar />
+      <main style={{ minHeight: '80vh' }}>
+        <AnimatedRoutes />
+      </main>
+      <Footer />
+      <DisclaimerModal />
     </Router>
   );
 }
