@@ -19,6 +19,14 @@ const Home = () => {
                 backgroundColor: 'var(--color-background)'
             }}>
 
+                <style>{`
+                    @media (max-width: 768px) {
+                        .hero {
+                            margin-top: -40px !important;
+                        }
+                    }
+                `}</style>
+
                 <motion.div
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
