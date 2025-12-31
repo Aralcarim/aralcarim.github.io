@@ -5,6 +5,12 @@
   --color-gold-light: #F4E5BC;
   --color-pink: #FADadd;
   --color-pink-soft: #FFE4E1;
+  --color-lilac: #C8A2C8;
+  --color-lilac-light: #E8D5E8;
+  --color-lilac-pale: #F5EDF5;
+  --color-peach: #FFDAB9;
+  --color-peach-light: #FFE5D9;
+  --color-peach-pale: #FFF3ED;
   --color-text: #333333;
   --color-bg: #FAFAF5;
   --font-heading: 'Playfair Display', serif;
@@ -43,7 +49,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-gold);
+  color: var(--color-lilac);
 }
 
 /* Utilities */
@@ -54,6 +60,8 @@ a:hover {
 }
 
 .text-gold { color: var(--color-gold); }
+.text-lilac { color: var(--color-lilac); }
+.text-peach { color: var(--color-peach); }
 .text-center { text-align: center; }
 .flex { display: flex; }
 .flex-col { flex-direction: column; }
@@ -68,6 +76,6 @@ a:hover {
   background: var(--color-bg);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-gold);
+  background: linear-gradient(var(--color-lilac), var(--color-peach));
   border-radius: 4px;
 }

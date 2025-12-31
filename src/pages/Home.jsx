@@ -16,7 +16,7 @@ const Home = () => {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                backgroundColor: 'var(--color-background)'
+                background: 'transparent'
             }}>
 
                 <style>{`
@@ -51,8 +51,8 @@ const Home = () => {
 
                     <div style={{
                         display: 'inline-block',
-                        borderTop: '1px solid #333',
-                        borderBottom: '1px solid #333',
+                        borderTop: '1px solid var(--color-lilac)',
+                        borderBottom: '1px solid var(--color-peach)',
                         padding: '10px 40px',
                         marginTop: '20px'
                     }}>
