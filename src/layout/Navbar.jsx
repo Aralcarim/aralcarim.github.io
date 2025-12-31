@@ -100,7 +100,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+                <div className="nav-controls" style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
                     <LanguageSwitcher />
                     <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(!isOpen)}>
                         <span className="bar"></span>
@@ -108,6 +108,16 @@ const Navbar = () => {
                         <span className="bar"></span>
                     </div>
                 </div>
+
+                <style>{`
+                    @media (max-width: 768px) {
+                        .nav-controls {
+                            flex-direction: column !important;
+                            align-items: flex-end !important;
+                            gap: 10px !important;
+                        }
+                    }
+                `}</style>
             </div>
         </nav>
     );
