@@ -8,21 +8,13 @@
     text-align: center;
 }
 
-.venue-image-placeholder {
+.venue-image {
     width: 100%;
     height: 400px;
-    background: linear-gradient(135deg, #fce4ec 0%, #f3e5f5 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    object-fit: cover;
     border-radius: 8px;
     margin-bottom: 30px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-    color: var(--color-primary);
-    font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-style: italic;
-    border: 1px solid rgba(212, 175, 55, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .venue-title {

@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../layout/Layout';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import './Events.css';
+import './RunOfShow.css';
 
 const TimelineEvent = ({ time, title, desc, delay }) => (
     <motion.div
@@ -18,7 +18,7 @@ const TimelineEvent = ({ time, title, desc, delay }) => (
     </motion.div>
 );
 
-const Events = () => {
+const RunOfShow = () => {
     const { t } = useTranslation();
 
     const events = [
@@ -61,14 +61,14 @@ const Events = () => {
 
                     {/* Venue Section */}
                     <section className="venue-header">
-                        <motion.div
+                        <motion.img
                             initial={{ opacity: 0, scale: 0.95 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
-                            className="venue-image-placeholder"
-                        >
-                            Le Querce di Mamre
-                        </motion.div>
+                            className="venue-image"
+                            src="/assets/querce-location.jpeg"
+                            alt="Le Querce di Mamre"
+                        />
 
                         <motion.h1
                             initial={{ opacity: 0, y: 20 }}
@@ -121,4 +121,4 @@ const Events = () => {
     );
 };
 
-export default Events;
+export default RunOfShow;

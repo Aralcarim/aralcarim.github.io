@@ -10,7 +10,7 @@ import DisclaimerModal from './components/DisclaimerModal';
 // Pages
 import Home from './pages/Home';
 import Story from './pages/Story';
-import Events from './pages/Events';
+import RunOfShow from './pages/RunOfShow';
 import RSVP from './pages/RSVP';
 import FAQ from './pages/FAQ';
 import Gallery from './pages/Gallery';
@@ -28,7 +28,7 @@ const AnimatedRoutes = () => {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/story" element={<Story />} />
-        <Route path="/events" element={<Events />} />
+        <Route path="/events" element={<RunOfShow />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/rsvp" element={<RSVP />} />
         <Route path="/faq" element={<FAQ />} />
