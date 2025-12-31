@@ -16,6 +16,10 @@ i18n
             it: { translation: it }
         },
         fallbackLng: 'en',
+        detection: {
+            order: ['querystring', 'navigator', 'htmlTag'],
+            lookupQuerystring: 'lng'
+        },
         interpolation: {
             escapeValue: false // React already escapes by default
         }
