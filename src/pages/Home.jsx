@@ -46,7 +46,7 @@ const Home = () => {
                         margin: '20px 0',
                         lineHeight: 1.2
                     }}>
-                        Vaclav <span className="text-gold">&</span> Cinzia
+                        Cinzia <span className="text-gold">&</span> Vaclav
                     </h1>
 
                     <div style={{

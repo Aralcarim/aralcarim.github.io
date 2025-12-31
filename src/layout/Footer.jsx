@@ -12,7 +12,7 @@ const Footer = () => {
             color: '#666'
         }}>
             <p style={{ fontFamily: 'var(--font-heading)', fontSize: '1.2rem', marginBottom: '10px' }}>
-                Vaclav <span className="text-gold">&</span> Cinzia
+                Cinzia <span className="text-gold">&</span> Vaclav
             </p>
             <p>{t('footer.hashtag')}</p>
         </footer>

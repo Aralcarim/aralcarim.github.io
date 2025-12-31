@@ -47,7 +47,7 @@ const Navbar = () => {
             {/* Fluid container for more space */}
             <div className="container-fluid nav-container" style={{ padding: '0 30px' }}>
                 <Link to="/" className="nav-logo" style={{ marginRight: '20px' }}>
-                    Vaclav <span className="text-gold">&</span> Cinzia
+                    Cinzia <span className="text-gold">&</span> Vaclav
                 </Link>
 
                 <div className={`nav-menu ${isOpen ? 'active' : ''}`}>
@@ -98,14 +98,15 @@ const Navbar = () => {
                             )}
                         </AnimatePresence>
                     </div>
-
-                    <LanguageSwitcher />
                 </div>
 
-                <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(!isOpen)}>
-                    <span className="bar"></span>
-                    <span className="bar"></span>
-                    <span className="bar"></span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+                    <LanguageSwitcher />
+                    <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(!isOpen)}>
+                        <span className="bar"></span>
+                        <span className="bar"></span>
+                        <span className="bar"></span>
+                    </div>
                 </div>
             </div>
         </nav>
