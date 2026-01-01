@@ -16,6 +16,17 @@
     align-items: center;
 }
 
+/* Mobile: Image first, then text for both */
+@media (max-width: 991px) {
+    .profile-grid {
+        grid-template-rows: auto auto auto;
+    }
+
+    .profile-pic-wrapper.couple-photo {
+        order: -1;
+    }
+}
+
 .profile-info {
     padding: 20px;
     background: #fff;
@@ -59,11 +70,11 @@
     transform: scale(1.05);
 }
 
-/* Desktop Layout (4 columns) */
+/* Desktop Layout (3 columns: Cinzia Info, Image, Vaclav Info) */
 @media (min-width: 992px) {
     .profile-grid {
-        grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
-        gap: 20px;
+        grid-template-columns: 1.5fr 1fr 1.5fr;
+        gap: 30px;
     }
 
     .profile-info {
@@ -73,12 +84,16 @@
         padding: 0;
     }
 
-    .text-right-md {
+    .text-right {
         text-align: right;
     }
 
-    .text-left-md {
+    .text-left {
         text-align: left;
+    }
+
+    .profile-pic-wrapper.couple-photo {
+        aspect-ratio: 3/4;
     }
 }
 

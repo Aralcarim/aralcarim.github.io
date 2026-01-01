@@ -65,23 +65,6 @@ const Story = () => {
                 {/* Profiles Section */}
                 <section className="profiles-section">
                     <div className="container profile-grid">
-                        {/* Vaclav Info */}
-                        <ProfileCard
-                            name="Vaclav"
-                            movie={t('story.profile.vaclav.movie')}
-                            books={t('story.profile.vaclav.books')}
-                            fact={t('story.profile.vaclav.fact')}
-                            quote={t('story.profile.vaclav.quote')}
-                            alignment="text-right-md"
-                        />
-                        {/* Vaclav Pic */}
-                        <div className="profile-pic-wrapper">
-                            <img src="/assets/vaclav-profile.png" alt="Vaclav" className="profile-pic" />
-                        </div>
-                        {/* Cinzia Pic */}
-                        <div className="profile-pic-wrapper">
-                            <img src="/assets/cinzia-profile.png" alt="Cinzia" className="profile-pic" />
-                        </div>
                         {/* Cinzia Info */}
                         <ProfileCard
                             name="Cinzia"
@@ -89,7 +72,20 @@ const Story = () => {
                             books={t('story.profile.cinzia.books')}
                             fact={t('story.profile.cinzia.fact')}
                             quote={t('story.profile.cinzia.quote')}
-                            alignment="text-left-md"
+                            alignment="text-right"
+                        />
+                        {/* Couple Photo */}
+                        <div className="profile-pic-wrapper couple-photo">
+                            <img src="/assets/our-story-couple.jpg" alt="Cinzia & Vaclav" className="profile-pic" />
+                        </div>
+                        {/* Vaclav Info */}
+                        <ProfileCard
+                            name="Vaclav"
+                            movie={t('story.profile.vaclav.movie')}
+                            books={t('story.profile.vaclav.books')}
+                            fact={t('story.profile.vaclav.fact')}
+                            quote={t('story.profile.vaclav.quote')}
+                            alignment="text-left"
                         />
                     </div>
                 </section>
