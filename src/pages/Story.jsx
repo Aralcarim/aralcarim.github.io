@@ -27,14 +27,21 @@ const ProfileCard = ({ name, movie, books, fact, quote, alignment }) => {
 
 const TimelineItem = ({ date, year, caption, image, side }) => {
     return (
-        <motion.div
-            className={`timeline-item ${side}`}
-            initial={{ opacity: 0, x: side === 'left' ? -50 : 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.5 }}
-        >
-            <div className="timeline-content">
+        <div className={`timeline-item ${side}`}>
+            <motion.div
+                className="timeline-dot"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.5 }}
+            />
+            <motion.div
+                className="timeline-content"
+                initial={{ opacity: 0, x: side === 'left' ? -50 : 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.5 }}
+            >
                 <div className="timeline-date">{date} {year}</div>
                 {image && <img src={image} alt={caption} className="timeline-img" />}
                 {!image && (
@@ -43,8 +50,8 @@ const TimelineItem = ({ date, year, caption, image, side }) => {
                     </div>
                 )}
                 <p className="timeline-caption">{caption}</p>
-            </div>
-        </motion.div>
+            </motion.div>
+        </div>
     );
 };
 
@@ -75,8 +82,11 @@ const Story = () => {
                             alignment="text-right"
                         />
                         {/* Couple Photo */}
-                        <div className="profile-pic-wrapper couple-photo">
-                            <img src="/assets/our-story-couple.jpg" alt="Cinzia & Vaclav" className="profile-pic" />
+                        <div className="couple-photo-wrapper">
+                            <div className="profile-pic-wrapper couple-photo">
+                                <img src="/assets/our-story-couple.jpg" alt="Cinzia & Vaclav" className="profile-pic" />
+                            </div>
+                            <p className="couple-photo-caption">{t('story.couplePhotoCaption')}</p>
                         </div>
                         {/* Cinzia Info */}
                         <ProfileCard

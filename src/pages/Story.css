@@ -22,7 +22,7 @@
         grid-template-rows: auto auto auto;
     }
 
-    .profile-pic-wrapper.couple-photo {
+    .couple-photo-wrapper {
         order: -1;
     }
 }
@@ -70,6 +70,14 @@
     transform: scale(1.05);
 }
 
+.couple-photo-caption {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 0.9rem;
+    color: #888;
+    font-style: italic;
+}
+
 /* Desktop Layout (3 columns: Cinzia Info, Image, Vaclav Info) */
 @media (min-width: 992px) {
     .profile-grid {
@@ -90,6 +98,12 @@
 
     .text-left {
         text-align: left;
+    }
+
+    .couple-photo-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .profile-pic-wrapper.couple-photo {
@@ -140,19 +154,32 @@
 }
 
 /* Timeline Dots */
-.timeline-item::after {
-    content: '';
+.timeline-dot {
     position: absolute;
-    top: 20px;
+    top: 10px;
     left: 50%;
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     background: var(--color-peach);
     border: 4px solid #fff;
     border-radius: 50%;
     transform: translateX(-50%);
     z-index: 20;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+    .timeline-dot {
+        top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .timeline-dot {
+        display: none;
+    }
 }
 
 /* Alternating Sides for Desktop */
@@ -168,12 +195,10 @@
     }
 
     .timeline-item.left .timeline-content {
-        margin-right: 40px;
         text-align: right;
     }
 
     .timeline-item.right .timeline-content {
-        margin-left: 40px;
         text-align: left;
     }
 }
