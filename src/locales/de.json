@@ -107,7 +107,17 @@
         "alert": "Danke für deine Antwort, {{name}}! (Dies ist ein Demo-Formular)"
     },
     "gallery": {
-        "title": "Fotogalerie"
+        "title": "Fotogalerie",
+        "subtitle": "Schöne Momente unserer gemeinsamen Reise",
+        "photoCount": "{{count}} Foto",
+        "photoCount_plural": "{{count}} Fotos",
+        "filters": {
+            "all": "Alle",
+            "couple": "Paar",
+            "venue": "Location",
+            "moments": "Momente",
+            "details": "Details"
+        }
     },
     "footer": {
         "hashtag": "13. Juni 2026"

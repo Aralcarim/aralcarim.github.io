@@ -107,7 +107,17 @@
         "alert": "Thank you for your response, {{name}}! (This is a demo form)"
     },
     "gallery": {
-        "title": "Photo Gallery"
+        "title": "Photo Gallery",
+        "subtitle": "Capture beautiful moments from our journey together",
+        "photoCount": "{{count}} photo",
+        "photoCount_plural": "{{count}} photos",
+        "filters": {
+            "all": "All",
+            "couple": "Couple",
+            "venue": "Venue",
+            "moments": "Moments",
+            "details": "Details"
+        }
     },
     "footer": {
         "hashtag": "June 13, 2026"
