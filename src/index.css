@@ -82,3 +82,316 @@ a:hover {
   background: linear-gradient(var(--color-lilac), var(--color-peach));
   border-radius: 4px;
 }
+
+/* Contact Page Styles */
+.contact-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.person-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person-name {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: var(--color-gold);
+  text-align: center;
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--color-lilac-light);
+  width: 100%;
+}
+
+/* Square Grid (Vaclav) */
+.contact-grid-square {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Triangle Grid (Cinzia) */
+.contact-grid-triangle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.contact-item-top {
+  grid-column: 1 / -1;
+}
+
+.contact-item-bottom-left {
+  justify-self: start;
+}
+
+.contact-item-bottom-right {
+  justify-self: end;
+}
+
+.contact-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: var(--color-lilac);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-item-content {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+.social-link-inline {
+  color: var(--color-lilac);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.social-link-inline:hover {
+  color: var(--color-gold);
+  text-decoration: underline;
+}
+
+.reveal-button-inline {
+  padding: 0.4rem 0.8rem;
+  background: var(--color-lilac-light);
+  border: 1px solid var(--color-lilac);
+  border-radius: 6px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reveal-button-inline:hover {
+  background: var(--color-lilac);
+  color: white;
+  border-color: var(--color-lilac);
+}
+
+.contact-link {
+  color: var(--color-gold);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  animation: fadeIn 0.3s ease;
+}
+
+.contact-link:hover {
+  color: var(--color-lilac);
+  text-decoration: underline;
+}
+
+/* Divider */
+.contact-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background: var(--color-lilac-light);
+  max-width: 200px;
+}
+
+.divider-text {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--color-gold);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* List Layout */
+.contact-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-list-row {
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-list-row:hover {
+  /* removed hover effect */
+}
+
+.contact-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-lilac-light);
+  justify-content: center;
+}
+
+.contact-profile-pic {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-gold);
+}
+
+.contact-profile-fallback {
+  display: none;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-lilac), var(--color-peach));
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  color: white;
+  border: 3px solid var(--color-gold);
+}
+
+.contact-profile-name {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.contact-detail-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.contact-detail-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  color: var(--color-lilac);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-detail-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.wedding-hashtag {
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  color: var(--color-gold);
+  text-align: center;
+  margin: 2.5rem 0 0 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-lilac-light);
+}
+
+.hashtag-icon {
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-columns {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .contact-grid-square,
+  .contact-grid-triangle {
+    gap: 1rem;
+  }
+
+  .person-name {
+    font-size: 1.75rem;
+  }
+
+  .contact-list {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+  .contact-list-row {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .contact-profile-pic,
+  .contact-profile-fallback {
+    width: 56px;
+    height: 56px;
+  }
+
+  .contact-profile-name {
+    font-size: 1.25rem;
+  }
+
+  .wedding-hashtag {
+    font-size: 1.5rem;
+  }
+
+  .contact-item-bottom-left,
+  .contact-item-bottom-right {
+    justify-self: center;
+  }
+}

@@ -406,8 +406,13 @@
     "contact": {
         "title": "Contact Us",
         "desc": "If you have any questions, feel free to reach out to us directly.",
-        "vaclav": "Vaclav: vaclav@example.com",
-        "cinzia": "Cinzia: cinzia@example.com"
+        "hashtag": "VanZiaWedding2026",
+        "reveal": "Reveal",
+        "vaclav_name": "Vaclav",
+        "cinzia_name": "Cinzia",
+        "reveal_email": "Reveal {{name}}'s email",
+        "reveal_phone": "Reveal {{name}}'s phone number",
+        "alternative_view": "Alternative View"
     },
     "map": {
         "title": "Interactive Map",
