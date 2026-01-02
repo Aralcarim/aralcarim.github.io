@@ -188,7 +188,7 @@
             "take_photos": "Can we take photos?",
             "take_photos_a": "You are welcome to take photos during the reception!",
             "hashtag": "Will there be a wedding hashtag?",
-            "hashtag_a": "Yes! Please use #VanZiaWedding2026 when sharing your photos.",
+            "hashtag_a": "Yes! Please tag both the bride and groom when sharing your photos.",
             "schedule": "What’s the order of events?",
             "schedule_a": "The full schedule can be found on the Run of Show page.",
             "reception_end": "What time will the reception end?",
@@ -406,7 +406,7 @@
     "contact": {
         "title": "Contact Us",
         "desc": "If you have any questions, feel free to reach out to us directly.",
-        "hashtag": "VanZiaWedding2026",
+        "hashtag": "",
         "reveal": "Reveal",
         "vaclav_name": "Vaclav",
         "cinzia_name": "Cinzia",

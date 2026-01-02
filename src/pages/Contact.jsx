@@ -37,11 +37,37 @@ const Contact = () => {
         }
     };
 
-    const ContactButton = ({ revealed, value, type, person, onClick }) => {
+    const ContactButton = ({ revealed, value, type, person, onClick, flag }) => {
         if (revealed) {
             const href = type === 'email' ? `mailto:${value}` : `tel:${value}`;
+
+            const flagIcons = {
+                uk: (
+                    <svg className="phone-flag" viewBox="0 0 60 30" title="UK">
+                        <clipPath id="uk-clip"><rect width="60" height="30"/></clipPath>
+                        <g clipPath="url(#uk-clip)">
+                            <rect width="60" height="30" fill="#012169"/>
+                            <path d="M0 0l60 30M60 0L0 30" stroke="#fff" strokeWidth="6"/>
+                            <path d="M0 0l60 30M60 0L0 30" stroke="#C8102E" strokeWidth="4"/>
+                            <path d="M30 0v30M0 15h60" stroke="#fff" strokeWidth="10"/>
+                            <path d="M30 0v30M0 15h60" stroke="#C8102E" strokeWidth="6"/>
+                        </g>
+                    </svg>
+                ),
+                france: (
+                    <svg className="phone-flag" viewBox="0 0 90 60" title="France">
+                        <g fill="none">
+                            <rect width="30" height="60" fill="#002395"/>
+                            <rect x="30" width="30" height="60" fill="#fff"/>
+                            <rect x="60" width="30" height="60" fill="#ED2939"/>
+                        </g>
+                    </svg>
+                )
+            };
+
             return (
                 <a href={href} className="contact-item-content contact-link">
+                    {flag && flagIcons[flag]}
                     {value}
                 </a>
             );
@@ -136,6 +162,7 @@ const Contact = () => {
                             type="phone"
                             person={person}
                             onClick={() => revealContact(person, 'phone')}
+                            flag="uk"
                         />
                     </div>
 
@@ -153,6 +180,7 @@ const Contact = () => {
                                 type="phone"
                                 person={person}
                                 onClick={() => revealContact(person, 'phone2')}
+                                flag="france"
                             />
                         </div>
                     )}
@@ -168,13 +196,8 @@ const Contact = () => {
             imagePlaceholder="✉️"
         >
             <div className="contact-list">
-                <ListRow person="vaclav" data={contactData.vaclav} />
                 <ListRow person="cinzia" data={contactData.cinzia} />
-            </div>
-
-            <div className="wedding-hashtag">
-                <span className="hashtag-icon">#</span>
-                {t('contact.hashtag')}
+                <ListRow person="vaclav" data={contactData.vaclav} />
             </div>
         </InfoPage>
     );

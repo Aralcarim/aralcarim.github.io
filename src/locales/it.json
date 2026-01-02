@@ -188,7 +188,7 @@
             "take_photos": "Possiamo scattare foto?",
             "take_photos_a": "Siete i benvenuti a scattare foto durante il ricevimento!",
             "hashtag": "Ci sarà un hashtag per il matrimonio?",
-            "hashtag_a": "Sì! Vi preghiamo di usare #VanZiaWedding2026 quando condividete le vostre foto.",
+            "hashtag_a": "Sì! Vi preghiamo di taggare sia la sposa che lo sposo quando condividete le vostre foto.",
             "schedule": "Qual è il programma della giornata?",
             "schedule_a": "Il programma completo si trova nella pagina Programma.",
             "reception_end": "A che ora finirà il ricevimento?",
@@ -406,7 +406,7 @@
     "contact": {
         "title": "Contatti",
         "desc": "Se avete domande, non esitate a contattarci direttamente.",
-        "hashtag": "VanZiaWedding2026",
+        "hashtag": "",
         "reveal": "Rivela",
         "vaclav_name": "Vaclav",
         "cinzia_name": "Cinzia",

@@ -212,6 +212,15 @@ a:hover {
   text-decoration: underline;
 }
 
+.phone-flag {
+  width: 24px;
+  height: auto;
+  margin-right: 0.5rem;
+  display: inline-flex;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
 /* Divider */
 .contact-divider {
   display: flex;
