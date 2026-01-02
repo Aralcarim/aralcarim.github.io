@@ -97,7 +97,7 @@ const RunOfShow = () => {
                         </motion.p>
 
                         <motion.a
-                            href="https://maps.app.goo.gl/LeQuerceDiMamre"
+                            href="https://maps.app.goo.gl/THpxYi7vTYL1b8gt6"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="directions-btn"

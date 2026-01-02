@@ -42,6 +42,10 @@
     padding-bottom: 10px;
 }
 
+.category-emoji {
+    margin-right: 10px;
+}
+
 .faq-item {
     background: #fff;
     border-radius: 8px;
