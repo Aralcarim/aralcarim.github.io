@@ -6,15 +6,22 @@ import './RunOfShow.css';
 
 const TimelineEvent = ({ time, title, desc, delay }) => (
     <motion.div
-        initial={{ opacity: 0, x: -20 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         transition={{ delay, duration: 0.5 }}
         viewport={{ once: true }}
         className="timeline-event"
     >
-        <div className="event-time">{time}</div>
-        <h3 className="event-title">{title}</h3>
-        <p className="event-desc">{desc}</p>
+        <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ delay, duration: 0.5 }}
+            viewport={{ once: true }}
+        >
+            <div className="event-time">{time}</div>
+            <h3 className="event-title">{title}</h3>
+            <p className="event-desc">{desc}</p>
+        </motion.div>
     </motion.div>
 );
 
