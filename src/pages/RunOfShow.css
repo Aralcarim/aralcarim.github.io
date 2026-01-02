@@ -79,7 +79,7 @@
 .timeline-event::before {
     content: '';
     position: absolute;
-    left: -39px;
+    left: -41px;
     top: 5px;
     width: 18px;
     height: 18px;
