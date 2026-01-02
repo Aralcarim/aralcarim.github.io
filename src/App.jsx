@@ -6,6 +6,7 @@ import { AnimatePresence } from 'framer-motion';
 import Navbar from './layout/Navbar';
 import Footer from './layout/Footer';
 import DisclaimerModal from './components/DisclaimerModal';
+import ScrollToTop from './components/ScrollToTop';
 
 // Pages
 import Home from './pages/Home';
@@ -48,6 +49,7 @@ const AnimatedRoutes = () => {
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <main style={{ minHeight: '80vh' }}>
         <AnimatedRoutes />
