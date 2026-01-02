@@ -393,8 +393,19 @@
     },
     "registry": {
         "title": "Geschenkeliste",
-        "desc": "Ihre Anwesenheit ist das einzige Geschenk, das wir brauchen. Wenn Sie uns dennoch etwas schenken möchten, freuen wir uns über einen Beitrag zu unseren Flitterwochen.",
-        "link": "Honeymoon-Fonds ansehen"
+        "desc": "Geschenke sind nie erwartet, aber immer geschätzt.",
+        "presence_title": "Ihre Anwesenheit ist unser schönstes Geschenk",
+        "presence_text": "Das Wichtigste für uns ist, dass Sie an unserem besonderen Tag dabei sind. Ihre Anwesenheit, Ihr Lachen und Ihre Liebe sind alles, was wir uns wirklich wünschen.",
+        "honeymoon_title": "Flitterwochen-Fonds",
+        "honeymoon_text": "Wenn Sie uns mit mehr als Ihrer Anwesenheit ehren möchten, wäre ein Beitrag zu unseren Flitterwochen eine wunderbare Geste. Wir planen eine unvergessliche Reise, die wir ein Leben lang festhalten werden.",
+        "eu_bank": "Europäische Überweisung",
+        "uk_bank": "UK Banküberweisung",
+        "iban": "IBAN",
+        "bic": "BIC / SWIFT",
+        "account_number": "Kontonummer",
+        "sort_code": "Sort Code",
+        "reveal_details": "Details anzeigen",
+        "thankyou": "Vielen Dank für Ihre Liebe und Großzügigkeit."
     },
     "dress_code": {
         "title": "Dresscode",

@@ -393,8 +393,19 @@
     },
     "registry": {
         "title": "Lista Nozze",
-        "desc": "La vostra presenza è l'unico regalo che desideriamo. Tuttavia, se volete onorarci con un dono, un contributo per il nostro viaggio di nozze sarebbe molto apprezzato.",
-        "link": "Vedi il nostro Fondo Viaggio"
+        "desc": "I regali non sono mai attesi, ma sempre apprezzati.",
+        "presence_title": "La Vostra Presenza è il Nostro Più Grande Regalo",
+        "presence_text": "La cosa più importante per noi è avervi lì per celebrare il nostro giorno speciale. La vostra presenza, le vostre risate e il vostro amore sono tutto ciò che desideriamo veramente.",
+        "honeymoon_title": "Fondo Viaggio di Nozze",
+        "honeymoon_text": "Se desiderate onorarci con qualcosa di più, un contributo verso il nostro viaggio di nozze sarebbe meraviglioso. Stiamo pianificando un viaggio indimenticabile per creare ricordi che dureranno tutta la vita.",
+        "eu_bank": "Bonifico Europeo",
+        "uk_bank": "Bonifico UK",
+        "iban": "IBAN",
+        "bic": "BIC / SWIFT",
+        "account_number": "Numero Conto",
+        "sort_code": "Sort Code",
+        "reveal_details": "Rivela Dettagli",
+        "thankyou": "Grazie per il vostro amore e generosità."
     },
     "dress_code": {
         "title": "Dress Code",

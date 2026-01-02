@@ -81,3 +81,272 @@
         transform: translateY(-10px);
     }
 }
+
+/* Registry Page Styles */
+.registry-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.registry-presence-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.registry-icon-wrapper {
+    margin-bottom: 1.5rem;
+}
+
+.registry-icon {
+    font-size: 3.5rem;
+    filter: drop-shadow(0 4px 15px rgba(212, 175, 55, 0.4));
+    animation: float 3s ease-in-out infinite;
+}
+
+.registry-presence-title {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    color: var(--color-gold);
+    margin: 0 0 1rem 0;
+    font-weight: 600;
+}
+
+.registry-presence-text {
+    font-size: 1.05rem;
+    color: #666;
+    line-height: 1.7;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.registry-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2.5rem 0;
+}
+
+.registry-divider-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--color-lilac-light), transparent);
+    max-width: 150px;
+}
+
+.registry-divider-text {
+    font-size: 1.2rem;
+    color: var(--color-gold);
+}
+
+.registry-honeymoon-section {
+    text-align: center;
+}
+
+.registry-honeymoon-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.registry-honeymoon-icon {
+    font-size: 2rem;
+}
+
+.registry-honeymoon-title {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    color: var(--color-text);
+    margin: 0;
+    font-weight: 600;
+}
+
+.registry-honeymoon-text {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registry-banking-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.registry-bank-card {
+    background: linear-gradient(135deg, #fff 0%, #fef9f0 100%);
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(212, 175, 55, 0.15);
+    border: 2px solid rgba(212, 175, 55, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.registry-bank-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 50px rgba(212, 175, 55, 0.2);
+}
+
+.registry-bank-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.registry-flag-icon {
+    width: 30px;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registry-bank-title {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    color: var(--color-text);
+    margin: 0;
+    font-weight: 600;
+}
+
+.registry-bank-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.registry-bank-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.registry-bank-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #888;
+    font-weight: 500;
+}
+
+.registry-bank-value-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.registry-bank-value {
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+    color: var(--color-gold);
+    font-weight: 600;
+    background: rgba(212, 175, 55, 0.1);
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    word-break: break-all;
+}
+
+.registry-copy-btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-lilac-light);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--color-text);
+}
+
+.registry-copy-btn:hover {
+    background: var(--color-lilac);
+    color: white;
+}
+
+.registry-copy-btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+.registry-reveal-btn {
+    padding: 0.6rem 1.2rem;
+    background: var(--color-gold);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(212, 175, 55, 0.3);
+}
+
+.registry-reveal-btn:hover {
+    background: #c9a227;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+}
+
+.registry-bank-name {
+    font-size: 0.85rem;
+    color: #888;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.registry-thankyou {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-lilac-light);
+}
+
+.registry-thankyou-text {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    color: var(--color-gold);
+    margin: 0 0 0.5rem 0;
+    font-style: italic;
+}
+
+.registry-thankyou-heart {
+    font-size: 1.2rem;
+    color: var(--color-pink);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .registry-banking-section {
+        grid-template-columns: 1fr;
+    }
+
+    .registry-icon {
+        font-size: 2.5rem;
+    }
+
+    .registry-presence-title {
+        font-size: 1.4rem;
+    }
+
+    .registry-honeymoon-title {
+        font-size: 1.3rem;
+    }
+
+    .registry-bank-value {
+        font-size: 0.85rem;
+    }
+}

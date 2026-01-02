@@ -393,8 +393,19 @@
     },
     "registry": {
         "title": "Registry",
-        "desc": "Your presence is the only gift we need. However, if you wish to honor us with a gift, a contribution towards our honeymoon would be greatly appreciated.",
-        "link": "View our Honeymoon Fund"
+        "desc": "Gifts are never expected, but always appreciated.",
+        "presence_title": "Your Presence is Our Greatest Gift",
+        "presence_text": "The most important thing for us is having you there to celebrate our special day. Your presence, laughter, and love are all we truly desire.",
+        "honeymoon_title": "Honeymoon Fund",
+        "honeymoon_text": "If you wish to honor us with something more, a contribution towards our honeymoon adventures would mean the world. We're planning an unforgettable trip to create memories that will last a lifetime.",
+        "eu_bank": "European Bank Transfer",
+        "uk_bank": "UK Bank Transfer",
+        "iban": "IBAN",
+        "bic": "BIC / SWIFT",
+        "account_number": "Account Number",
+        "sort_code": "Sort Code",
+        "reveal_details": "Reveal Details",
+        "thankyou": "Thank you for your love and generosity."
     },
     "dress_code": {
         "title": "Dress Code",
