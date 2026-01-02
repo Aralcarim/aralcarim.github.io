@@ -65,19 +65,6 @@ const Story = () => {
                 {/* Profiles Section */}
                 <section className="profiles-section">
                     <div className="container profile-grid">
-                        {/* Cinzia Info */}
-                        <ProfileCard
-                            name="Cinzia"
-                            movie={t('story.profile.cinzia.movie')}
-                            books={t('story.profile.cinzia.books')}
-                            fact={t('story.profile.cinzia.fact')}
-                            quote={t('story.profile.cinzia.quote')}
-                            alignment="text-right"
-                        />
-                        {/* Couple Photo */}
-                        <div className="profile-pic-wrapper couple-photo">
-                            <img src="/assets/our-story-couple.jpg" alt="Cinzia & Vaclav" className="profile-pic" />
-                        </div>
                         {/* Vaclav Info */}
                         <ProfileCard
                             name="Vaclav"
@@ -85,6 +72,19 @@ const Story = () => {
                             books={t('story.profile.vaclav.books')}
                             fact={t('story.profile.vaclav.fact')}
                             quote={t('story.profile.vaclav.quote')}
+                            alignment="text-right"
+                        />
+                        {/* Couple Photo */}
+                        <div className="profile-pic-wrapper couple-photo">
+                            <img src="/assets/our-story-couple.jpg" alt="Cinzia & Vaclav" className="profile-pic" />
+                        </div>
+                        {/* Cinzia Info */}
+                        <ProfileCard
+                            name="Cinzia"
+                            movie={t('story.profile.cinzia.movie')}
+                            books={t('story.profile.cinzia.books')}
+                            fact={t('story.profile.cinzia.fact')}
+                            quote={t('story.profile.cinzia.quote')}
                             alignment="text-left"
                         />
                     </div>
