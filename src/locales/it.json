@@ -191,14 +191,48 @@
     "travel": {
         "title": "Viaggio e Alloggio",
         "airports": {
-            "title": "Come Arrivare",
-            "desc": "Gli aeroporti più vicini sono Bari Karol Wojtyła (BRI) e Brindisi (BDS). Consigliamo di noleggiare un'auto per esplorare i meravigliosi paesaggi pugliesi."
+            "title": "Aeroporti",
+            "pescara": {
+                "name": "Aeroporto di Pescara (PSR)",
+                "desc": "Circa 1 ora e 15 minuti da Apricena. Un aeroporto più piccolo con meno connessioni ma più vicino alla nostra base.",
+                "drive": "~1h 15m di guida per Apricena"
+            },
+            "bari": {
+                "name": "Aeroporto di Bari (BRI)",
+                "desc": "Il più grande aeroporto internazionale della regione con più opzioni di volo. Circa 1 ora e 45 minuti da Apricena.",
+                "drive": "~1h 45m di guida per Apricena"
+            }
+        },
+        "toCity": {
+            "title": "Arrivare ad Apricena",
+            "desc": "Saremo ad Apricena, una città charmante nell'area del Gargano. Ecco le vostre opzioni:",
+            "rental": "Noleggio Auto",
+            "rentalDesc": "Consigliato per la flessibilità. Noleggia direttamente all'aeroporto e guida tramite l'autostrada A14.",
+            "shuttle": "Shuttle Privato",
+            "shuttleDesc": "Possiamo aiutare ad organizzare transfer privati. Contattaci se interessati.",
+            "train": "Treno + Taxi",
+            "trainDesc": "Prendi il treno per Pescara o Foggia, poi taxi per Apricena."
+        },
+        "toVenue": {
+            "title": "Arrivare alla Location",
+            "desc": "La location del matrimonio è a breve distanza in auto da Apricena:",
+            "fromApricena": "Da Apricena",
+            "fromApricenaDesc": "Circa 15-20 minuti in auto. Forniremo indicazioni dettagliate più vicino alla data del matrimonio.",
+            "parking": "Parcheggio Disponibile",
+            "parkingDesc": "Parcheggio gratuito disponibile alla location per tutti gli ospiti."
         },
         "hotels": {
-            "title": "Dove Alloggiare",
-            "hotel1": "Masseria Relais - Un boutique hotel di lusso vicino alla location.",
-            "hotel2": "Hotel Apulia - Un soggiorno confortevole e moderno nella città vicina.",
-            "hotel3": "B&B Garden - Un affascinante bed & breakfast locale con vista."
+            "title": "Dove Soggiornare",
+            "hotel": {
+                "name": "Opzioni Hotel",
+                "desc": "Diversi hotel disponibili in e autour Apricena. Consigliato per chi preferisce servizi completi e pulizia quotidiana.",
+                "examples": "Hotel Palazzo, Hotel Sant'Angelo e altri nella zona"
+            },
+            "bnb": {
+                "name": "B&B / Agriturismo",
+                "desc": "Sperimenta l'ospitalità autentica pugliese in bed & breakfast locali o agriturismi. Spesso più charmanti ed economici.",
+                "examples": "Opzioni agriturismo e B&B locali in campagna"
+            }
         }
     },
     "things_to_do": {

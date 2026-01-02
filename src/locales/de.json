@@ -191,14 +191,48 @@
     "travel": {
         "title": "Anreise & Unterkunft",
         "airports": {
-            "title": "Anreise",
-            "desc": "Die nächstgelegenen Flughäfen sind Bari (BRI) und Brindisi (BDS). Wir empfehlen ein Mietauto, um die schöne Landschaft Apuliens zu erkunden."
+            "title": "Flughäfen",
+            "pescara": {
+                "name": "Flughafen Pescara (PSR)",
+                "desc": "Etwa 1 Stunde 15 Minuten von Apricena. Ein kleinerer Flughafen mit weniger Verbindungen, aber näher an unserem Zuhause.",
+                "drive": "~1h 15m Fahrt nach Apricena"
+            },
+            "bari": {
+                "name": "Flughafen Bari (BRI)",
+                "desc": "Der größte internationale Flughafen der Region mit den meisten Flugoptionen. Etwa 1 Stunde 45 Minuten von Apricena.",
+                "drive": "~1h 45m Fahrt nach Apricena"
+            }
+        },
+        "toCity": {
+            "title": "Nach Apricena",
+            "desc": "Wir werden in Apricena bleiben, einer charmanten Stadt im Gargano-Gebiet. Hier sind Ihre Optionen:",
+            "rental": "Mietwagen",
+            "rentalDesc": "Empfohlen für Flexibilität. Direkt am Flughafen mieten und über die A14 fahren.",
+            "shuttle": "Privater Shuttle",
+            "shuttleDesc": "Wir können bei der Organisation von privaten Transfers helfen. Interessiert? Melden Sie sich bei uns.",
+            "train": "Zug + Taxi",
+            "trainDesc": "Zug nach Pescara oder Foggia, dann Taxi nach Apricena."
+        },
+        "toVenue": {
+            "title": "Zum Veranstaltungsort",
+            "desc": "Die Hochzeitslocation ist eine kurze Fahrt von Apricena:",
+            "fromApricena": "Von Apricena",
+            "fromApricenaDesc": "Etwa 15-20 Minuten mit dem Auto. Detaillierte Anweisungen folgen näher am Hochzeitstermin.",
+            "parking": "Parkplätze verfügbar",
+            "parkingDesc": "Kostenlose Parkplätze stehen am Veranstaltungsort für alle Gäste zur Verfügung."
         },
         "hotels": {
             "title": "Unterkunft",
-            "hotel1": "Masseria Relais - Ein luxuriöses Boutique-Hotel in der Nähe.",
-            "hotel2": "Hotel Apulia - Ein komfortabler und moderner Aufenthalt in der Stadt.",
-            "hotel3": "B&B Garden - Ein charmantes lokales Bed & Breakfast."
+            "hotel": {
+                "name": "Hotel-Optionen",
+                "desc": "Mehrere Hotels in und um Apricena. Empfohlen für diejenigen, die voll ausgestattete Annehmlichkeiten und täglichen Housekeeping-Service bevorzugen.",
+                "examples": "Hotel Palazzo, Hotel Sant'Angelo und andere in der Umgebung"
+            },
+            "bnb": {
+                "name": "B&B / Agriturismo",
+                "desc": "Erleben Sie authentische apulische Gastfreundschaft in lokalen Bed & Breakfasts oder Farmhäusern. Oft charmanter und budgetfreundlicher.",
+                "examples": "Agriturismo-Optionen und lokale B&Bs auf dem Land"
+            }
         }
     },
     "things_to_do": {
