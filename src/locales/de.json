@@ -12,6 +12,7 @@
         "dress_code": "Kleiderordnung",
         "more": "Mehr",
         "rsvp": "U.A.w.g.",
+        "map": "Karte",
         "contact": "Kontakt"
     },
     "home": {
@@ -236,27 +237,149 @@
         }
     },
     "things_to_do": {
-        "title": "Unternehmungen in der Umgebung",
-        "desc": "Apulien ist berühmt für seine Olivenhaine, weißen Bergstädte und die beeindruckende Küste.",
-        "item1": {
-            "title": "Alberobello",
-            "desc": "Besuchen Sie die berühmten Trulli-Häuser, ein UNESCO-Welterbe."
+        "title": "Aktivitäten",
+        "beaches": {
+            "title": "Strände & Küste",
+            "desc": "Die Gargano-Küste bietet einige der schönsten Strände und Küstenstädte Italiens.",
+            "polignano": {
+                "title": "Polignano a Mare",
+                "desc": "Beeindruckende Klippen und kristallklares Wasser. Berühmt für sein Strandrestaurant in einer Höhle."
+            },
+            "vieste": {
+                "title": "Vieste",
+                "desc": "Reizvolle Küstenstadt mit wunderschönen Stränden und dramatischen Felsformationen."
+            },
+            "peschici": {
+                "title": "Peschici",
+                "desc": "Bilderbuchschönes weißgetünchtes Dorf an den Klippen mit panoramischem Meerblick."
+            }
         },
-        "item2": {
-            "title": "Polignano a Mare",
-            "desc": "Atemberaubende Klippen und kristallklares Wasser."
+        "towns": {
+            "title": "Historische Städte",
+            "desc": "Entdecken Sie die charmanten historischen Städte Apuliens, jede mit einzigartigem Charakter und Geschichte.",
+            "alberobello": {
+                "title": "Alberobello",
+                "desc": "Berühmt für seine Trulli-Häuser — einzigartige kegelförmige Behausungen und UNESCO-Welterbe.",
+                "tip": "Tipp: Besuchen Sie früh morgens oder spät nachmittags, um Menschenmassen zu vermeiden."
+            },
+            "ostuni": {
+                "title": "Ostuni",
+                "desc": "Bekannt als die 'Weiße Stadt' für ihre weißgetünchte Altstadt mit verwinkelten mittelalterlichen Gassen.",
+                "tip": "Tipp: Der Sonnenuntergang vom Dom aus ist spektakulär."
+            },
+            "monte": {
+                "title": "Monte Sant'Angelo",
+                "desc": "Historische Stadt, Heimat des Heiligtums Monte Sant'Angelo, ein UNESCO-Welterbe."
+            }
         },
-        "item3": {
-            "title": "Ostuni",
-            "desc": "Erkunden Sie die 'Weiße Stadt' mit ihren verwinkelten Gassen."
+        "nature": {
+            "title": "Natur & Outdoor",
+            "desc": "Der Nationalpark Gargano bietet unglaubliche Naturschönheiten und Outdoor-Aktivitäten.",
+            "forest": {
+                "title": "Urwald von Umbra",
+                "desc": "Uralter Buchen- und Eichenwald, perfekt für Wanderungen und Naturspaziergänge."
+            },
+            "caves": {
+                "title": "Grotten von Castellana",
+                "desc": "Spektakuläres unterirdisches Karsthöhlensystem mit geführten Touren."
+            },
+            "tremiti": {
+                "title": "Tremiti-Inseln",
+                "desc": "Wunderschöner Archipel, mit der Fähre erreichbar. Perfekt für Tagesausflüge und Schnorcheln."
+            }
+        },
+        "food": {
+            "title": "Kulinarik",
+            "desc": "Apulien ist ein Paradies für Feinschmecker. Verpassen Sie nicht diese Köstlichkeiten!",
+            "wine": {
+                "title": "Weinprobe",
+                "desc": "Besuchen Sie lokale Weingüter, um Primitivo, Negroamaro und Rosé-Weine zu verkosten."
+            },
+            "oil": {
+                "title": "Olivenöl-Touren",
+                "desc": "Erfahren Sie mehr über die Produktion von nativem Olivenöl extra in historischen Masserien (Landgütern)."
+            },
+            "cheese": {
+                "title": "Lokaler Käse",
+                "desc": "Probieren Sie Burrata, Mozzarella und Cacioricotta auf lokalen Molkereihöfen."
+            }
         }
     },
     "things_to_know": {
         "title": "Wissenswertes",
-        "desc": "Ein paar hilfreiche Tipps für Ihre Reise nach Apulien.",
-        "tip1": "Die Währung ist Euro (€). Die meisten Orte akzeptieren Kreditkarten.",
-        "tip2": "Das Wetter im Juni ist meist sonnig und warm (25-30°C).",
-        "tip3": "Trinkgeld wird geschätzt, ist aber in Italien nicht obligatorisch."
+        "money": {
+            "title": "Geldangelegenheiten",
+            "desc": "Ein paar praktische Tipps zu Zahlungen und Trinkgeld in Italien.",
+            "currency": {
+                "title": "Währung",
+                "desc": "Die Währung ist Euro (€). Kreditkarten werden in Hotels, Restaurants und größeren Geschäften weitgehend akzeptiert.",
+                "tip": "Tipp: Bargeld für kleine Läden, Märkte, Parkplätze und Straßenverkäufer mitnehmen."
+            },
+            "tipping": {
+                "title": "Trinkgeld",
+                "desc": "Trinkgeld ist willkommen, aber nicht obligatorisch. Der Service ist meist in der Rechnung enthalten.",
+                "amount": "Üblich: Aufrunden oder 5-10% für ausgezeichneten Service."
+            }
+        },
+        "weather": {
+            "title": "Wetter & Reisegepäck",
+            "desc": "Juni ist wunderschön in Apulien! Hier ist, was Sie erwartet.",
+            "june": {
+                "title": "Juni-Wetter",
+                "desc": "Sonnig und warm (25-30°C). Perfekt für Feiern im Freien!"
+            },
+            "attire": {
+                "title": "Kleiderordnung-Hinweis",
+                "desc": "Formell / Black Tie Optional. Siehe Dresscode-Seite für Details."
+            },
+            "footwear": {
+                "title": "Schuhwerk-Hinweis",
+                "desc": "Die Zeremonie findet auf Rasen statt — wählen Sie bequeme Schuhe für draußen!"
+            }
+        },
+        "customs": {
+            "title": "Italienische Sitten",
+            "desc": "Genießen Sie den lokalen Rhythmus und die Essenstraditionen.",
+            "riposo": {
+                "title": "Die Riposo (Mittagspause)",
+                "desc": "Viele Geschäfte schließen zwischen 13-18 Uhr. Das ist die traditionelle italienische Mittagspause.",
+                "hours": "Planen Sie entsprechend: Restaurants mittags 12-15 Uhr geöffnet, dann abendings ab 19:30 Uhr."
+            },
+            "dining": {
+                "title": "Essenskultur",
+                "desc": "Italiener nehmen ihre Mahlzeiten ernst! Abendessen ist ein entspanntes Vergnügen, kein hastiges Essen.",
+                "reservations": "Tipp: Reservieren Sie Restaurants im Voraus, besonders Do-So und in beliebten Orten."
+            }
+        },
+        "essentials": {
+            "title": "Lokale Essentials",
+            "language": {
+                "title": "Sprache",
+                "desc": "Ein paar italienische Phrases helfen! 'Grazie' (danke) und 'Per favore' (bitte) werden sehr geschätzt."
+            },
+            "water": {
+                "title": "Trinkwasser",
+                "desc": "Leitungswasser wird nicht in Restaurants serviert. Sie kaufen Flaschenwasser — das ist normal."
+            },
+            "beaches": {
+                "title": "Strände",
+                "desc": "Die meisten Strände sind private Lidos (gebührenpflichtig). Suchen Sie nach 'spiaggia libera'-Schildern für kostenlose Strände."
+            }
+        },
+        "food": {
+            "title": "Essen & Trinken",
+            "desc": "Apulische Küche ist unglaublich! Verpassen Sie nicht diese lokalen Spezialitäten.",
+            "specialties": {
+                "title": "Must-Try Gerichte",
+                "desc": "Orecchiette-Pasta, Burrata-Käse, frisches Meeresfrüchte und Focaccia sind regionale Highlights.",
+                "examples": "Probieren Sie: Orecchiette con cime di rapa, Meeresfrüchte nach Art von Polignano und Pasticciotto zum Frühstück!"
+            },
+            "wine": {
+                "title": "Lokale Weine",
+                "desc": "Apulien ist bekannt für exzellente Weine, besonders Rosé und vollmundige Rotweine wie Primitivo.",
+                "note": "Fragen Sie nach lokalen Empfehlungen — der Wein hier ist fantastisch und sehr erschwinglich!"
+            }
+        }
     },
     "registry": {
         "title": "Geschenkeliste",
@@ -275,5 +398,19 @@
         "desc": "Wenn Sie Fragen haben, können Sie uns gerne direkt kontaktieren.",
         "vaclav": "Vaclav: vaclav@example.com",
         "cinzia": "Cinzia: cinzia@example.com"
+    },
+    "map": {
+        "title": "Interaktive Karte",
+        "desc": "Entdecken Sie Orte in Apulien. Bewegen Sie die Maus über die Markierungen, um Details zu sehen, und nutzen Sie die Filter, um Kategorien ein- oder auszublenden.",
+        "hint": "Maus über Markierungen für Details • Klicken und ziehen zum Erkunden • Scrollen zum Zoomen",
+        "categories": {
+            "venue": "Veranstaltungsorte",
+            "hotel": "Hotels",
+            "restaurant": "Restaurants",
+            "beach": "Strände",
+            "town": "Städte",
+            "nature": "Natur",
+            "culture": "Kultur"
+        }
     }
 }

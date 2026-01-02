@@ -12,6 +12,7 @@
         "dress_code": "Dress Code",
         "more": "More",
         "rsvp": "RSVP",
+        "map": "Map",
         "contact": "Contact"
     },
     "home": {
@@ -236,27 +237,149 @@
         }
     },
     "things_to_do": {
-        "title": "Things to do in the area",
-        "desc": "Apulia is famous for its olive groves, white-washed hill towns, and stunning coastline.",
-        "item1": {
-            "title": "Alberobello",
-            "desc": "Visit the famous Trulli houses, a UNESCO World Heritage site."
+        "title": "Things to do",
+        "beaches": {
+            "title": "Beaches & Coastline",
+            "desc": "The Gargano coast offers some of Italy's most beautiful beaches and seaside towns.",
+            "polignano": {
+                "title": "Polignano a Mare",
+                "desc": "Stunning cliffs and crystal-clear waters. Famous for its beach restaurant on a sea cave."
+            },
+            "vieste": {
+                "title": "Vieste",
+                "desc": "Charming coastal town with beautiful beaches and dramatic sea stacks."
+            },
+            "peschici": {
+                "title": "Peschici",
+                "desc": "Picturesque whitewashed village perched on cliffs with panoramic sea views."
+            }
         },
-        "item2": {
-            "title": "Polignano a Mare",
-            "desc": "Breathtaking cliffs and crystal clear waters."
+        "towns": {
+            "title": "Hill Towns & Culture",
+            "desc": "Explore the charming historic towns of Apulia, each with unique character and history.",
+            "alberobello": {
+                "title": "Alberobello",
+                "desc": "Famous for its Trulli houses — unique cone-shaped dwellings and a UNESCO World Heritage site.",
+                "tip": "Tip: Visit early morning or late afternoon to avoid crowds."
+            },
+            "ostuni": {
+                "title": "Ostuni",
+                "desc": "Known as the 'White City' for its whitewashed old town with winding medieval streets.",
+                "tip": "Tip: The sunset views from the cathedral are spectacular."
+            },
+            "monte": {
+                "title": "Monte Sant'Angelo",
+                "desc": "Historic town home to the Sanctuary of Monte Sant'Angelo, a UNESCO site."
+            }
         },
-        "item3": {
-            "title": "Ostuni",
-            "desc": "Explore the 'White City' and its winding medieval streets."
+        "nature": {
+            "title": "Nature & Outdoors",
+            "desc": "The Gargano National Park offers incredible natural beauty and outdoor activities.",
+            "forest": {
+                "title": "Forest Umbra",
+                "desc": "Ancient beech and oak forest perfect for hiking and nature walks."
+            },
+            "caves": {
+                "title": "Castellana Caves",
+                "desc": "Spectacular underground karst cave system with guided tours available."
+            },
+            "tremiti": {
+                "title": "Tremiti Islands",
+                "desc": "Beautiful archipelago accessible by ferry. Perfect for day trips and snorkeling."
+            }
+        },
+        "food": {
+            "title": "Food & Wine Experiences",
+            "desc": "Apulia is a food lover's paradise. Don't miss these culinary delights!",
+            "wine": {
+                "title": "Wine Tasting",
+                "desc": "Visit local wineries to taste Primitivo, Negroamaro, and rosé wines."
+            },
+            "oil": {
+                "title": "Olive Oil Tours",
+                "desc": "Learn about extra virgin olive oil production at historic masserie (farm estates)."
+            },
+            "cheese": {
+                "title": "Local Cheese",
+                "desc": "Try burrata, mozzarella, and cacioricotta at local dairy farms."
+            }
         }
     },
     "things_to_know": {
-        "title": "Things to know",
-        "desc": "A few helpful tips for your trip to Apulia.",
-        "tip1": "Currency is Euro (€). Most places accept credit cards, but some cash is useful.",
-        "tip2": "Weather in June is usually sunny and warm (25-30°C).",
-        "tip3": "Tipping is appreciated but not mandatory in Italy."
+        "title": "Things to Know",
+        "money": {
+            "title": "Money Matters",
+            "desc": "A few practical tips about payments and tipping in Italy.",
+            "currency": {
+                "title": "Currency",
+                "desc": "The currency is Euro (€). Credit cards are widely accepted in hotels, restaurants, and larger shops.",
+                "tip": "Tip: Carry some cash for small shops, markets, parking, and street vendors."
+            },
+            "tipping": {
+                "title": "Tipping",
+                "desc": "Tipping is appreciated but not mandatory. Service is usually included in the bill.",
+                "amount": "Typical: Round up the bill or leave 5-10% for excellent service."
+            }
+        },
+        "weather": {
+            "title": "Weather & What to Pack",
+            "desc": "June is beautiful in Apulia! Here's what to expect and pack.",
+            "june": {
+                "title": "June Weather",
+                "desc": "Sunny and warm (25-30°C / 77-86°F). Perfect for outdoor celebrations!"
+            },
+            "attire": {
+                "title": "Dress Code Reminder",
+                "desc": "Formal / Black Tie Optional. See Dress Code page for details."
+            },
+            "footwear": {
+                "title": "Footwear Note",
+                "desc": "Ceremony is on grass — choose comfortable shoes for the outdoors!"
+            }
+        },
+        "customs": {
+            "title": "Italian Customs",
+            "desc": "Embrace the local rhythm and dining traditions.",
+            "riposo": {
+                "title": "The Riposo (Afternoon Break)",
+                "desc": "Many shops and businesses close between 1pm-6pm. This is the traditional Italian afternoon break.",
+                "hours": "Plan accordingly: Restaurants open for lunch 12-3pm, then dinner from 7:30pm onwards."
+            },
+            "dining": {
+                "title": "Dining Etiquette",
+                "desc": "Italians take their meals seriously! Dinner is a leisurely affair, not rushed.",
+                "reservations": "Tip: Book restaurants in advance, especially Thu-Sun and in popular towns."
+            }
+        },
+        "essentials": {
+            "title": "Local Essentials",
+            "language": {
+                "title": "Language",
+                "desc": "A few Italian phrases go a long way! 'Grazie' (thank you) and 'Per favore' (please) are appreciated."
+            },
+            "water": {
+                "title": "Drinking Water",
+                "desc": "Tap water is not served in restaurants. You'll purchase bottled water — it's the norm."
+            },
+            "beaches": {
+                "title": "Beaches",
+                "desc": "Most beaches are private lidos (paid). Look for 'spiaggia libera' signs for free beaches."
+            }
+        },
+        "food": {
+            "title": "Food & Drink",
+            "desc": "Apulian cuisine is incredible! Don't miss these local specialties.",
+            "specialties": {
+                "title": "Must-Try Dishes",
+                "desc": "Orecchiette pasta, burrata cheese, fresh seafood, and focaccia are regional highlights.",
+                "examples": "Look for: orecchiette con cime di rapa, polignano-style seafood, and pasticciotto for breakfast!"
+            },
+            "wine": {
+                "title": "Local Wines",
+                "desc": "Puglia is known for excellent wines, especially rosé and full-bodied reds like Primitivo.",
+                "note": "Ask for local recommendations — the wine here is fantastic and very affordable!"
+            }
+        }
     },
     "registry": {
         "title": "Registry",
@@ -275,5 +398,19 @@
         "desc": "If you have any questions, feel free to reach out to us directly.",
         "vaclav": "Vaclav: vaclav@example.com",
         "cinzia": "Cinzia: cinzia@example.com"
+    },
+    "map": {
+        "title": "Interactive Map",
+        "desc": "Explore locations across Apulia. Hover over markers to see details, and use the filters to show or hide different categories.",
+        "hint": "Hover over markers to see details • Click and drag to explore • Scroll to zoom",
+        "categories": {
+            "venue": "Venues",
+            "hotel": "Hotels",
+            "restaurant": "Restaurants",
+            "beach": "Beaches",
+            "town": "Towns",
+            "nature": "Nature",
+            "culture": "Culture"
+        }
     }
 }
