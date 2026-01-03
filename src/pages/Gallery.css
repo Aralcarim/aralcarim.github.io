@@ -1,10 +1,39 @@
 /* ============================================
-   Enhanced Gallery Page Styles
+   Gallery Page Styles - The Knot Inspired
    ============================================ */
 
 .gallery-page {
-    padding: 80px 20px 60px;
+    padding: 60px 20px 60px;
     min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Loading and Error States */
+.gallery-loading,
+.gallery-error,
+.gallery-empty {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.gallery-loading p,
+.gallery-error p,
+.gallery-empty p {
+    font-size: 1.2rem;
+    color: #888;
+}
+
+.gallery-error h2 {
+    color: var(--color-gold);
+    margin-bottom: 15px;
+}
+
+.gallery-error code {
+    background: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: monospace;
 }
 
 /* ============================================
@@ -18,21 +47,20 @@
 
 .gallery-title {
     font-family: var(--font-heading);
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: var(--color-gold);
     text-align: center;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     font-weight: 400;
-    letter-spacing: 0.02em;
 }
 
 .gallery-subtitle {
     font-family: var(--font-body);
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #888;
     max-width: 500px;
     margin: 0 auto;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 /* ============================================
@@ -43,36 +71,32 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 12px;
     margin-bottom: 30px;
-    padding: 0 10px;
 }
 
 .filter-btn {
     font-family: var(--font-body);
     font-size: 0.9rem;
-    padding: 10px 22px;
-    border: 1.5px solid var(--color-pink);
+    padding: 10px 20px;
+    border: 1px solid var(--color-pink);
     background: transparent;
     color: var(--color-text);
-    border-radius: 25px;
+    border-radius: 4px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     font-weight: 500;
-    letter-spacing: 0.02em;
 }
 
 .filter-btn:hover {
     background: var(--color-lilac);
     color: white;
-    box-shadow: 0 4px 12px rgba(200, 162, 200, 0.4);
 }
 
 .filter-btn.active {
     background: var(--color-gold);
     border-color: var(--color-gold);
     color: white;
-    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
 }
 
 /* ============================================
@@ -82,125 +106,61 @@
 .gallery-count {
     text-align: center;
     font-family: var(--font-body);
-    font-size: 0.95rem;
-    color: #888;
-    margin-bottom: 40px;
-    font-style: italic;
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 30px;
 }
 
 /* ============================================
-   Masonry Gallery Layout
+   Uniform Grid Layout - The Knot Style
    ============================================ */
 
-.gallery-masonry {
+.gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    grid-auto-rows: 10px;
-    gap: 16px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+    padding: 10px 0;
 }
 
-/* Different size classes for masonry effect */
-.gallery-item-medium {
-    grid-row-end: span 28;
-}
-
-.gallery-item-wide {
-    grid-column-end: span 2;
-    grid-row-end: span 20;
-}
-
-.gallery-item-tall {
-    grid-row-end: span 36;
-}
-
-.gallery-item-large {
-    grid-column-end: span 2;
-    grid-row-end: span 32;
-}
-
-/* Base gallery item styles */
 .gallery-item {
     position: relative;
+    aspect-ratio: 1 / 1;
     overflow: hidden;
-    border-radius: 12px;
+    border-radius: 4px;
     cursor: pointer;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    transition: box-shadow 0.3s ease;
     background: #f5f5f5;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .gallery-item:hover {
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.gallery-img {
+.gallery-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: block;
 }
 
-.gallery-item:hover .gallery-img {
-    transform: scale(1.08);
-}
-
-/* ============================================
-   Gallery Overlay
-   ============================================ */
-
-.gallery-overlay {
+.gallery-item-caption {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-        to top,
-        rgba(0, 0, 0, 0.6) 0%,
-        rgba(0, 0, 0, 0.2) 50%,
-        rgba(0, 0, 0, 0.1) 100%
-    );
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.4s ease;
-}
-
-.gallery-item:hover .gallery-overlay {
-    opacity: 1;
-}
-
-.overlay-content {
-    text-align: center;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
     color: white;
-    transform: translateY(10px);
-    transition: transform 0.4s ease;
-}
-
-.gallery-item:hover .overlay-content {
-    transform: translateY(0);
-}
-
-.overlay-icon {
-    display: block;
-    width: 20px;
-    height: 20px;
-    margin: 0 auto 8px;
-    stroke: white;
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
-}
-
-.overlay-caption {
-    display: block;
+    padding: 8px 10px;
+    font-size: 0.75rem;
     font-family: var(--font-body);
-    font-size: 0.9rem;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-    opacity: 0.9;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.gallery-item:hover .gallery-item-caption {
+    opacity: 1;
 }
 
 /* ============================================
@@ -231,17 +191,8 @@
     max-width: 100%;
     max-height: 85vh;
     object-fit: contain;
-    border-radius: 8px;
+    border-radius: 4px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-}
-
-.lightbox-caption {
-    text-align: center;
-    font-family: var(--font-body);
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.9);
-    margin-top: 16px;
-    font-style: italic;
 }
 
 /* Lightbox Close Button */
@@ -259,7 +210,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
     line-height: 1;
     z-index: 10;
 }
@@ -280,7 +231,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    transition: all 0.3s ease;
+    transition: background 0.2s ease;
     line-height: 1;
 }
 
@@ -300,24 +251,17 @@
    Responsive Design
    ============================================ */
 
-@media (max-width: 1024px) {
-    .gallery-item-wide,
-    .gallery-item-large {
-        grid-column-end: span 1;
-    }
-}
-
 @media (max-width: 768px) {
     .gallery-page {
-        padding: 60px 15px 40px;
+        padding: 40px 15px 40px;
     }
 
     .gallery-title {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     .gallery-subtitle {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 
     .gallery-filters {
@@ -326,28 +270,12 @@
 
     .filter-btn {
         font-size: 0.85rem;
-        padding: 8px 18px;
+        padding: 8px 16px;
     }
 
-    .gallery-masonry {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        gap: 12px;
-    }
-
-    .gallery-item-medium {
-        grid-row-end: span 22;
-    }
-
-    .gallery-item-wide {
-        grid-row-end: span 16;
-    }
-
-    .gallery-item-tall {
-        grid-row-end: span 28;
-    }
-
-    .gallery-item-large {
-        grid-row-end: span 24;
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
     }
 
     .lightbox {
@@ -379,50 +307,25 @@
     .lightbox-content img {
         max-height: 75vh;
     }
-
-    .lightbox-caption {
-        font-size: 0.9rem;
-    }
 }
 
 @media (max-width: 480px) {
-    .gallery-masonry {
-        grid-template-columns: 1fr;
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6px;
     }
 
-    .gallery-item-medium,
-    .gallery-item-wide,
-    .gallery-item-tall,
-    .gallery-item-large {
-        grid-column-end: span 1;
-        grid-row-end: span 20;
+    .lightbox-nav {
+        width: 40px;
+        height: 40px;
+        font-size: 1.8rem;
     }
 
-    .overlay-caption {
-        display: none;
+    .lightbox-prev {
+        left: 5px;
     }
-}
 
-/* ============================================
-   Loading Animation (for future use)
-   ============================================ */
-
-@keyframes shimmer {
-    0% {
-        background-position: -200% 0;
+    .lightbox-next {
+        right: 5px;
     }
-    100% {
-        background-position: 200% 0;
-    }
-}
-
-.gallery-item.loading {
-    background: linear-gradient(
-        90deg,
-        #f0f0f0 25%,
-        #e0e0e0 50%,
-        #f0f0f0 75%
-    );
-    background-size: 200% 100%;
-    animation: shimmer 1.5s infinite;
 }

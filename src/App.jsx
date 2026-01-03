@@ -22,6 +22,7 @@ import Registry from './pages/Registry';
 import DressCode from './pages/DressCode';
 import Contact from './pages/Contact';
 import Map from './pages/Map';
+import Admin from './pages/Admin';
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -41,6 +42,7 @@ const AnimatedRoutes = () => {
         <Route path="/dress-code" element={<DressCode />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/map" element={<Map />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </AnimatePresence>
   );

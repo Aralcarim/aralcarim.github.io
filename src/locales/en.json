@@ -113,10 +113,9 @@
         "photoCount_plural": "{{count}} photos",
         "filters": {
             "all": "All",
-            "couple": "Couple",
-            "venue": "Venue",
             "moments": "Moments",
-            "details": "Details"
+            "friends": "Friends",
+            "family": "Family"
         }
     },
     "footer": {

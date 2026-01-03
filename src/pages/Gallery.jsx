@@ -1,69 +1,74 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import Layout from '../layout/Layout';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import galleryPhotos from '../data/gallery-photos.json';
 import './Gallery.css';
 
 const Gallery = () => {
     const { t } = useTranslation();
     const [selectedFilter, setSelectedFilter] = useState('all');
     const [selectedPhoto, setSelectedPhoto] = useState(null);
+    const [photoIndex, setPhotoIndex] = useState(0);
 
-    // Photo categories for the gallery
+    // Photo categories
     const categories = [
         { id: 'all', label: t('gallery.filters.all') },
-        { id: 'couple', label: t('gallery.filters.couple') },
-        { id: 'venue', label: t('gallery.filters.venue') },
         { id: 'moments', label: t('gallery.filters.moments') },
-        { id: 'details', label: t('gallery.filters.details') },
+        { id: 'friends', label: t('gallery.filters.friends') },
+        { id: 'family', label: t('gallery.filters.family') },
     ];
 
-    // Enhanced photo collection with categories and sizes for masonry layout
-    const photos = [
-        { src: "/assets/our-story-couple.jpg", alt: "Our favorite moment", category: "couple", size: "large" },
-        { src: "/assets/couple.png", alt: "Just us", category: "couple", size: "medium" },
-        { src: "/assets/querce-location.jpeg", alt: "The venue", category: "venue", size: "wide" },
-        { src: "/assets/hero-banner.png", alt: "Together forever", category: "couple", size: "medium" },
-        { src: "/assets/couple.png", alt: "Sweet moments", category: "moments", size: "tall" },
-        { src: "/assets/our-story-couple.jpg", alt: "Wedding details", category: "details", size: "medium" },
-        { src: "/assets/querce-location.jpeg", alt: "Beautiful venue", category: "venue", size: "medium" },
-        { src: "/assets/hero-banner.png", alt: "Happy times", category: "moments", size: "medium" },
-        { src: "/assets/couple.png", alt: "Love story", category: "couple", size: "wide" },
-        { src: "/assets/our-story-couple.jpg", alt: "Special details", category: "details", size: "tall" },
-        { src: "/assets/querce-location.jpeg", alt: "Our venue", category: "venue", size: "medium" },
-        { src: "/assets/hero-banner.png", alt: "Precious moments", category: "moments", size: "large" },
-    ];
+    // Extract date from filename (YYYYMMDD format)
+    const getDateFromFilename = (filename) => {
+        const match = filename.match(/(\d{4})(\d{2})/);
+        if (!match) return null;
 
-    // Filter photos based on selected category
-    const filteredPhotos = selectedFilter === 'all'
-        ? photos
-        : photos.filter(photo => photo.category === selectedFilter);
+        const year = match[1];
+        const month = parseInt(match[2]);
+        const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                           'July', 'August', 'September', 'October', 'November', 'December'];
 
-    // Open lightbox
-    const openLightbox = (photo) => {
-        setSelectedPhoto(photo);
+        return `${monthNames[month - 1]} ${year}`;
+    };
+
+    // Photo collection - loaded from JSON file
+    const photos = useMemo(() => {
+        return galleryPhotos.map(p => ({
+            ...p,
+            src: `/assets/gallery/${p.src}`,
+            thumb: `/assets/gallery/thumbs/${p.src}`,
+            date: getDateFromFilename(p.src)
+        }));
+    }, []);
+
+    const filteredPhotos = useMemo(() => {
+        if (selectedFilter === 'all') return photos;
+        return photos.filter(photo => photo.category === selectedFilter);
+    }, [photos, selectedFilter]);
+
+    const openLightbox = (index) => {
+        setPhotoIndex(index);
+        setSelectedPhoto(filteredPhotos[index]);
         document.body.style.overflow = 'hidden';
     };
 
-    // Close lightbox
     const closeLightbox = () => {
         setSelectedPhoto(null);
         document.body.style.overflow = 'unset';
     };
 
-    // Navigate to next/previous photo
     const navigatePhoto = (direction) => {
-        const currentIndex = filteredPhotos.findIndex(p => p.src === selectedPhoto.src);
         let newIndex;
         if (direction === 'next') {
-            newIndex = (currentIndex + 1) % filteredPhotos.length;
+            newIndex = (photoIndex + 1) % filteredPhotos.length;
         } else {
-            newIndex = (currentIndex - 1 + filteredPhotos.length) % filteredPhotos.length;
+            newIndex = (photoIndex - 1 + filteredPhotos.length) % filteredPhotos.length;
         }
+        setPhotoIndex(newIndex);
         setSelectedPhoto(filteredPhotos[newIndex]);
     };
 
-    // Handle keyboard navigation
     React.useEffect(() => {
         const handleKeyDown = (e) => {
             if (!selectedPhoto) return;
@@ -71,15 +76,13 @@ const Gallery = () => {
             if (e.key === 'ArrowRight') navigatePhoto('next');
             if (e.key === 'ArrowLeft') navigatePhoto('prev');
         };
-
         window.addEventListener('keydown', handleKeyDown);
         return () => window.removeEventListener('keydown', handleKeyDown);
-    }, [selectedPhoto]);
+    }, [selectedPhoto, photoIndex, filteredPhotos]);
 
     return (
         <Layout>
             <div className="gallery-page">
-                {/* Hero Section */}
                 <motion.div
                     className="gallery-hero"
                     initial={{ opacity: 0, y: -20 }}
@@ -90,7 +93,6 @@ const Gallery = () => {
                     <p className="gallery-subtitle">{t('gallery.subtitle')}</p>
                 </motion.div>
 
-                {/* Filter Buttons */}
                 <motion.div
                     className="gallery-filters"
                     initial={{ opacity: 0, y: 10 }}
@@ -110,7 +112,6 @@ const Gallery = () => {
                     ))}
                 </motion.div>
 
-                {/* Photo Count */}
                 <motion.div
                     className="gallery-count"
                     initial={{ opacity: 0 }}
@@ -120,49 +121,37 @@ const Gallery = () => {
                     {t('gallery.photoCount', { count: filteredPhotos.length })}
                 </motion.div>
 
-                {/* Masonry Gallery Grid */}
                 <motion.div
-                    className={`gallery-masonry ${selectedFilter}`}
-                    layout
+                    className="gallery-grid"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.4 }}
                 >
-                    <AnimatePresence mode="popLayout">
+                    <AnimatePresence>
                         {filteredPhotos.map((photo, index) => (
                             <motion.div
-                                key={`${photo.src}-${selectedFilter}`}
-                                className={`gallery-item gallery-item-${photo.size}`}
-                                layout
-                                initial={{ opacity: 0, scale: 0.8, y: 20 }}
-                                animate={{ opacity: 1, scale: 1, y: 0 }}
-                                exit={{ opacity: 0, scale: 0.8, transition: { duration: 0.2 } }}
-                                whileHover={{ scale: 1.02, zIndex: 1 }}
-                                transition={{
-                                    layout: { duration: 0.3 },
-                                    opacity: { delay: index * 0.05, duration: 0.4 },
-                                    scale: { duration: 0.2 }
-                                }}
-                                onClick={() => openLightbox(photo)}
+                                key={photo.src}
+                                className="gallery-item"
+                                initial={{ opacity: 0, scale: 0.9 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                exit={{ opacity: 0, scale: 0.9 }}
+                                transition={{ delay: Math.min(index * 0.02, 0.5) }}
+                                whileHover={{ scale: 1.02 }}
+                                onClick={() => openLightbox(index)}
                             >
                                 <img
-                                    src={photo.src}
-                                    alt={photo.alt}
-                                    className="gallery-img"
+                                    src={photo.thumb}
+                                    alt={photo.date || photo.src}
                                     loading="lazy"
                                 />
-                                <div className="gallery-overlay">
-                                    <div className="overlay-content">
-                                        <svg className="overlay-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                                            <circle cx="11" cy="11" r="8"></circle>
-                                            <path d="M21 21l-4.35-4.35"></path>
-                                        </svg>
-                                        <span className="overlay-caption">{photo.alt}</span>
-                                    </div>
-                                </div>
+                                {photo.date && (
+                                    <div className="gallery-item-caption">{photo.date}</div>
+                                )}
                             </motion.div>
                         ))}
                     </AnimatePresence>
                 </motion.div>
 
-                {/* Lightbox Modal */}
                 <AnimatePresence>
                     {selectedPhoto && (
                         <motion.div
@@ -175,7 +164,7 @@ const Gallery = () => {
                             <motion.button
                                 className="lightbox-close"
                                 onClick={closeLightbox}
-                                whileHover={{ scale: 1.1, rotate: 90 }}
+                                whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.9 }}
                             >
                                 ×
@@ -192,14 +181,15 @@ const Gallery = () => {
 
                             <motion.div
                                 className="lightbox-content"
-                                initial={{ scale: 0.8, opacity: 0 }}
+                                initial={{ scale: 0.9, opacity: 0 }}
                                 animate={{ scale: 1, opacity: 1 }}
-                                exit={{ scale: 0.8, opacity: 0 }}
-                                transition={{ type: "spring", damping: 25, stiffness: 300 }}
+                                exit={{ scale: 0.9, opacity: 0 }}
                                 onClick={(e) => e.stopPropagation()}
                             >
-                                <img src={selectedPhoto.src} alt={selectedPhoto.alt} />
-                                <div className="lightbox-caption">{selectedPhoto.alt}</div>
+                                <img src={selectedPhoto.src} alt={selectedPhoto.date || selectedPhoto.src} />
+                                {selectedPhoto.date && (
+                                    <div className="lightbox-caption">{selectedPhoto.date}</div>
+                                )}
                             </motion.div>
 
                             <motion.button
