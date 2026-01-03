@@ -52,6 +52,9 @@ const Navbar = () => {
                 </Link>
 
                 <div className={`nav-menu ${isOpen ? 'active' : ''}`}>
+                    <div className="mobile-language-switcher">
+                        <LanguageSwitcher />
+                    </div>
                     {navLinks.map((link) => (
                         <Link
                             key={link.path}
@@ -101,8 +104,10 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="nav-controls" style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-                    <LanguageSwitcher />
+                <div className="nav-controls">
+                    <div className="desktop-lang-switcher">
+                        <LanguageSwitcher />
+                    </div>
                     <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(!isOpen)}>
                         <span className="bar"></span>
                         <span className="bar"></span>
@@ -111,11 +116,35 @@ const Navbar = () => {
                 </div>
 
                 <style>{`
+                    .mobile-language-switcher {
+                        display: none;
+                        width: 100%;
+                        padding: 10px 0;
+                        border-bottom: 1px solid var(--color-gold);
+                        margin-bottom: 10px;
+                    }
+                    .mobile-language-switcher .lang-switcher {
+                        margin-left: 0;
+                        justify-content: center;
+                    }
+                    .desktop-lang-switcher {
+                        display: flex;
+                        align-items: center;
+                    }
+                    .nav-controls {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+                    }
                     @media (max-width: 768px) {
+                        .mobile-language-switcher {
+                            display: block;
+                        }
+                        .desktop-lang-switcher {
+                            display: none !important;
+                        }
                         .nav-controls {
-                            flex-direction: column !important;
-                            align-items: flex-end !important;
-                            gap: 10px !important;
+                            gap: 0 !important;
                         }
                     }
                 `}</style>
