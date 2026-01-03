@@ -4,27 +4,6 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import './Story.css';
 
-const ProfileCard = ({ name, movie, books, fact, quote, alignment }) => {
-    const { t } = useTranslation();
-    return (
-        <div className={`profile-info ${alignment}`}>
-            <h2 className="profile-name">{name}</h2>
-            <div className="profile-detail">
-                <strong>{t('story.profile.movie')}:</strong> {movie}
-            </div>
-            <div className="profile-detail">
-                <strong>{t('story.profile.books')}:</strong> {books}
-            </div>
-            <div className="profile-detail">
-                <strong>{t('story.profile.fact')}:</strong> {fact}
-            </div>
-            <div className="profile-detail">
-                <strong>{t('story.profile.quote')}:</strong> <em>"{quote}"</em>
-            </div>
-        </div>
-    );
-};
-
 const TimelineItem = ({ date, year, caption, image, side }) => {
     return (
         <div className={`timeline-item ${side}`}>
@@ -69,34 +48,15 @@ const Story = () => {
     return (
         <Layout>
             <div className="story-container">
-                {/* Profiles Section */}
+                {/* Couple Photo Section */}
                 <section className="profiles-section">
                     <div className="container profile-grid">
-                        {/* Vaclav Info */}
-                        <ProfileCard
-                            name="Vaclav"
-                            movie={t('story.profile.vaclav.movie')}
-                            books={t('story.profile.vaclav.books')}
-                            fact={t('story.profile.vaclav.fact')}
-                            quote={t('story.profile.vaclav.quote')}
-                            alignment="text-right"
-                        />
-                        {/* Couple Photo */}
                         <div className="couple-photo-wrapper">
                             <div className="profile-pic-wrapper couple-photo">
                                 <img src="/assets/our-story-couple.jpg" alt="Cinzia & Vaclav" className="profile-pic" />
                             </div>
                             <p className="couple-photo-caption">{t('story.couplePhotoCaption')}</p>
                         </div>
-                        {/* Cinzia Info */}
-                        <ProfileCard
-                            name="Cinzia"
-                            movie={t('story.profile.cinzia.movie')}
-                            books={t('story.profile.cinzia.books')}
-                            fact={t('story.profile.cinzia.fact')}
-                            quote={t('story.profile.cinzia.quote')}
-                            alignment="text-left"
-                        />
                     </div>
                 </section>
 

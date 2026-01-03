@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import Layout from '../layout/Layout';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import './Admin.css';
 
 const ADMIN_PASSWORD = import.meta.env.VITE_ADMIN_PASSWORD || 'vaclavcinzia2025';
@@ -22,6 +22,8 @@ const Admin = () => {
     const [filterCategory, setFilterCategory] = useState('all');
     const [selectedPhotos, setSelectedPhotos] = useState(new Set());
     const [bulkCategory, setBulkCategory] = useState('');
+    const [flaggedForDeletion, setFlaggedForDeletion] = useState(new Set());
+    const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
 
     // Check session storage on mount
     useEffect(() => {
@@ -69,14 +71,23 @@ const Admin = () => {
         setSaving(true);
         setSaveStatus(null);
         try {
+            // Filter out photos flagged for deletion
+            const photosToSave = photos.filter((_, index) => !flaggedForDeletion.has(index));
             const response = await fetch('/api/admin/gallery/save', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ photos }),
+                body: JSON.stringify({ photos: photosToSave }),
             });
             const result = await response.json();
             if (result.success) {
-                setSaveStatus({ type: 'success', message: `Saved ${result.count} photos successfully!` });
+                const deletedCount = flaggedForDeletion.size;
+                let message = `Saved ${result.count} photos successfully!`;
+                if (deletedCount > 0) {
+                    message += ` Removed ${deletedCount} flagged photo${deletedCount > 1 ? 's' : ''}.`;
+                }
+                setSaveStatus({ type: 'success', message });
+                setPhotos(photosToSave);
+                setFlaggedForDeletion(new Set());
                 setTimeout(() => setSaveStatus(null), 3000);
             } else {
                 setSaveStatus({ type: 'error', message: result.error || 'Failed to save' });
@@ -130,6 +141,31 @@ const Admin = () => {
         });
         setPhotos(updated);
         setSelectedPhotos(new Set());
+    };
+
+    const flagSelectedForDeletion = () => {
+        if (selectedPhotos.size === 0) return;
+        setShowDeleteConfirm(true);
+    };
+
+    const confirmFlagForDeletion = () => {
+        const newFlagged = new Set(flaggedForDeletion);
+        selectedPhotos.forEach(index => {
+            newFlagged.add(index);
+        });
+        setFlaggedForDeletion(newFlagged);
+        setSelectedPhotos(new Set());
+        setShowDeleteConfirm(false);
+    };
+
+    const unflagFromDeletion = (index) => {
+        const newFlagged = new Set(flaggedForDeletion);
+        newFlagged.delete(index);
+        setFlaggedForDeletion(newFlagged);
+    };
+
+    const clearAllFlags = () => {
+        setFlaggedForDeletion(new Set());
     };
 
     const getCategoryCounts = () => {
@@ -246,7 +282,21 @@ const Admin = () => {
                                         >
                                             Apply to {selectedPhotos.size} photos
                                         </button>
+                                        <button
+                                            className="btn-flag-delete"
+                                            onClick={flagSelectedForDeletion}
+                                        >
+                                            Flag for Deletion
+                                        </button>
                                     </>
+                                )}
+                                {flaggedForDeletion.size > 0 && (
+                                    <button
+                                        className="btn-clear-flags"
+                                        onClick={clearAllFlags}
+                                    >
+                                        Clear Flags ({flaggedForDeletion.size})
+                                    </button>
                                 )}
                                 <button
                                     className="btn-save"
@@ -263,10 +313,11 @@ const Admin = () => {
                             {filteredPhotos.map((photo, index) => {
                                 const actualIndex = photos.indexOf(photo);
                                 const isSelected = selectedPhotos.has(actualIndex);
+                                const isFlagged = flaggedForDeletion.has(actualIndex);
                                 return (
                                     <div
                                         key={photo.src}
-                                        className={`admin-photo-item ${isSelected ? 'selected' : ''}`}
+                                        className={`admin-photo-item ${isSelected ? 'selected' : ''} ${isFlagged ? 'flagged' : ''}`}
                                     >
                                         <div className="photo-checkbox">
                                             <input
@@ -275,6 +326,9 @@ const Admin = () => {
                                                 onChange={() => togglePhotoSelection(index)}
                                             />
                                         </div>
+                                        {isFlagged && (
+                                            <div className="photo-flagged-badge">🗑️ FLAGGED</div>
+                                        )}
                                         <img
                                             src={`/assets/gallery/thumbs/${photo.src}`}
                                             alt={photo.src}
@@ -295,6 +349,14 @@ const Admin = () => {
                                         >
                                             {categories.find(c => c.id === photo.category)?.label}
                                         </div>
+                                        {isFlagged && (
+                                            <button
+                                                className="btn-unflag"
+                                                onClick={() => unflagFromDeletion(actualIndex)}
+                                            >
+                                                Unflag
+                                            </button>
+                                        )}
                                     </div>
                                 );
                             })}
@@ -303,7 +365,51 @@ const Admin = () => {
                         <div className="admin-footer">
                             <p>Total: {photos.length} photos</p>
                             <p>Showing: {filteredPhotos.length} photos</p>
+                            {flaggedForDeletion.size > 0 && (
+                                <p className="flagged-count">{flaggedForDeletion.size} photo{flaggedForDeletion.size > 1 ? 's' : ''} flagged for deletion</p>
+                            )}
                         </div>
+
+                        {/* Confirmation Modal */}
+                        <AnimatePresence>
+                            {showDeleteConfirm && (
+                                <motion.div
+                                    className="confirm-modal-overlay"
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    exit={{ opacity: 0 }}
+                                    onClick={() => setShowDeleteConfirm(false)}
+                                >
+                                    <motion.div
+                                        className="confirm-modal"
+                                        initial={{ scale: 0.9, opacity: 0 }}
+                                        animate={{ scale: 1, opacity: 1 }}
+                                        exit={{ scale: 0.9, opacity: 0 }}
+                                        onClick={(e) => e.stopPropagation()}
+                                    >
+                                        <h2>Flag for Deletion</h2>
+                                        <p>
+                                            Are you sure you want to flag {selectedPhotos.size} photo{selectedPhotos.size > 1 ? 's' : ''} for deletion?
+                                            They will be permanently removed when you save changes.
+                                        </p>
+                                        <div className="confirm-modal-actions">
+                                            <button
+                                                className="btn-cancel"
+                                                onClick={() => setShowDeleteConfirm(false)}
+                                            >
+                                                Cancel
+                                            </button>
+                                            <button
+                                                className="btn-confirm-delete"
+                                                onClick={confirmFlagForDeletion}
+                                            >
+                                                Yes, Flag for Deletion
+                                            </button>
+                                        </div>
+                                    </motion.div>
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
                     </>
                 )}
             </div>
