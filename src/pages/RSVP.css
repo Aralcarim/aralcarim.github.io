@@ -1,160 +1,364 @@
+/* RSVP Page Styles */
 .rsvp-page {
-    padding: 80px 20px;
-    background-color: var(--color-background);
-    min-height: 80vh;
+    padding: 60px 20px 80px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
-.rsvp-container {
-    max-width: 700px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+/* Header */
+.rsvp-header {
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 .rsvp-title {
     font-family: var(--font-heading);
     font-size: 3rem;
-    color: var(--color-primary);
-    text-align: center;
+    color: var(--color-gold);
     margin-bottom: 10px;
+    font-weight: 400;
 }
 
-.rsvp-deadline {
-    text-align: center;
+.rsvp-subtitle {
+    font-family: var(--font-body);
+    font-size: 1rem;
     color: #888;
-    font-style: italic;
-    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+/* Content */
+.rsvp-content {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Form */
+.rsvp-form {
+    background: transparent;
+}
+
+/* Form Groups - Floating Label Style */
+.form-group {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+/* Floating labels for inputs/textarea */
+.form-group > input[type="text"] + label,
+.form-group > input[type="email"] + label,
+.form-group > textarea + label {
+    position: absolute;
+    left: 0;
+    top: 14px;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.2s ease;
+    background: transparent;
+    padding: 0;
+}
+
+.form-group-label {
+    position: static;
+    font-size: 0.85rem;
+    color: var(--color-text);
+    margin-bottom: 12px;
+    display: block;
+    pointer-events: auto;
+}
+
+/* Attendance Options */
+.form-group-attendance {
+    position: relative;
+}
+
+.form-group-attendance .form-group-label {
+    position: static;
+    font-size: 0.85rem;
+    color: var(--color-text);
+    margin-bottom: 12px;
     display: block;
 }
 
-/* Form Styles */
-.rsvp-form {
+.attendance-options {
     display: flex;
-    flex-direction: column;
-    gap: 25px;
+    gap: 20px;
 }
 
-.form-group {
+.attendance-option {
+    flex: 1;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: #fff;
+    position: relative;
 }
 
-.form-group label {
+.attendance-option:hover {
+    border-color: var(--color-gold);
+}
+
+.attendance-option.selected {
+    border-color: var(--color-gold);
+    background: linear-gradient(135deg, var(--color-gold-light) 0%, var(--color-peach-light) 100%);
+}
+
+.attendance-option input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.attendance-checkmark {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.attendance-option.selected .attendance-checkmark {
+    background: var(--color-gold);
+    border-color: var(--color-gold);
+}
+
+.attendance-option:hover .attendance-checkmark {
+    border-color: var(--color-gold);
+}
+
+.attendance-label {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--color-text);
+}
+
+.attendance-option.selected .attendance-label {
     font-weight: 600;
-    color: var(--color-primary);
-    font-size: 0.9rem;
-    letter-spacing: 0.5px;
+    color: var(--color-gold);
 }
 
 .form-group input,
-.form-group select,
 .form-group textarea {
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    font-family: inherit;
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 0;
+    font-family: var(--font-body);
     font-size: 1rem;
-    transition: border-color 0.3s, box-shadow 0.3s;
-    background-color: #fff;
-}
-
-.form-group input:disabled,
-.form-group select:disabled,
-.form-group textarea:disabled {
-    background-color: #f5f5f5;
-    cursor: not-allowed;
-    opacity: 0.6;
+    color: var(--color-text);
+    background: transparent;
+    transition: border-color 0.2s ease;
 }
 
 .form-group input:focus,
-.form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: var(--color-lilac);
-    box-shadow: 0 0 0 3px rgba(200, 162, 200, 0.2);
+    border-bottom-color: var(--color-gold);
 }
 
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:focus + label,
+.form-group textarea:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 0;
+    font-size: 0.8rem;
+    color: var(--color-gold);
+}
+
+.form-group input:disabled,
+.form-group textarea:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 60px;
+    padding-top: 14px;
+}
+
+/* Select elements use static label above */
+.form-group-select {
+    padding-top: 20px;
+}
+
+.form-group-select label {
+    position: static;
+    font-size: 0.85rem;
+    color: var(--color-text);
+    margin-bottom: 8px;
+    pointer-events: auto;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 0;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--color-text);
+    background: transparent;
+    transition: border-color 0.2s ease;
+    cursor: pointer;
+}
+
+.form-group select:focus {
+    outline: none;
+    border-bottom-color: var(--color-gold);
+}
+
+.form-group select:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.form-group select option {
+    background: #fff;
+}
+
+/* Submit Button */
 .rsvp-submit-btn {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: var(--color-peach);
+    width: auto;
+    min-width: 200px;
+    padding: 14px 40px;
+    background: var(--color-gold);
     color: #fff;
     border: none;
-    border-radius: 6px;
-    font-size: 1.1rem;
-    font-weight: 600;
+    border-radius: 50px;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 500;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
+    margin: 40px auto 0;
+    display: block;
+    letter-spacing: 0.5px;
 }
 
 .rsvp-submit-btn:hover:not(:disabled) {
-    background: linear-gradient(135deg, var(--color-lilac) 0%, var(--color-peach) 100%);
+    background: #c5a02c;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(200, 162, 200, 0.3);
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.25);
 }
 
 .rsvp-submit-btn:disabled {
     opacity: 0.6;
     cursor: not-allowed;
+    transform: none;
+}
+
+/* Error Message */
+.rsvp-form-error {
+    text-align: center;
+    padding: 12px 0;
+    margin-bottom: 24px;
+    font-size: 0.9rem;
+    color: #c33;
+    border-bottom: 1px solid #ffcccb;
 }
 
 /* Success State */
 .rsvp-success {
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
-.success-icon {
-    font-size: 4rem;
-    margin-bottom: 25px;
+.rsvp-success-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 .rsvp-success h2 {
     font-family: var(--font-heading);
-    color: var(--color-primary);
+    font-size: 2rem;
+    color: var(--color-gold);
     margin-bottom: 15px;
+    font-weight: 400;
 }
 
-/* Error Message */
-.rsvp-error-message {
-    background-color: #fee;
-    color: #c33;
-    padding: 12px 15px;
-    border-radius: 6px;
-    margin-bottom: 20px;
+.rsvp-success p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.rsvp-success-note {
+    color: #888;
     font-size: 0.9rem;
+}
+
+.rsvp-success a {
+    color: var(--color-gold);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+.rsvp-success a:hover {
+    border-bottom-color: var(--color-gold);
 }
 
 /* Error State (when form URL is not configured) */
 .rsvp-error {
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px;
 }
 
-.error-icon {
-    font-size: 4rem;
+.rsvp-error-icon {
+    font-size: 3rem;
     margin-bottom: 20px;
 }
 
 .rsvp-error h2 {
     font-family: var(--font-heading);
-    color: var(--color-primary);
+    font-size: 2rem;
+    color: var(--color-gold);
     margin-bottom: 15px;
+    font-weight: 400;
 }
 
 .rsvp-error p {
     color: #666;
 }
 
-@media (max-width: 600px) {
-    .rsvp-container {
-        padding: 25px 15px;
+/* Responsive */
+@media (max-width: 768px) {
+    .rsvp-page {
+        padding: 40px 15px 60px;
     }
 
     .rsvp-title {
         font-size: 2.2rem;
+    }
+
+    .rsvp-success h2 {
+        font-size: 1.75rem;
+    }
+
+    .attendance-options {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .attendance-option {
+        padding: 14px 16px;
     }
 }
