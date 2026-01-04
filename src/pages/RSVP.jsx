@@ -94,7 +94,10 @@ const RSVP = () => {
                     animate={{ opacity: 1, y: 0 }}
                 >
                     <h1 className="rsvp-title">{t('rsvp.title')}</h1>
-                    <p className="rsvp-subtitle">{t('rsvp.deadline')}</p>
+                    <p
+                        className="rsvp-subtitle"
+                        dangerouslySetInnerHTML={{ __html: t('rsvp.deadline') }}
+                    />
                 </motion.div>
 
                 <motion.div
@@ -207,27 +210,23 @@ const RSVP = () => {
                             <AnimatePresence mode="wait">
                                 {formData.attending === 'yes' && (
                                     <motion.div
-                                        className="form-group form-group-select"
+                                        className="form-group"
                                         initial={{ opacity: 0, height: 0 }}
                                         animate={{ opacity: 1, height: 'auto' }}
                                         exit={{ opacity: 0, height: 0 }}
                                         transition={{ duration: 0.2 }}
                                     >
-                                        <label htmlFor="guests">{t('rsvp.guests')}</label>
-                                        <select
+                                        <input
+                                            type="text"
                                             id="guests"
                                             name="guests"
+                                            placeholder=" "
                                             value={formData.guests}
                                             onChange={handleChange}
                                             required
                                             disabled={submitting}
-                                        >
-                                            <option value="">{t('rsvp.guests')}</option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                        </select>
+                                        />
+                                        <label htmlFor="guests">{t('rsvp.guests')}</label>
                                     </motion.div>
                                 )}
                             </AnimatePresence>

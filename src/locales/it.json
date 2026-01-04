@@ -92,8 +92,8 @@
     },
     "rsvp": {
         "title": "RSVP",
-        "deadline": "Fateci sapere se potrete esserci entro il 31 marzo 2026.",
-        "name": "Nome Completo",
+        "deadline": "Fateci sapere se potrete esserci entro il 31 marzo 2026.<br/><a href=\"/contact\">Contattateci</a> direttamente, possiamo aiutarvi a organizzare viaggio e alloggio.",
+        "name": "Nome completo o Cognome",
         "email": "Indirizzo Email",
         "attending": "Parteciperete?",
         "yes": "Accetto con gioia",

@@ -92,8 +92,8 @@
     },
     "rsvp": {
         "title": "U.A.w.g.",
-        "deadline": "Bitte gebt uns bis zum 31. März 2026 Bescheid.",
-        "name": "Vollständiger Name",
+        "deadline": "Bitte gebt uns bis zum 31. März 2026 Bescheid.<br/><a href=\"/contact\">Kontaktieren Sie uns</a> direkt, wir können Ihnen bei der Planung von Reise und Unterkunft helfen.",
+        "name": "Vollständiger oder Familienname",
         "email": "E-Mail-Adresse",
         "attending": "Werdet ihr dabei sein?",
         "yes": "Wir kommen gerne",
