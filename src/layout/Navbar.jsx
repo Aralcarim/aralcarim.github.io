@@ -38,7 +38,6 @@ const Navbar = () => {
 
     const moreLinks = [
         { name: t('nav.gallery'), path: '/gallery' },
-        { name: t('nav.dress_code'), path: '/dress-code' },
         { name: t('nav.map'), path: '/map' },
         { name: t('nav.contact'), path: '/contact' }
     ];

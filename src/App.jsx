@@ -19,7 +19,6 @@ import Travel from './pages/Travel';
 import ThingsToDo from './pages/ThingsToDo';
 import ThingsToKnow from './pages/ThingsToKnow';
 import Registry from './pages/Registry';
-import DressCode from './pages/DressCode';
 import Contact from './pages/Contact';
 import Map from './pages/Map';
 import Admin from './pages/Admin';
@@ -39,7 +38,6 @@ const AnimatedRoutes = () => {
         <Route path="/things-to-do" element={<ThingsToDo />} />
         <Route path="/things-to-know" element={<ThingsToKnow />} />
         <Route path="/registry" element={<Registry />} />
-        <Route path="/dress-code" element={<DressCode />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/map" element={<Map />} />
         <Route path="/admin" element={<Admin />} />
