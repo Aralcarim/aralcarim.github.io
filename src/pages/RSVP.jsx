@@ -27,8 +27,26 @@ const RSVP = () => {
         }));
     };
 
+    const validateEmail = (email) => {
+        // More strict regex: requires @ and at least one dot in the domain part
+        const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        return regex.test(email);
+    };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        // Manual email validation
+        if (!validateEmail(formData.email)) {
+            setError('Please enter a valid email address (e.g., name@example.com)');
+            return;
+        }
+
+        // Check form validity and show browser validation errors
+        if (!e.target.reportValidity()) {
+            return;
+        }
+
         setSubmitting(true);
         setError('');
 
