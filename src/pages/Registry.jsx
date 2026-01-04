@@ -106,19 +106,10 @@ const Registry = () => {
     return (
         <InfoPage
             title={t('registry.title')}
-            description={t('registry.desc')}
-            imagePlaceholder=""
+            description={t('registry.presence_text')}
+            imagePlaceholder="💝"
         >
             <div className="registry-container">
-                {/* Presence Message Section */}
-                <div className="registry-presence-section">
-                    <div className="registry-icon-wrapper">
-                        <span className="registry-icon">💝</span>
-                    </div>
-                    <h2 className="registry-presence-title">{t('registry.presence_title')}</h2>
-                    <p className="registry-presence-text">{t('registry.presence_text')}</p>
-                </div>
-
                 {/* Divider */}
                 <div className="registry-divider">
                     <div className="registry-divider-line"></div>
