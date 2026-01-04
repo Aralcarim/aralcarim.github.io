@@ -2,18 +2,22 @@ import React, { useState } from 'react';
 import Layout from '../layout/Layout';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 import './RSVP.css';
+
+const GOOGLE_SCRIPT_URL = import.meta.env.VITE_GOOGLE_SCRIPT_URL || '';
 
 const RSVP = () => {
     const { t } = useTranslation();
     const [submitted, setSubmitted] = useState(false);
+    const [submitting, setSubmitting] = useState(false);
+    const [error, setError] = useState('');
     const [formData, setFormData] = useState({
         name: '',
         email: '',
         attending: 'yes',
         guests: '1',
-        dietary: ''
+        dietary: '',
+        comments: ''
     });
 
     const handleChange = (e) => {
@@ -24,12 +28,50 @@ const RSVP = () => {
         }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log('RSVP Submitted:', formData);
-        // In a real app, you would send this to a backend or Google Sheet
-        setSubmitted(true);
+        setSubmitting(true);
+        setError('');
+
+        try {
+            // Use form-urlencoded for better Google Apps Script compatibility
+            const params = new URLSearchParams(formData);
+            const response = await fetch(GOOGLE_SCRIPT_URL, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: params.toString()
+            });
+
+            // no-cors means we can't read the response, but if we get here without error it likely worked
+            setSubmitted(true);
+        } catch (err) {
+            setError('Something went wrong. Please try again or contact us directly.');
+            console.error('RSVP submission error:', err);
+        } finally {
+            setSubmitting(false);
+        }
     };
+
+    if (!GOOGLE_SCRIPT_URL) {
+        return (
+            <Layout>
+                <div className="rsvp-page">
+                    <motion.div
+                        className="rsvp-container rsvp-error"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                    >
+                        <div className="error-icon">⚠️</div>
+                        <h2>{t('rsvp.title')}</h2>
+                        <p>RSVP form is not yet configured. Please contact us directly.</p>
+                    </motion.div>
+                </div>
+            </Layout>
+        );
+    }
 
     if (submitted) {
         return (
@@ -41,11 +83,11 @@ const RSVP = () => {
                         animate={{ opacity: 1, scale: 1 }}
                     >
                         <div className="success-icon">✨</div>
-                        <h2>{t('rsvp.title')} - {t('nav.rsvp')}</h2>
-                        <p>{t('rsvp.alert', { name: formData.name })}</p>
-                        <Link to="/" className="back-home-btn">
-                            {t('nav.home')}
-                        </Link>
+                        <h2>{t('rsvp.title')}</h2>
+                        <p>{t('rsvp.success')}</p>
+                        <p style={{ color: '#999', fontSize: '0.9rem', marginTop: '15px' }}>
+                            {t('rsvp.confirmation')} <a href="/contact" style={{ color: 'var(--color-primary)', textDecoration: 'underline' }}>{t('rsvp.contact_link')}</a>
+                        </p>
                     </motion.div>
                 </div>
             </Layout>
@@ -63,6 +105,12 @@ const RSVP = () => {
                     <h1 className="rsvp-title">{t('rsvp.title')}</h1>
                     <small className="rsvp-deadline">{t('rsvp.deadline')}</small>
 
+                    {error && (
+                        <div className="rsvp-error-message">
+                            {error}
+                        </div>
+                    )}
+
                     <form className="rsvp-form" onSubmit={handleSubmit}>
                         <div className="form-group">
                             <label htmlFor="name">{t('rsvp.name')}</label>
@@ -73,6 +121,7 @@ const RSVP = () => {
                                 value={formData.name}
                                 onChange={handleChange}
                                 required
+                                disabled={submitting}
                             />
                         </div>
 
@@ -84,7 +133,10 @@ const RSVP = () => {
                                 name="email"
                                 value={formData.email}
                                 onChange={handleChange}
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                                title="Please enter a valid email address (e.g., name@example.com)"
                                 required
+                                disabled={submitting}
                             />
                         </div>
 
@@ -95,6 +147,8 @@ const RSVP = () => {
                                 name="attending"
                                 value={formData.attending}
                                 onChange={handleChange}
+                                required
+                                disabled={submitting}
                             >
                                 <option value="yes">{t('rsvp.yes')}</option>
                                 <option value="no">{t('rsvp.no')}</option>
@@ -109,6 +163,8 @@ const RSVP = () => {
                                     name="guests"
                                     value={formData.guests}
                                     onChange={handleChange}
+                                    required
+                                    disabled={submitting}
                                 >
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -127,11 +183,25 @@ const RSVP = () => {
                                 value={formData.dietary}
                                 onChange={handleChange}
                                 rows="3"
+                                disabled={submitting}
                             />
                         </div>
 
-                        <button type="submit" className="rsvp-submit-btn">
-                            {t('rsvp.submit')}
+                        <div className="form-group">
+                            <label htmlFor="comments">Additional Comments</label>
+                            <textarea
+                                id="comments"
+                                name="comments"
+                                placeholder="Any song requests, messages for the couple, or other notes?"
+                                value={formData.comments}
+                                onChange={handleChange}
+                                rows="3"
+                                disabled={submitting}
+                            />
+                        </div>
+
+                        <button type="submit" className="rsvp-submit-btn" disabled={submitting}>
+                            {submitting ? 'Sending...' : t('rsvp.submit')}
                         </button>
                     </form>
                 </motion.div>

@@ -92,7 +92,7 @@
     },
     "rsvp": {
         "title": "U.A.w.g.",
-        "deadline": "Bitte gebt uns bis zum 1. August 2025 Bescheid.",
+        "deadline": "Bitte gebt uns bis zum 31. März 2026 Bescheid.",
         "name": "Vollständiger Name",
         "email": "E-Mail-Adresse",
         "attending": "Werdet ihr dabei sein?",
@@ -104,7 +104,10 @@
         "submit": "Absenden",
         "guest_count": "{{count}} Gast",
         "guest_count_plural": "{{count}} Gäste",
-        "alert": "Danke für deine Antwort, {{name}}! (Dies ist ein Demo-Formular)"
+        "success": "Danke für deine Antwort!",
+        "alert": "Danke für deine Antwort, {{name}}!",
+        "confirmation": "Wenn du etwas ändern musst, erreich uns bitte über unsere",
+        "contact_link": "Kontaktseite"
     },
     "gallery": {
         "title": "Fotogalerie",

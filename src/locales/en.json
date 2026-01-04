@@ -92,7 +92,7 @@
     },
     "rsvp": {
         "title": "RSVP",
-        "deadline": "Please let us know if you can make it by August 1st, 2025.",
+        "deadline": "Please let us know if you can make it by March 31st, 2026.",
         "name": "Full Name",
         "email": "Email Address",
         "attending": "Will you be attending?",
@@ -104,7 +104,10 @@
         "submit": "Send RSVP",
         "guest_count": "{{count}} Guest",
         "guest_count_plural": "{{count}} Guests",
-        "alert": "Thank you for your response, {{name}}! (This is a demo form)"
+        "success": "Thank you for your response!",
+        "alert": "Thank you for your response, {{name}}!",
+        "confirmation": "If you need to make any changes, please reach out to us via our",
+        "contact_link": "contact page"
     },
     "gallery": {
         "title": "Photo Gallery",

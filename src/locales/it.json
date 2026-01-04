@@ -92,7 +92,7 @@
     },
     "rsvp": {
         "title": "RSVP",
-        "deadline": "Fateci sapere se potrete esserci entro il 1° Agosto 2025.",
+        "deadline": "Fateci sapere se potrete esserci entro il 31 marzo 2026.",
         "name": "Nome Completo",
         "email": "Indirizzo Email",
         "attending": "Parteciperete?",
@@ -104,7 +104,10 @@
         "submit": "Invia RSVP",
         "guest_count": "{{count}} Ospite",
         "guest_count_plural": "{{count}} Ospiti",
-        "alert": "Grazie per la tua risposta, {{name}}! (Questo è un modulo demo)"
+        "success": "Grazie per la tua risposta!",
+        "alert": "Grazie per la tua risposta, {{name}}!",
+        "confirmation": "Se hai bisogno di fare delle modifiche, contattaci tramite la nostra",
+        "contact_link": "pagina dei contatti"
     },
     "gallery": {
         "title": "Galleria Fotografica",
