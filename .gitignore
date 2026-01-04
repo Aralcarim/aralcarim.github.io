@@ -16,6 +16,10 @@ dist-ssr
 # Project files
 TODO.md
 
+# Archived photos
+public/assets/gallery/Archive/
+public/assets/gallery/thumbs/Archive/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
