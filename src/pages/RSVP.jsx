@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import Layout from '../layout/Layout';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { GOOGLE_SCRIPT_URL } from '../config';
 import './RSVP.css';
-
-const GOOGLE_SCRIPT_URL = import.meta.env.VITE_GOOGLE_SCRIPT_URL || '';
 
 const RSVP = () => {
     const { t } = useTranslation();
