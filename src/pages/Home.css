@@ -1,0 +1,56 @@
+.home-hero {
+    position: relative;
+    height: calc(100vh - 80px);
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.home-hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.home-intro {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.home-title {
+    font-size: 4rem;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+
+.home-divider {
+    display: inline-block;
+    border-top: 1px solid var(--color-lilac);
+    border-bottom: 1px solid var(--color-peach);
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+
+.home-date {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.home-location {
+    font-size: 1rem;
+    margin: 5px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 768px) {
+    .home-hero {
+        margin-top: -40px;
+    }
+}

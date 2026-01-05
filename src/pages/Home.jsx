@@ -1,73 +1,31 @@
 import React from 'react';
 import Layout from '../layout/Layout';
 import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 import Countdown from '../components/Countdown';
+import './Home.css';
 
 const Home = () => {
     const { t } = useTranslation();
 
     return (
         <Layout>
-            <section className="hero" style={{
-                position: 'relative',
-                height: 'calc(100vh - 80px)',
-                marginTop: '-80px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                background: 'transparent'
-            }}>
-
-                <style>{`
-                    @media (max-width: 768px) {
-                        .hero {
-                            margin-top: -40px !important;
-                        }
-                    }
-                `}</style>
-
+            <section className="home-hero">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1, delay: 0.5 }}
-                    className="hero-content text-center"
-                    style={{ position: 'relative', zIndex: 1 }}
+                    className="home-hero-content"
                 >
-                    <p style={{
-                        textTransform: 'uppercase',
-                        letterSpacing: '5px',
-                        fontSize: '1.2rem',
-                        marginBottom: '1rem'
-                    }}>{t('home.intro')}</p>
+                    <p className="home-intro">{t('home.intro')}</p>
 
-                    <h1 style={{
-                        fontSize: '4rem',
-                        margin: '20px 0',
-                        lineHeight: 1.2
-                    }}>
-                        Cinzia <span className="text-gold">&</span> Vaclav
+                    <h1 className="home-title">
+                        <Trans i18nKey="home.names" components={{ span: <span className="text-gold" /> }} />
                     </h1>
 
-                    <div style={{
-                        display: 'inline-block',
-                        borderTop: '1px solid var(--color-lilac)',
-                        borderBottom: '1px solid var(--color-peach)',
-                        padding: '10px 40px',
-                        marginTop: '20px'
-                    }}>
-                        <p style={{
-                            fontSize: '1.5rem',
-                            fontWeight: 600,
-                            letterSpacing: '2px',
-                            margin: 0
-                        }}>{t('home.date')}</p>
-                        <p style={{
-                            fontSize: '1rem',
-                            margin: '5px 0 0',
-                            textTransform: 'uppercase',
-                            letterSpacing: '3px'
-                        }}>{t('home.location')}</p>
+                    <div className="home-divider">
+                        <p className="home-date">{t('home.date')}</p>
+                        <p className="home-location">{t('home.location')}</p>
                     </div>
 
                     <Countdown />
