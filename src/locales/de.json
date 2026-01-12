@@ -19,7 +19,7 @@
         "intro": "Wir heiraten",
         "names": "Cinzia <span>&</span> Vaclav",
         "date": "13. Juni 2026",
-        "location": "San Marco in Lamis, Italien",
+        "location": "Le Querce di Mamre, Apulien, Italien",
         "countdown": {
             "days": "Tage",
             "hours": "Stunden",
@@ -67,12 +67,12 @@
             "ceremony": {
                 "title": "Die Trauung",
                 "time": "12:30",
-                "desc": "Begleiten Sie uns, wenn wir unsere Eheversprechen im Schatten alter Eichen in einer feierlichen Zeremonie im Freien austauschen."
+                "desc": "Begleite uns, wenn wir unsere Eheversprechen im Schatten alter Eichen in einer feierlichen Zeremonie im Freien austauschen."
             },
             "entrees": {
                 "title": "Vorspeisen & Aperitif",
                 "time": "13:30",
-                "desc": "Genießen Sie eine Auswahl an traditionellen apulischen Vorspeisen und Erfrischungen im Garten, begleitet von sanfter Musik."
+                "desc": "Genieße eine Auswahl an traditionellen apulischen Vorspeisen und Erfrischungen im Garten, begleitet von sanfter Musik."
             },
             "lunch": {
                 "title": "Mittagessen & Feier",
@@ -93,10 +93,10 @@
     },
     "rsvp": {
         "title": "U.A.w.g.",
-        "deadline": "Bitte gebt uns bis zum 31. März 2026 Bescheid.<br/><a href=\"/contact\">Kontaktieren Sie uns</a> direkt, wir können Ihnen bei der Planung von Reise und Unterkunft helfen.",
+        "deadline": "Bitte gib uns bis zum 31. März 2026 Bescheid.<br/><a href=\"/contact\">Kontaktiere uns</a> direkt, wir können dir bei der Planung von Reise und Unterkunft helfen.",
         "name": "Vollständiger oder Familienname",
         "email": "E-Mail-Adresse",
-        "attending": "Werdet ihr dabei sein?",
+        "attending": "Wirst du dabei sein?",
         "yes": "Wir kommen gerne",
         "no": "Wir müssen leider absagen",
         "guests": "Anzahl der Gäste",
@@ -127,12 +127,12 @@
     },
     "disclaimer": {
         "title": "Wichtige RSVP-Info",
-        "message": "Wir bitten Sie, bis zum 31. März zu antworten. Bitte geben Sie eventuelle Ernährungseinschränkungen im Formular an.",
+        "message": "Wir bitten dich, bis zum 31. März zu antworten. Bitte gib eventuelle Ernährungseinschränkungen im Formular an.",
         "button": "Verstanden"
     },
     "faq": {
         "title": "Häufig gestellte Fragen (FAQ)",
-        "oneliner": "Die meisten Antworten finden Sie auf der restlichen Website, aber diese Seite ist so umfassend wie möglich, um eine einfache Suche zu ermöglichen.",
+        "oneliner": "Die meisten Antworten findest du auf der restlichen Website, aber diese Seite ist so umfassend wie möglich, um eine einfache Suche zu ermöglichen.",
         "categories": {
             "venue": "Ort & Zeitplan",
             "dress": "Kleiderordnung",
@@ -153,21 +153,21 @@
             "where_reception": "Wo ist der Empfang?",
             "where_reception_a": "Der Empfang findet ebenfalls in Le Querce di Mamre statt, wobei wir vom Garten in die Innenräume wechseln.",
             "arrival_time": "Wann sollten die Gäste eintreffen?",
-            "arrival_time_a": "Wir empfehlen, bis 12:00 Uhr einzutreffen, um vor der Zeremonie um 12:30 Uhr in aller Ruhe Ihren Platz zu finden.",
+            "arrival_time_a": "Wir empfehlen, bis 12:00 Uhr einzutreffen, um vor der Zeremonie um 12:30 Uhr in aller Ruhe deinen Platz zu finden.",
             "dress_code": "Wie lautet die Kleiderordnung?",
             "dress_code_a": "Die Kleiderordnung ist Formal / Black Tie Optional. Herren: Anzüge oder Smoking. Damen: Abendkleider oder elegante Cocktailkleider.",
             "outdoor_elements": "Gibt es Programmpunkte im Freien?",
             "outdoor_elements_a": "Die Zeremonie und der erste Aperitif finden im Freien (auf Rasen) statt, während das Mittagessen und die Party drinnen sind.",
             "how_rsvp": "Wie kann ich zusagen?",
-            "how_rsvp_a": "Sie können direkt auf dieser Website über die RSVP-Seite zusagen.",
+            "how_rsvp_a": "Du kannst direkt auf dieser Website über die RSVP-Seite zusagen.",
             "rsvp_deadline": "Bis wann muss ich zusagen?",
-            "rsvp_deadline_a": "Bitte geben Sie uns bis zum 31. März 2026 Bescheid.",
+            "rsvp_deadline_a": "Bitte gib uns bis zum 31. März 2026 Bescheid.",
             "plus_one": "Darf ich eine Begleitperson mitbringen?",
             "plus_one_a": "Aufgrund der begrenzten Kapazität können wir nur die in der Einladung genannten Personen berücksichtigen.",
             "children": "Sind Kinder eingeladen?",
             "children_a": "Wir lieben eure Kleinen, aber unsere Hochzeit wird eine reine Erwachsenenfeier sein.",
             "how_get_there": "Wie komme ich dorthin?",
-            "how_get_there_a": "Die nächstgelegenen Flughäfen sind Bari (BRI) und Brindisi (BDS). Detaillierte Wegbeschreibungen finden Sie auf der Anreise-Seite.",
+            "how_get_there_a": "Die nächstgelegenen Flughäfen sind Bari (BRI) und Brindisi (BDS). Detaillierte Wegbeschreibungen findest du auf der Anreise-Seite.",
             "parking": "Gibt es Parkmöglichkeiten?",
             "parking_a": "Ja, am Veranstaltungsort stehen ausreichend kostenlose Parkplätze zur Verfügung.",
             "hotels": "Gibt es empfohlene Hotels?",
@@ -177,23 +177,23 @@
             "food_provided": "Wird für Essen gesorgt?",
             "food_provided_a": "Ja, es wird ein komplettes mehrgängiges italienisches Hochzeitsessen und Erfrischungen am Abend serviert.",
             "dietary": "Können Ernährungswünsche berücksichtigt werden?",
-            "dietary_a": "Absolut! Bitte geben Sie Allergien oder Wünsche in Ihrem RSVP-Formular an.",
+            "dietary_a": "Absolut! Bitte gib Allergien oder Wünsche in deinem RSVP-Formular an.",
             "bar": "Offene Bar oder Selbstzahler?",
             "bar_a": "Wir werden während der gesamten Feier eine offene Bar haben.",
             "gifts_expected": "Werden Geschenke erwartet?",
-            "gifts_expected_a": "Ihre Anwesenheit ist das größte Geschenk, aber wenn Sie uns etwas schenken möchten, schätzen wir Ihre Großzügigkeit sehr.",
+            "gifts_expected_a": "Deine Anwesenheit ist das größte Geschenk, aber wenn du uns etwas schenken möchtest, schätzen wir deine Großzügigkeit sehr.",
             "registry": "Gibt es eine Geschenkeliste?",
-            "registry_a": "Ja, den Link zu unserer Geschenkeliste finden Sie auf der entsprechenden Seite.",
+            "registry_a": "Ja, den Link zu unserer Geschenkeliste findest du auf der entsprechenden Seite.",
             "gift_way": "Gibt es eine bevorzugte Art, ein Geschenk zu überreichen?",
             "gift_way_a": "Geschenke können über die Liste gesendet oder zur Hochzeit mitgebracht werden.",
             "unplugged": "Ist die Zeremonie 'unplugged'?",
-            "unplugged_a": "Ja, wir bitten Sie, Handys und Kameras während der Zeremonie wegzulegen und ganz bei uns zu sein.",
+            "unplugged_a": "Ja, wir bitten dich, Handys und Kameras während der Zeremonie wegzulegen und ganz bei uns zu sein.",
             "take_photos": "Dürfen wir Fotos machen?",
             "take_photos_a": "Während des Empfangs und der Party sind Fotos herzlich willkommen!",
             "hashtag": "Gibt es einen Hochzeits-Hashtag?",
-            "hashtag_a": "Ja! Bitte taggt sowohl Braut als auch Bräutigam, wenn ihr eure Fotos teilt.",
+            "hashtag_a": "Ja! Bitte markiere sowohl Braut als auch Bräutigam, wenn du deine Fotos teilst.",
             "schedule": "Wie ist der Ablauf?",
-            "schedule_a": "Den vollständigen Zeitplan finden Sie auf der Seite 'Ablauf'.",
+            "schedule_a": "Den vollständigen Zeitplan findest du auf der Seite 'Ablauf'.",
             "reception_end": "Wann endet die Feier?",
             "reception_end_a": "Die Feier wird gegen 23:00 Uhr enden.",
             "rain": "Was passiert bei Regen?",
@@ -219,11 +219,11 @@
         },
         "toCity": {
             "title": "Nach Apricena",
-            "desc": "Wir werden in Apricena bleiben, einer charmanten Stadt im Gargano-Gebiet. Hier sind Ihre Optionen:",
+            "desc": "Wir werden in Apricena bleiben, einer charmanten Stadt im Gargano-Gebiet. Hier sind deine Optionen:",
             "rental": "Mietwagen",
             "rentalDesc": "Empfohlen für Flexibilität. Direkt am Flughafen mieten und über die A14 fahren.",
             "shuttle": "Privater Shuttle",
-            "shuttleDesc": "Wir können bei der Organisation von privaten Transfers helfen. Interessiert? Melden Sie sich bei uns.",
+            "shuttleDesc": "Wir können bei der Organisation von privaten Transfers helfen. Interessiert? Melde dich bei uns.",
             "train": "Zug + Taxi",
             "trainDesc": "Zug nach Pescara oder Foggia, dann Taxi nach Apricena."
         },
@@ -244,7 +244,7 @@
             },
             "bnb": {
                 "name": "B&B / Agriturismo",
-                "desc": "Erleben Sie authentische apulische Gastfreundschaft in lokalen Bed & Breakfasts oder Farmhäusern. Oft charmanter und budgetfreundlicher.",
+                "desc": "Erlebe authentische apulische Gastfreundschaft in lokalen Bed & Breakfasts oder Farmhäusern. Oft charmanter und budgetfreundlicher.",
                 "examples": "Agriturismo-Optionen und lokale B&Bs auf dem Land"
             }
         }
@@ -269,11 +269,11 @@
         },
         "towns": {
             "title": "Historische Städte",
-            "desc": "Entdecken Sie die charmanten historischen Städte Apuliens, jede mit einzigartigem Charakter und Geschichte.",
+            "desc": "Entdecke die charmanten historischen Städte Apuliens, jede mit einzigartigem Charakter und Geschichte.",
             "alberobello": {
                 "title": "Alberobello",
                 "desc": "Berühmt für seine Trulli-Häuser — einzigartige kegelförmige Behausungen und UNESCO-Welterbe.",
-                "tip": "Tipp: Besuchen Sie früh morgens oder spät nachmittags, um Menschenmassen zu vermeiden."
+                "tip": "Tipp: Besuche früh morgens oder spät nachmittags, um Menschenmassen zu vermeiden."
             },
             "ostuni": {
                 "title": "Ostuni",
@@ -336,7 +336,7 @@
         },
         "weather": {
             "title": "Wetter & Reisegepäck",
-            "desc": "Juni ist wunderschön in Apulien! Hier ist, was Sie erwartet.",
+            "desc": "Juni ist wunderschön in Apulien! Hier ist, was dich erwartet.",
             "june": {
                 "title": "Juni-Wetter",
                 "desc": "Sonnig und warm (25-30°C). Perfekt für Feiern im Freien!"
@@ -347,21 +347,21 @@
             },
             "footwear": {
                 "title": "Schuhwerk-Hinweis",
-                "desc": "Die Zeremonie findet auf Rasen statt — wählen Sie bequeme Schuhe für draußen!"
+                "desc": "Die Zeremonie findet auf Rasen statt — wähle bequeme Schuhe für draußen!"
             }
         },
         "customs": {
             "title": "Italienische Sitten",
-            "desc": "Genießen Sie den lokalen Rhythmus und die Essenstraditionen.",
+            "desc": "Genieße den lokalen Rhythmus und die Essenstraditionen.",
             "riposo": {
                 "title": "Die Riposo (Mittagspause)",
                 "desc": "Viele Geschäfte schließen zwischen 13-18 Uhr. Das ist die traditionelle italienische Mittagspause.",
-                "hours": "Planen Sie entsprechend: Restaurants mittags 12-15 Uhr geöffnet, dann abendings ab 19:30 Uhr."
+                "hours": "Plane entsprechend: Restaurants mittags 12-15 Uhr geöffnet, dann abendings ab 19:30 Uhr."
             },
             "dining": {
                 "title": "Essenskultur",
                 "desc": "Italiener nehmen ihre Mahlzeiten ernst! Abendessen ist ein entspanntes Vergnügen, kein hastiges Essen.",
-                "reservations": "Tipp: Reservieren Sie Restaurants im Voraus, besonders Do-So und in beliebten Orten."
+                "reservations": "Tipp: Reserviere Restaurants im Voraus, besonders Do-So und in beliebten Orten."
             }
         },
         "essentials": {
@@ -372,11 +372,11 @@
             },
             "water": {
                 "title": "Trinkwasser",
-                "desc": "Leitungswasser wird nicht in Restaurants serviert. Sie kaufen Flaschenwasser — das ist normal."
+                "desc": "Leitungswasser wird nicht in Restaurants serviert. Du kaufst Flaschenwasser — das ist normal."
             },
             "beaches": {
                 "title": "Strände",
-                "desc": "Die meisten Strände sind private Lidos (gebührenpflichtig). Suchen Sie nach 'spiaggia libera'-Schildern für kostenlose Strände."
+                "desc": "Die meisten Strände sind private Lidos (gebührenpflichtig). Suche nach 'spiaggia libera'-Schildern für kostenlose Strände."
             }
         },
         "food": {
@@ -385,22 +385,22 @@
             "specialties": {
                 "title": "Must-Try Gerichte",
                 "desc": "Orecchiette-Pasta, Burrata-Käse, frisches Meeresfrüchte und Focaccia sind regionale Highlights.",
-                "examples": "Probieren Sie: Orecchiette con cime di rapa, Meeresfrüchte nach Art von Polignano und Pasticciotto zum Frühstück!"
+                "examples": "Probiere: Orecchiette con cime di rapa, Meeresfrüchte nach Art von Polignano und Pasticciotto zum Frühstück!"
             },
             "wine": {
                 "title": "Lokale Weine",
                 "desc": "Apulien ist bekannt für exzellente Weine, besonders Rosé und vollmundige Rotweine wie Primitivo.",
-                "note": "Fragen Sie nach lokalen Empfehlungen — der Wein hier ist fantastisch und sehr erschwinglich!"
+                "note": "Frage nach lokalen Empfehlungen — der Wein hier ist fantastisch und sehr erschwinglich!"
             }
         }
     },
     "registry": {
         "title": "Geschenkeliste",
         "desc": "Geschenke sind nie erwartet, aber immer geschätzt.",
-        "presence_title": "Ihre Anwesenheit ist unser schönstes Geschenk",
-        "presence_text": "Das Wichtigste für uns ist, dass Sie an unserem besonderen Tag dabei sind. Ihre Anwesenheit, Ihr Lachen und Ihre Liebe sind alles, was wir uns wirklich wünschen.",
+        "presence_title": "Deine Anwesenheit ist unser schönstes Geschenk",
+        "presence_text": "Das Wichtigste für uns ist, dass du an unserem besonderen Tag dabei bist. Deine Anwesenheit, dein Lachen und deine Liebe sind alles, was wir uns wirklich wünschen.",
         "honeymoon_title": "Flitterwochen-Fonds",
-        "honeymoon_text": "Wenn Sie uns mit mehr als Ihrer Anwesenheit ehren möchten, wäre ein Beitrag zu unseren Flitterwochen eine wunderbare Geste. Wir planen eine unvergessliche Reise, die wir ein Leben lang festhalten werden.",
+        "honeymoon_text": "Wenn du uns mit mehr als deiner Anwesenheit ehren möchtest, wäre ein Beitrag zu unseren Flitterwochen eine wunderbare Geste. Wir planen eine unvergessliche Reise, die wir ein Leben lang festhalten werden.",
         "eu_bank": "Europäische Überweisung",
         "uk_bank": "UK Banküberweisung",
         "iban": "IBAN",
@@ -408,18 +408,18 @@
         "account_number": "Kontonummer",
         "sort_code": "Sort Code",
         "reveal_details": "Details anzeigen",
-        "thankyou": "Vielen Dank für Ihre Liebe und Großzügigkeit."
+        "thankyou": "Vielen Dank für deine Liebe und Großzügigkeit."
     },
     "dress_code": {
         "title": "Dresscode",
         "desc": "Der Dresscode für unsere Hochzeit ist Formal / Black Tie Optional.",
         "gentlemen": "Herren sind eingeladen, einen Anzug oder Smoking zu tragen.",
         "ladies": "Damen sind eingeladen, ein langes Abendkleid oder ein elegantes Cocktailkleid zu tragen.",
-        "note": "Zeremonie und Aperitif finden auf Rasen statt, bitte wählen Sie Ihr Schuhwerk entsprechend."
+        "note": "Zeremonie und Aperitif finden auf Rasen statt, bitte wähle dein Schuhwerk entsprechend."
     },
     "contact": {
         "title": "Kontakt",
-        "desc": "Wenn Sie Fragen haben, können Sie uns gerne direkt kontaktieren.",
+        "desc": "Wenn du Fragen hast, kannst du uns gerne direkt kontaktieren.",
         "hashtag": "",
         "reveal": "Anzeigen",
         "vaclav_name": "Vaclav",

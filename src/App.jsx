@@ -11,6 +11,7 @@ import ScrollToTop from './components/ScrollToTop';
 // Pages
 import Home from './pages/Home';
 import Story from './pages/Story';
+
 import RunOfShow from './pages/RunOfShow';
 import RSVP from './pages/RSVP';
 import FAQ from './pages/FAQ';
@@ -30,6 +31,7 @@ const AnimatedRoutes = () => {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/story" element={<Story />} />
+
         <Route path="/events" element={<RunOfShow />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/rsvp" element={<RSVP />} />
