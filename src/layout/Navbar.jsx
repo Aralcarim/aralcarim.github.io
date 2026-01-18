@@ -175,7 +175,7 @@ const Navbar = () => {
                                     onMouseLeave={() => setIsDropdownOpen(false)}
                                     style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '5px' }}
                                 >
-                                    {t('nav.more')} <span style={{ fontSize: '0.6rem' }}>▼</span>
+                                    <span className="more-label">{t('nav.more')}</span> <span style={{ fontSize: '0.6rem' }}>▼</span>
 
                                     <AnimatePresence>
                                         {isDropdownOpen && (
