@@ -49,11 +49,23 @@
             }
         },
         "timeline": {
-            "event1": "First meeting in Prague",
-            "event2": "Our trip to Venice",
-            "event3": "Moving in together",
-            "event4": "New Year's Eve Celebration",
-            "event5": "The Wedding Day!"
+            "event1": "We met in London",
+            "event2": "Our first trip together to celebrate Cinzia's 30th birthday",
+            "event3": "Our first family trip",
+            "event4": "Back to Italy to welcome a new life to the family, our nephew Giovanni",
+            "event5": "Our first romantic getaway",
+            "event6": "We officially moved in together AKA Geena and Cinzia moved to West Ealing",
+            "event7": "Our first long trip together to the other side of the world. And we still liked each other at the end",
+            "event8": "We bought our first house and moved in together",
+            "event9": "We celebrated our 2nd anniversary with our families on our first trip all together... we survived, I think",
+            "event10": "We cemented our relationship through the realization that we're both beach-people",
+            "event11": "We restructured our house to turn it more into our personal nest",
+            "event12": "Our first beach-Christmas",
+            "event13": "Our first time doing northern light spotting together (and Vaclav complained all the time)",
+            "event14": "We opened our house and hosted our housewarming party",
+            "event15": "We decided to \"put a ring on it\"",
+            "event16": "We adopted our baby black cats - Loki and Freya. Because life is better when you have cats!",
+            "event17": "Time to get married"
         }
     },
     "run_of_show": {

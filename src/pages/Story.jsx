@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import './Story.css';
 
-const TimelineItem = ({ date, year, caption, image, side }) => {
+const TimelineItem = ({ date, year, caption, location, image, side }) => {
     return (
         <div className={`timeline-item ${side}`}>
             <motion.div
@@ -21,7 +21,10 @@ const TimelineItem = ({ date, year, caption, image, side }) => {
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.5 }}
             >
-                <div className="timeline-date">{date} {year}</div>
+                <div className="timeline-header">
+                    <span className="timeline-date">{date} {year}</span>
+                    {location && <span className="timeline-location">• {location}</span>}
+                </div>
                 {image && <img src={image} alt={caption} className="timeline-img" />}
                 {!image && (
                     <div className="timeline-img-placeholder">
@@ -38,11 +41,23 @@ const Story = () => {
     const { t } = useTranslation();
 
     const timelineEvents = [
-        { date: "January", year: "2022", caption: t('story.timeline.event1'), image: "/assets/timeline-1.png", side: "left" },
-        { date: "August", year: "2023", caption: t('story.timeline.event2'), image: null, side: "right" },
-        { date: "December", year: "2024", caption: t('story.timeline.event3'), image: null, side: "left" },
-        { date: "December", year: "2025", caption: t('story.timeline.event4'), image: null, side: "right" },
-        { date: "June", year: "2026", caption: t('story.timeline.event5'), image: null, side: "left" },
+        { date: "May", year: "2022", caption: t('story.timeline.event1'), location: "London", image: null, side: "left" },
+        { date: "August", year: "2022", caption: t('story.timeline.event2'), location: "Italy", image: null, side: "right" },
+        { date: "December", year: "2022", caption: t('story.timeline.event3'), location: "Germany", image: null, side: "left" },
+        { date: "January", year: "2023", caption: t('story.timeline.event4'), location: "Italy", image: null, side: "right" },
+        { date: "March", year: "2023", caption: t('story.timeline.event5'), location: "Vienna", image: null, side: "left" },
+        { date: "Spring", year: "2023", caption: t('story.timeline.event6'), location: "London", image: null, side: "right" },
+        { date: "July", year: "2023", caption: t('story.timeline.event7'), location: "Japan", image: null, side: "left" },
+        { date: "March", year: "2024", caption: t('story.timeline.event8'), location: "London", image: null, side: "right" },
+        { date: "June", year: "2024", caption: t('story.timeline.event9'), location: "Ischia", image: null, side: "left" },
+        { date: "July", year: "2024", caption: t('story.timeline.event10'), location: "Iceland", image: null, side: "right" },
+        { date: "Winter", year: "2024", caption: t('story.timeline.event11'), location: "London", image: null, side: "left" },
+        { date: "December", year: "2024", caption: t('story.timeline.event12'), location: "Mexico", image: null, side: "right" },
+        { date: "March", year: "2025", caption: t('story.timeline.event13'), location: "Norway", image: null, side: "left" },
+        { date: "April", year: "2025", caption: t('story.timeline.event14'), location: "London", image: null, side: "right" },
+        { date: "Summer", year: "2025", caption: t('story.timeline.event15'), location: "London", image: null, side: "left" },
+        { date: "November", year: "2025", caption: t('story.timeline.event16'), location: "London", image: null, side: "right" },
+        { date: "June", year: "2026", caption: t('story.timeline.event17'), location: "Apulia", image: null, side: "left" },
     ];
 
     return (

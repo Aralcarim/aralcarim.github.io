@@ -49,11 +49,23 @@
             }
         },
         "timeline": {
-            "event1": "Primo incontro a Praga",
-            "event2": "Il nostro viaggio a Venezia",
-            "event3": "Andare a vivere insieme",
-            "event4": "Capodanno Insieme",
-            "event5": "Il Giorno del Matrimonio!"
+            "event1": "Ci siamo incontrati a Londra",
+            "event2": "Il nostro primo viaggio insieme per festeggiare il 30° compleanno di Cinzia",
+            "event3": "Il nostro primo viaggio in famiglia",
+            "event4": "Ritorno in Italia per dare il benvenuto a una nuova vita in famiglia, nostro nipote Giovanni",
+            "event5": "La nostra prima fuga romantica",
+            "event6": "Siamo andati ufficialmente a convivere, AKA Geena e Cinzia si sono trasferite a West Ealing",
+            "event7": "Il nostro primo lungo viaggio insieme dall'altra parte del mondo. E alla fine ci piacevamo ancora",
+            "event8": "Abbiamo comprato la nostra prima casa e siamo andati a vivere insieme",
+            "event9": "Abbiamo festeggiato il nostro 2° anniversario con le nostre famiglie nel nostro primo viaggio tutti insieme... siamo sopravvissuti, credo",
+            "event10": "Abbiamo cementato la nostra relazione capendo che siamo entrambi tipi da spiaggia",
+            "event11": "Abbiamo ristrutturato casa per renderla più il nostro nido personale",
+            "event12": "Il nostro primo Natale in spiaggia",
+            "event13": "La nostra prima volta a caccia dell'aurora boreale insieme (e Vaclav si è lamentato tutto il tempo)",
+            "event14": "Abbiamo aperto la nostra casa e organizzato la festa di inaugurazione",
+            "event15": "Abbiamo deciso di \"metterci un anello\"",
+            "event16": "Abbiamo adottato i nostri gattini neri - Loki e Freya. Perché la vita è migliore con i gatti!",
+            "event17": "È ora di sposarsi"
         }
     },
     "run_of_show": {
