@@ -3,7 +3,7 @@
         "home": "Home",
         "story": "La Nostra Storia",
         "gallery": "Galleria",
-        "events": "Eventi",
+        "run_of_show": "Eventi",
         "faq": "FAQ",
         "travel": "Viaggio & Alloggio",
         "things_to_do": "Cose da fare in zona",
@@ -56,7 +56,7 @@
             "event5": "Il Giorno del Matrimonio!"
         }
     },
-    "events": {
+    "run_of_show": {
         "title": "Programma",
         "venue": {
             "title": "Le Querce di Mamre",

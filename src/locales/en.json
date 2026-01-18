@@ -3,7 +3,7 @@
         "home": "Home",
         "story": "Our Story",
         "gallery": "Gallery",
-        "events": "Run of Show",
+        "run_of_show": "Run of Show",
         "faq": "FAQ",
         "travel": "Travel & Accommodations",
         "things_to_do": "Things to do",
@@ -56,7 +56,7 @@
             "event5": "The Wedding Day!"
         }
     },
-    "events": {
+    "run_of_show": {
         "title": "Run of Show",
         "venue": {
             "title": "Le Querce di Mamre",

@@ -3,7 +3,7 @@
         "home": "Startseite",
         "story": "Unsere Geschichte",
         "gallery": "Fotos",
-        "events": "Ablauf",
+        "run_of_show": "Ablauf",
         "faq": "FAQ",
         "travel": "Anreise & Unterkunft",
         "things_to_do": "Aktivitäten in der Umgebung",
@@ -56,7 +56,7 @@
             "event5": "Der Hochzeitstag!"
         }
     },
-    "events": {
+    "run_of_show": {
         "title": "Ablauf",
         "venue": {
             "title": "Le Querce di Mamre",

@@ -24,15 +24,15 @@ const Navbar = () => {
         const links = [
             { name: t('nav.home'), path: '/' },
             { name: t('nav.story'), path: '/story' },
-            { name: t('nav.events'), path: '/events' },
             { name: t('nav.rsvp'), path: '/rsvp' },
+            { name: t('nav.registry'), path: '/registry' },
             { name: t('nav.faq'), path: '/faq' },
+            { name: t('nav.run_of_show'), path: '/run-of-show' },
             { name: t('nav.travel'), path: '/travel' },
+            { name: t('nav.map'), path: '/map' },
             { name: t('nav.things_to_know'), path: '/things-to-know' },
             { name: t('nav.things_to_do'), path: '/things-to-do' },
-            { name: t('nav.registry'), path: '/registry' },
             { name: t('nav.gallery'), path: '/gallery' },
-            { name: t('nav.map'), path: '/map' },
             { name: t('nav.contact'), path: '/contact' }
         ];
         setAllLinks(links);

@@ -28,42 +28,42 @@ const TimelineEvent = ({ time, title, desc, delay }) => (
 const RunOfShow = () => {
     const { t } = useTranslation();
 
-    const events = [
+    const timelineItems = [
         {
-            time: t('events.timeline.ceremony.time'),
-            title: t('events.timeline.ceremony.title'),
-            desc: t('events.timeline.ceremony.desc'),
+            time: t('run_of_show.timeline.ceremony.time'),
+            title: t('run_of_show.timeline.ceremony.title'),
+            desc: t('run_of_show.timeline.ceremony.desc'),
             delay: 0.2
         },
         {
-            time: t('events.timeline.entrees.time'),
-            title: t('events.timeline.entrees.title'),
-            desc: t('events.timeline.entrees.desc'),
+            time: t('run_of_show.timeline.entrees.time'),
+            title: t('run_of_show.timeline.entrees.title'),
+            desc: t('run_of_show.timeline.entrees.desc'),
             delay: 0.3
         },
         {
-            time: t('events.timeline.lunch.time'),
-            title: t('events.timeline.lunch.title'),
-            desc: t('events.timeline.lunch.desc'),
+            time: t('run_of_show.timeline.lunch.time'),
+            title: t('run_of_show.timeline.lunch.title'),
+            desc: t('run_of_show.timeline.lunch.desc'),
             delay: 0.4
         },
         {
-            time: t('events.timeline.cake.time'),
-            title: t('events.timeline.cake.title'),
-            desc: t('events.timeline.cake.desc'),
+            time: t('run_of_show.timeline.cake.time'),
+            title: t('run_of_show.timeline.cake.title'),
+            desc: t('run_of_show.timeline.cake.desc'),
             delay: 0.5
         },
         {
-            time: t('events.timeline.afterparty.time'),
-            title: t('events.timeline.afterparty.title'),
-            desc: t('events.timeline.afterparty.desc'),
+            time: t('run_of_show.timeline.afterparty.time'),
+            title: t('run_of_show.timeline.afterparty.title'),
+            desc: t('run_of_show.timeline.afterparty.desc'),
             delay: 0.6
         }
     ];
 
     return (
         <Layout>
-            <div className="events-container">
+            <div className="run-of-show-container">
                 <div className="container" style={{ padding: '60px 20px' }}>
 
                     {/* Venue Section */}
@@ -83,7 +83,7 @@ const RunOfShow = () => {
                             viewport={{ once: true }}
                             className="venue-title"
                         >
-                            {t('events.venue.title')}
+                            {t('run_of_show.venue.title')}
                         </motion.h1>
 
                         <motion.p
@@ -93,7 +93,7 @@ const RunOfShow = () => {
                             viewport={{ once: true }}
                             className="venue-blurb"
                         >
-                            {t('events.venue.blurb')}
+                            {t('run_of_show.venue.blurb')}
                         </motion.p>
 
                         <motion.a
@@ -106,18 +106,18 @@ const RunOfShow = () => {
                             transition={{ delay: 0.2 }}
                             viewport={{ once: true }}
                         >
-                            {t('events.venue.directions')}
+                            {t('run_of_show.venue.directions')}
                         </motion.a>
                     </section>
 
                     {/* Timeline Section */}
                     <section className="timeline-section">
                         <h2 className="text-center" style={{ marginBottom: '50px', fontSize: '2.5rem', fontFamily: 'var(--font-heading)' }}>
-                            {t('events.title')}
+                            {t('run_of_show.title')}
                         </h2>
 
                         <div className="timeline-list">
-                            {events.map((event, index) => (
+                            {timelineItems.map((event, index) => (
                                 <TimelineEvent key={index} {...event} />
                             ))}
                         </div>
