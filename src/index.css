@@ -27,7 +27,8 @@ body {
   background-color: var(--color-bg);
   background-image:
     linear-gradient(135deg, var(--color-lilac-pale) 0%, var(--color-peach-pale) 50%, var(--color-pink-soft) 100%),
-    url('/assets/bg-pattern.png'); /* Ensure this path is correct relative to public */
+    url('/assets/bg-pattern.png');
+  /* Ensure this path is correct relative to public */
   background-repeat: repeat;
   background-blend-mode: multiply;
   background-attachment: fixed;
@@ -36,18 +37,26 @@ body {
   min-height: 100vh;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
-  color: var(--color-text); /* Dark text for headings often looks better, using gold for accents */
+  color: var(--color-text);
+  /* Dark text for headings often looks better, using gold for accents */
 }
 
-h1.accent, h2.accent {
-    color: var(--color-gold);
+h1.accent,
+h2.accent {
+  color: var(--color-gold);
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: var(--color-gold);
   transition: color 0.3s ease;
 }
 
@@ -62,22 +71,47 @@ a:hover {
   padding: 0 20px;
 }
 
-.text-gold { color: var(--color-gold); }
-.text-lilac { color: var(--color-lilac); }
-.text-peach { color: var(--color-peach); }
-.text-center { text-align: center; }
-.flex { display: flex; }
-.flex-col { flex-direction: column; }
-.items-center { align-items: center; }
-.justify-center { justify-content: center; }
+.text-gold {
+  color: var(--color-gold);
+}
+
+.text-lilac {
+  color: var(--color-lilac);
+}
+
+.text-peach {
+  color: var(--color-peach);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
 
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
   background: var(--color-bg);
 }
+
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(var(--color-lilac), var(--color-peach));
   border-radius: 4px;
@@ -354,6 +388,7 @@ a:hover {
     opacity: 0;
     transform: translateY(-5px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
