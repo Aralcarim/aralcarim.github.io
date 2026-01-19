@@ -27,6 +27,7 @@
     font-weight: 700;
     letter-spacing: 1px;
     color: var(--color-text);
+    text-decoration: none;
 }
 
 .nav-menu {
