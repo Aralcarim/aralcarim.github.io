@@ -122,10 +122,10 @@ const Travel = () => {
                             marginBottom: '8px',
                             fontSize: '1.1rem'
                         }}>
-                            🚐 {t('travel.toCity.shuttle')}
+                            🚕 {t('travel.toCity.taxi')}
                         </h4>
                         <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}>
-                            {t('travel.toCity.shuttleDesc')}
+                            {t('travel.toCity.taxiDesc')}
                         </p>
                     </div>
 
@@ -138,9 +138,10 @@ const Travel = () => {
                         }}>
                             🚂 {t('travel.toCity.train')}
                         </h4>
-                        <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}>
-                            {t('travel.toCity.trainDesc')}
-                        </p>
+                        <p
+                            style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}
+                            dangerouslySetInnerHTML={{ __html: t('travel.toCity.trainDesc') }}
+                        />
                     </div>
                 </div>
             </div>

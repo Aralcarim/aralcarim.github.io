@@ -215,30 +215,30 @@
             "title": "Airports",
             "pescara": {
                 "name": "Pescara Airport (PSR)",
-                "desc": "Approximately 1 hour 15 minutes from Apricena. A smaller airport with fewer connections but closer to our home base.",
-                "drive": "~1h 15m drive to Apricena"
+                "desc": "Approximately 1 hour 30 minutes drive to Apricena. A smaller airport with fewer connections but closer to our home base.",
+                "drive": "~1h 30m drive to Apricena"
             },
             "bari": {
                 "name": "Bari Airport (BRI)",
-                "desc": "The largest international airport in the region with the most flight options. About 1 hour 45 minutes from Apricena.",
+                "desc": "The largest international airport in the region with the most flight options. Approximately 1 hour 45 minutes drive to Apricena.",
                 "drive": "~1h 45m drive to Apricena"
             }
         },
         "toCity": {
             "title": "Getting to Apricena",
-            "desc": "We'll be staying in Apricena, a charming town in the Gargano area. Here are your options to get there from the airports:",
+            "desc": "We'll be staying in Apricena, a charming town in the Gargano area and the hometown of the bride. Here are your options to get there from the airports:",
             "rental": "Car Rental",
-            "rentalDesc": "Recommended for flexibility. Rent directly at the airport and drive via the A14 highway.",
-            "shuttle": "Private Shuttle",
-            "shuttleDesc": "We can help arrange private transfers. Contact us if interested.",
-            "train": "Train + Taxi",
-            "trainDesc": "Take train to Pescara or Foggia, then taxi to Apricena."
+            "rentalDesc": "Recommended for flexibility. Rent directly at the airport.",
+            "taxi": "Taxi",
+            "taxiDesc": "Expect taxis to be available only between airport and train stations.",
+            "train": "Trains",
+            "trainDesc": "Direct trains are available from Pescara Centrale station and Bari Centrale station to San Severo or Foggia. Timetable can be found on the <a href='https://www.trenitalia.com/it.html' target='_blank' rel='noopener noreferrer'>Trenitalia website</a>."
         },
         "toVenue": {
             "title": "Getting to the Venue",
             "desc": "The wedding venue is a short drive from Apricena:",
             "fromApricena": "From Apricena",
-            "fromApricenaDesc": "Approximately 15-20 minutes by car. We'll provide detailed directions closer to the wedding.",
+            "fromApricenaDesc": "The wedding is in Querce di Mamre and google maps is reliable to get there.",
             "parking": "Parking Available",
             "parkingDesc": "Free parking is available at the venue for all guests."
         },

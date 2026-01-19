@@ -228,17 +228,17 @@
             "title": "Arrivare ad Apricena",
             "desc": "Saremo ad Apricena, una città charmante nell'area del Gargano. Ecco le tue opzioni:",
             "rental": "Noleggio Auto",
-            "rentalDesc": "Consigliato per la flessibilità. Noleggia direttamente all'aeroporto e guida tramite l'autostrada A14.",
-            "shuttle": "Shuttle Privato",
-            "shuttleDesc": "Possiamo aiutare ad organizzare transfer privati. Contattaci se interessati.",
-            "train": "Treno + Taxi",
-            "trainDesc": "Prendi il treno per Pescara o Foggia, poi taxi per Apricena."
+            "rentalDesc": "Consigliato per la flessibilità. Noleggia direttamente all'aeroporto.",
+            "taxi": "Taxi",
+            "taxiDesc": "Expect taxis to be available only between airport and train stations.",
+            "train": "Treni",
+            "trainDesc": "Direct trains are available from Pescara Centrale station and Bari Centrale station to San Severo or Foggia. Timetable can be found on the <a href='https://www.trenitalia.com/it.html' target='_blank' rel='noopener noreferrer'>Trenitalia website</a>."
         },
         "toVenue": {
             "title": "Arrivare alla Location",
             "desc": "La location del matrimonio è a breve distanza in auto da Apricena:",
             "fromApricena": "Da Apricena",
-            "fromApricenaDesc": "Circa 15-20 minuti in auto. Forniremo indicazioni dettagliate più vicino alla data del matrimonio.",
+            "fromApricenaDesc": "The wedding is in Querce di Mamre and google maps is reliable to get there.",
             "parking": "Parcheggio Disponibile",
             "parkingDesc": "Parcheggio gratuito disponibile alla location per tutti gli ospiti."
         },
