@@ -78,14 +78,14 @@
         "title": "Ablauf",
         "venue": {
             "title": "Le Querce di Mamre",
-            "blurb": "Eingebettet im Herzen Apuliens ist Le Querce di Mamre ein zeitloser Zufluchtsort mediterraner Schönheit. Umgeben von alten Eichen und Olivenhainen verbindet dieser Ort rustikalen Charme mit raffinierter Eleganz und bietet die perfekte Kulisse für unsere Feier.",
+            "blurb": "Eingebettet im Herzen Apuliens ist Le Querce di Mamre ein zeitloser Zufluchtsort mediterraner Schönheit. Umgeben von alten Olivenbäumen verbindet dieser Ort rustikalen Charme mit raffinierter Eleganz und bietet die perfekte Kulisse für unsere Feier.",
             "directions": "Wegbeschreibung"
         },
         "timeline": {
             "ceremony": {
                 "title": "Die Trauung",
                 "time": "12:30",
-                "desc": "Begleite uns, wenn wir unsere Eheversprechen im Schatten alter Eichen in einer feierlichen Zeremonie im Freien austauschen."
+                "desc": "Begleite uns, wenn wir unsere Eheversprechen im Schatten alter Olivenbäume in einer feierlichen Zeremonie im Freien austauschen."
             },
             "entrees": {
                 "title": "Vorspeisen & Aperitif",
@@ -95,12 +95,12 @@
             "lunch": {
                 "title": "Mittagessen & Feier",
                 "time": "14:30",
-                "desc": "Wir begeben uns hinein zu einem authentischen italienischen Hochzeitsmahl, gefolgt von Tanz und Feierlichkeiten."
+                "desc": "Wir begeben uns hinein zu einem authentischen italienischen Hochzeitsmahl, Tanz und Feierlichkeiten mit unseren Liebsten."
             },
             "cake": {
                 "title": "Anschnitt der Hochzeitstorte",
                 "time": "20:00",
-                "desc": "Ein süßer Moment, in dem wir gemeinsam unsere Hochzeitstorte anschneiden und den Beginn eines magischen Abends markieren."
+                "desc": "Ein süßer Moment, in dem wir gemeinsam unsere Hochzeitstorte anschneiden und den Beginn eines magischen Abends unter dem Sternenhimmel markieren."
             },
             "afterparty": {
                 "title": "After-Party & Offene Bar",
@@ -189,11 +189,11 @@
             "children": "Sind Kinder eingeladen?",
             "children_a": "Kinder sind willkommen! Es wird einen Babysitter geben, der sich um Kinder ab 3 Jahren kümmert. Wir bitten euch dennoch freundlich, ein Auge auf sie zu haben, zur Sicherheit der Arbeiter und tanzenden Leute.",
             "where_to_go": "Wo soll ich hin?",
-            "where_to_go_a": "Obwohl die Veranstaltung in Le Querce di Mamre ist, empfehlen wir allen, Unterkünfte in Apricena oder San Severo zu buchen, wo wir auch übernachten werden. Es ist eine 30-minütige Fahrt.",
+            "where_to_go_a": "Obwohl die Veranstaltung in Le Querce di Mamre ist, empfehlen wir allen, Unterkünfte in Apricena oder San Severo zu buchen, in der Provinz Foggia (FG), wo wir auch übernachten werden. Es ist eine 30-minütige Fahrt.",
             "how_get_there": "Wie komme ich dorthin?",
             "how_get_there_a": "Die nächstgelegenen Flughäfen sind Bari-Palese (BRI) und Pescara (PSR). Der Flughafen Neapel ist eine Option, dauert aber eine Stunde länger. Siehe die <travelLink>Anreise & Unterkunft</travelLink>-Seite für Details.",
             "car_rental": "Wo kann ich ein Auto mieten?",
-            "car_rental_a": "Placeholder: Wir empfehlen, bei seriösen Agenturen am Flughafen zu mieten.",
+            "car_rental_a": "Wir empfehlen, bei seriösen Agenturen am Flughafen zu mieten.",
             "venue_transport": "Wie komme ich zum Veranstaltungsort?",
             "venue_transport_a": "Wir organisieren Shuttles für Hin- und Rückfahrt, damit die Gäste ohne Sorgen trinken können. Wenn ihr fahren möchtet, könnt ihr das gerne tun.",
             "parking": "Gibt es Parkmöglichkeiten?",
@@ -205,7 +205,7 @@
             "registry": "Gibt es eine Geschenkeliste?",
             "registry_a": "Wir haben keine traditionelle Geschenkeliste, aber alles, was ihr wissen müsst, steht auf der <registryLink>Geschenkeliste</registryLink>-Seite.",
             "unplugged": "Ist die Zeremonie 'unplugged'?",
-            "unplugged_a": "Es wird einen professionellen Fotografen geben, um die Zeremonie zu dokumentieren, damit ihr ganz bei uns sein könnt.",
+            "unplugged_a": "Da ein professioneller Fotograf die Zeremonie dokumentieren wird, bitten wir euch, selbst keine Fotos oder Videos zu machen. So könnt ihr den Moment voll und ganz mit uns genießen.",
             "take_photos": "Dürfen wir den Rest des Tages Fotos machen?",
             "take_photos_a": "Ja, absolut! Ihr dürft gerne den Rest des Tages Fotos machen.",
             "schedule": "Wie ist der Ablauf?",
@@ -226,8 +226,8 @@
             "title": "Flughäfen",
             "pescara": {
                 "name": "Flughafen Pescara (PSR)",
-                "desc": "Etwa 1 Stunde 15 Minuten von Apricena. Ein kleinerer Flughafen mit weniger Verbindungen, aber näher an unserem Zuhause.",
-                "drive": "~1h 15m Fahrt nach Apricena"
+                "desc": "Etwa 1 Stunde 30 Minuten von Apricena. Ein kleinerer Flughafen mit weniger Verbindungen, aber näher an unserem Zuhause.",
+                "drive": "~1h 30m Fahrt nach Apricena"
             },
             "bari": {
                 "name": "Flughafen Bari (BRI)",
@@ -237,19 +237,19 @@
         },
         "toCity": {
             "title": "Nach Apricena",
-            "desc": "Wir werden in Apricena bleiben, einer charmanten Stadt im Gargano-Gebiet. Hier sind deine Optionen:",
+            "desc": "Wir werden in Apricena bleiben, einer charmanten Stadt im Gargano-Gebiet und die Heimatstadt der Braut. Hier sind deine Optionen:",
             "rental": "Mietwagen",
             "rentalDesc": "Empfohlen für Flexibilität. Direkt am Flughafen mieten.",
             "taxi": "Taxi",
-            "taxiDesc": "Expect taxis to be available only between airport and train stations.",
+            "taxiDesc": "Taxis sind in der Regel nur zwischen Flughafen und Bahnhöfen verfügbar.",
             "train": "Züge",
-            "trainDesc": "Direct trains are available from Pescara Centrale station and Bari Centrale station to San Severo or Foggia. Timetable can be found on the <a href='https://www.trenitalia.com/it.html' target='_blank' rel='noopener noreferrer'>Trenitalia website</a>."
+            "trainDesc": "Direktzüge fahren von Pescara Centrale und Bari Centrale nach San Severo oder Foggia. Fahrpläne findet ihr auf der <a href='https://www.trenitalia.com/it.html' target='_blank' rel='noopener noreferrer'>Trenitalia-Website</a>."
         },
         "toVenue": {
             "title": "Zum Veranstaltungsort",
             "desc": "Die Hochzeitslocation ist eine kurze Fahrt von Apricena:",
             "fromApricena": "Von Apricena",
-            "fromApricenaDesc": "The wedding is in Querce di Mamre and google maps is reliable to get there.",
+            "fromApricenaDesc": "Die Hochzeit findet in Le Querce di Mamre statt und Google Maps führt zuverlässig dorthin.",
             "parking": "Parkplätze verfügbar",
             "parkingDesc": "Kostenlose Parkplätze stehen am Veranstaltungsort für alle Gäste zur Verfügung."
         },
@@ -418,7 +418,7 @@
         "presence_title": "Deine Anwesenheit ist unser schönstes Geschenk",
         "presence_text": "Das Wichtigste für uns ist, dass du an unserem besonderen Tag dabei bist. Deine Anwesenheit, dein Lachen und deine Liebe sind alles, was wir uns wirklich wünschen.",
         "honeymoon_title": "Flitterwochen-Fonds",
-        "honeymoon_text": "Wenn du uns mit mehr als deiner Anwesenheit ehren möchtest, wäre ein Beitrag zu unseren Flitterwochen eine wunderbare Geste. Wir planen eine unvergessliche Reise, die wir ein Leben lang festhalten werden.",
+        "honeymoon_text": "Wenn du uns mit mehr als deiner Anwesenheit ehren möchtest, wäre ein Beitrag zu unseren Flitterwochen eine wunderbare Geste. Wir planen eine unvergessliche Reise nach Neuseeland und Französisch-Polynesien, die wir ein Leben lang festhalten werden.",
         "eu_bank": "Europäische Überweisung",
         "uk_bank": "UK Banküberweisung",
         "iban": "IBAN",

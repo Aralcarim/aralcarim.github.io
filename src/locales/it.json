@@ -78,14 +78,14 @@
         "title": "Programma",
         "venue": {
             "title": "Le Querce di Mamre",
-            "blurb": "Immersa nel cuore della Puglia, Le Querce di Mamre è un santuario senza tempo di bellezza mediterranea. Circondata da querce secolari e uliveti, questa location unisce il fascino rustico a un'eleganza raffinata, offrendo la cornice perfetta per la nostra festa.",
+            "blurb": "Immersa nel cuore della Puglia, Le Querce di Mamre è un santuario senza tempo di bellezza mediterranea. Circondata da ulivi secolari, questa location unisce il fascino rustico a un'eleganza raffinata, offrendo la cornice perfetta per la nostra festa.",
             "directions": "Indicazioni"
         },
         "timeline": {
             "ceremony": {
                 "title": "La Cerimonia",
                 "time": "12:30",
-                "desc": "Unitevi a noi mentre scambiamo le nostre promesse all'ombra di querce secolari in una sentita cerimonia all'aperto."
+                "desc": "Unitevi a noi mentre scambiamo le nostre promesse all'ombra di ulivi secolari in una sentita cerimonia all'aperto."
             },
             "entrees": {
                 "title": "Antipasti e Aperitivo",
@@ -95,7 +95,7 @@
             "lunch": {
                 "title": "Pranzo e Festa",
                 "time": "14:30",
-                "desc": "Ci sposteremo all'interno per un autentico banchetto nuziale italiano, seguito da balli e festeggiamenti."
+                "desc": "Ci sposteremo all'interno per un autentico banchetto nuziale italiano, balli e festeggiamenti con i nostri cari."
             },
             "cake": {
                 "title": "Taglio della Torta",
@@ -187,13 +187,13 @@
             "plus_one": "Posso portare un accompagnatore?",
             "plus_one_a": "Gli accompagnatori sono i benvenuti purché ci informiate entro la scadenza sopra indicata. Se incontrate qualcuno tra marzo e giugno, il vostro accompagnatore è il benvenuto purché ce lo facciate sapere entro il 31 maggio.",
             "children": "I bambini sono invitati?",
-            "children_a": "I bambini sono i benvenuti! Ci sarà una babysitter per occuparsi dei bambini dai 3 anni in su. Chiediamo comunque gentilmente di tenerli d'occhio per la sicurezza dei lavoratori e di chi balla.",
+            "children_a": "I bambini sono i benvenuti! Ci sarà un babysitter per occuparsi dei bambini dai 3 anni in su. Chiediamo comunque gentilmente di tenerli d'occhio per la sicurezza dei lavoratori e di chi balla.",
             "where_to_go": "Dove dovrei andare?",
-            "where_to_go_a": "Sebbene l'evento sia a Le Querce di Mamre, consigliamo a tutti di prenotare l'alloggio ad Apricena o San Severo, dove alloggeremo anche noi. È a 30 minuti di auto.",
+            "where_to_go_a": "Sebbene l'evento sia a Le Querce di Mamre, consigliamo a tutti di prenotare l'alloggio ad Apricena o San Severo, in provincia di Foggia (FG), dove alloggeremo anche noi. È a 30 minuti di auto.",
             "how_get_there": "Come arrivo a destinazione?",
             "how_get_there_a": "Gli aeroporti più vicini sono Bari-Palese (BRI) e Pescara (PSR). L'aeroporto di Napoli è un'opzione, ma ci vorrà un'ora in più. Vedi la pagina <travelLink>Viaggio e Alloggio</travelLink> per i dettagli.",
             "car_rental": "Dove posso noleggiare un'auto?",
-            "car_rental_a": "Placeholder: Consigliamo di noleggiare presso agenzie affidabili in aeroporto.",
+            "car_rental_a": "Consigliamo di noleggiare presso agenzie affidabili in aeroporto.",
             "venue_transport": "Come arrivo alla location?",
             "venue_transport_a": "Stiamo organizzando navette per l'andata e il ritorno in modo che gli ospiti possano bere senza preoccupazioni. Se desiderate guidare, siete i benvenuti a farlo.",
             "parking": "C'è disponibilità di parcheggio?",
@@ -205,7 +205,7 @@
             "registry": "Avete una lista nozze?",
             "registry_a": "Non abbiamo una lista nozze tradizionale, ma tutto ciò che c'è da sapere è sulla pagina <registryLink>Lista Nozze</registryLink>.",
             "unplugged": "La cerimonia è 'unplugged'?",
-            "unplugged_a": "Ci sarà un fotografo professionista per documentare la cerimonia, permettendovi di essere pienamente presenti con noi.",
+            "unplugged_a": "Dato che ci sarà un fotografo professionista a documentare la cerimonia, vi chiediamo di astenervi dallo scattare foto o video. Questo vi permetterà di essere pienamente presenti con noi.",
             "take_photos": "Possiamo scattare foto durante il resto della giornata?",
             "take_photos_a": "Sì, assolutamente! Siete i benvenuti a scattare foto durante il resto della giornata.",
             "schedule": "Qual è il programma della giornata?",
@@ -226,8 +226,8 @@
             "title": "Aeroporti",
             "pescara": {
                 "name": "Aeroporto di Pescara (PSR)",
-                "desc": "Circa 1 ora e 15 minuti da Apricena. Un aeroporto più piccolo con meno connessioni ma più vicino alla nostra base.",
-                "drive": "~1h 15m di guida per Apricena"
+                "desc": "Circa 1 ora e 30 minuti da Apricena. Un aeroporto più piccolo con meno connessioni ma più vicino alla nostra base.",
+                "drive": "~1h 30m di guida per Apricena"
             },
             "bari": {
                 "name": "Aeroporto di Bari (BRI)",
@@ -237,19 +237,19 @@
         },
         "toCity": {
             "title": "Arrivare ad Apricena",
-            "desc": "Saremo ad Apricena, una città charmante nell'area del Gargano. Ecco le tue opzioni:",
+            "desc": "Saremo ad Apricena, una città charmante nell'area del Gargano e città natale della sposa. Ecco le tue opzioni:",
             "rental": "Noleggio Auto",
             "rentalDesc": "Consigliato per la flessibilità. Noleggia direttamente all'aeroporto.",
             "taxi": "Taxi",
-            "taxiDesc": "Expect taxis to be available only between airport and train stations.",
+            "taxiDesc": "I taxi sono disponibili generalmente solo tra l'aeroporto e le stazioni ferroviarie.",
             "train": "Treni",
-            "trainDesc": "Direct trains are available from Pescara Centrale station and Bari Centrale station to San Severo or Foggia. Timetable can be found on the <a href='https://www.trenitalia.com/it.html' target='_blank' rel='noopener noreferrer'>Trenitalia website</a>."
+            "trainDesc": "Treni diretti sono disponibili dalla stazione di Pescara Centrale e Bari Centrale per San Severo o Foggia. Gli orari sono disponibili sul <a href='https://www.trenitalia.com/it.html' target='_blank' rel='noopener noreferrer'>sito di Trenitalia</a>."
         },
         "toVenue": {
             "title": "Arrivare alla Location",
             "desc": "La location del matrimonio è a breve distanza in auto da Apricena:",
             "fromApricena": "Da Apricena",
-            "fromApricenaDesc": "The wedding is in Querce di Mamre and google maps is reliable to get there.",
+            "fromApricenaDesc": "Il matrimonio è alle Querce di Mamre e Google Maps è affidabile per arrivarci.",
             "parking": "Parcheggio Disponibile",
             "parkingDesc": "Parcheggio gratuito disponibile alla location per tutti gli ospiti."
         },
@@ -418,7 +418,7 @@
         "presence_title": "La Tua Presenza è il Nostro Più Grande Regalo",
         "presence_text": "La cosa più importante per noi è averti lì per celebrare il nostro giorno speciale. La tua presenza, le tue risate e il tuo amore sono tutto ciò che desideriamo veramente.",
         "honeymoon_title": "Fondo Viaggio di Nozze",
-        "honeymoon_text": "Se desideri onorarci con qualcosa di più, un contributo verso il nostro viaggio di nozze sarebbe meraviglioso. Stiamo pianificando un viaggio indimenticabile per creare ricordi che dureranno tutta la vita.",
+        "honeymoon_text": "Se desideri onorarci con qualcosa di più, un contributo verso il nostro viaggio di nozze sarebbe meraviglioso. Stiamo pianificando un viaggio indimenticabile in Nuova Zelanda e Polinesia Francese per creare ricordi che dureranno tutta la vita.",
         "eu_bank": "Bonifico Europeo",
         "uk_bank": "Bonifico UK",
         "iban": "IBAN",

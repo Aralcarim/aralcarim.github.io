@@ -78,14 +78,14 @@
         "title": "Run of Show",
         "venue": {
             "title": "Le Querce di Mamre",
-            "blurb": "Nestled in the heart of Apulia, Le Querce di Mamre is a timeless sanctuary of Mediterranean beauty. Surrounded by ancient oak trees and olive groves, this venue combines rustic charm with refined elegance, providing the perfect backdrop for our celebration.",
+            "blurb": "Nestled in the heart of Apulia, Le Querce di Mamre is a timeless sanctuary of Mediterranean beauty. Surrounded by ancient olive trees, this venue combines rustic charm with refined elegance, providing the perfect backdrop for our celebration.",
             "directions": "Get Directions"
         },
         "timeline": {
             "ceremony": {
                 "title": "The Ceremony",
                 "time": "12:30",
-                "desc": "Join us as we exchange our vows under the shade of ancient oaks in a heartfelt outdoor ceremony."
+                "desc": "Join us as we exchange our vows under the shade of ancient olive trees in a heartfelt outdoor ceremony."
             },
             "entrees": {
                 "title": "Entrées & Apertifs",
@@ -95,7 +95,7 @@
             "lunch": {
                 "title": "Lunch & Party",
                 "time": "14:30",
-                "desc": "We move inside for an authentic Italian wedding feast, followed by dancing and celebration with our loved ones."
+                "desc": "We move inside for an authentic Italian wedding feast, dancing, and celebration with our loved ones."
             },
             "cake": {
                 "title": "Cake Cutting",
@@ -418,7 +418,7 @@
         "presence_title": "Your Presence is Our Greatest Gift",
         "presence_text": "The most important thing for us is having you there to celebrate our special day. Your presence, laughter, and love are all we truly desire.",
         "honeymoon_title": "Honeymoon Fund",
-        "honeymoon_text": "If you wish to honor us with something more, a contribution towards our honeymoon adventures would mean the world. We're planning an unforgettable trip to create memories that will last a lifetime.",
+        "honeymoon_text": "If you wish to honor us with something more, a contribution towards our honeymoon adventures would mean the world. We're planning an unforgettable trip to New Zealand and French Polynesia to create memories that will last a lifetime.",
         "eu_bank": "European Bank Transfer",
         "uk_bank": "UK Bank Transfer",
         "iban": "IBAN",
