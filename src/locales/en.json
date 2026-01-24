@@ -142,6 +142,11 @@
         "message": "We kindly ask you to RSVP by March 31st. Please ensure you mention any dietary requirements in the form.",
         "button": "I Understand"
     },
+    "login": {
+        "title": "Welcome",
+        "description": "Please enter the password to access the wedding details.",
+        "submit": "Enter"
+    },
     "faq": {
         "title": "Frequently Asked Questions",
         "oneliner": "Most answers can be found on the rest of the website, but this page is as comprehensive as possible to allow for easy searching.",

@@ -2,11 +2,13 @@ import React from 'react';
 import Layout from '../layout/Layout';
 import { motion } from 'framer-motion';
 import { useTranslation, Trans } from 'react-i18next';
+import { useAuth } from '../context/AuthContext';
 import Countdown from '../components/Countdown';
 import './Home.css';
 
 const Home = () => {
     const { t } = useTranslation();
+    const { isAuthenticated } = useAuth();
 
     return (
         <Layout>
@@ -25,7 +27,9 @@ const Home = () => {
 
                     <div className="home-divider">
                         <p className="home-date">{t('home.date')}</p>
-                        <p className="home-location">{t('home.location')}</p>
+                        <p className="home-location">
+                            {isAuthenticated ? t('home.location') : "Apulia, Italy"}
+                        </p>
                     </div>
 
                     <Countdown />

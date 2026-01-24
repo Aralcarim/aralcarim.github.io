@@ -1,6 +1,8 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
+import { AuthProvider } from './context/AuthContext';
+import ProtectedRoute from './components/ProtectedRoute';
 
 // Layout and Common
 import Navbar from './layout/Navbar';
@@ -10,6 +12,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 // Pages
 import Home from './pages/Home';
+import Login from './pages/Login';
 import Story from './pages/Story';
 
 import RunOfShow from './pages/RunOfShow';
@@ -30,19 +33,104 @@ const AnimatedRoutes = () => {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
-        <Route path="/story" element={<Story />} />
+        <Route path="/login" element={<Login />} />
 
-        <Route path="/run-of-show" element={<RunOfShow />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/rsvp" element={<RSVP />} />
-        <Route path="/faq" element={<FAQ />} />
-        <Route path="/travel" element={<Travel />} />
-        <Route path="/things-to-do" element={<ThingsToDo />} />
-        <Route path="/things-to-know" element={<ThingsToKnow />} />
-        <Route path="/registry" element={<Registry />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/map" element={<Map />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route
+          path="/story"
+          element={
+            <ProtectedRoute>
+              <Story />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/run-of-show"
+          element={
+            <ProtectedRoute>
+              <RunOfShow />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/gallery"
+          element={
+            <ProtectedRoute>
+              <Gallery />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/rsvp"
+          element={
+            <ProtectedRoute>
+              <RSVP />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/faq"
+          element={
+            <ProtectedRoute>
+              <FAQ />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/travel"
+          element={
+            <ProtectedRoute>
+              <Travel />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/things-to-do"
+          element={
+            <ProtectedRoute>
+              <ThingsToDo />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/things-to-know"
+          element={
+            <ProtectedRoute>
+              <ThingsToKnow />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/registry"
+          element={
+            <ProtectedRoute>
+              <Registry />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <ProtectedRoute>
+              <Contact />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/map"
+          element={
+            <ProtectedRoute>
+              <Map />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/admin"
+          element={
+            <ProtectedRoute>
+              <Admin />
+            </ProtectedRoute>
+          }
+        />
       </Routes>
     </AnimatePresence>
   );
@@ -50,15 +138,17 @@ const AnimatedRoutes = () => {
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <Navbar />
-      <main style={{ minHeight: '80vh' }}>
-        <AnimatedRoutes />
-      </main>
-      <Footer />
-      <DisclaimerModal />
-    </Router>
+    <AuthProvider>
+      <Router>
+        <ScrollToTop />
+        <Navbar />
+        <main style={{ minHeight: '80vh' }}>
+          <AnimatedRoutes />
+        </main>
+        <Footer />
+        <DisclaimerModal />
+      </Router>
+    </AuthProvider>
   );
 }
 

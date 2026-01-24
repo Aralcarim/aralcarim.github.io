@@ -142,6 +142,11 @@
         "message": "Wir bitten dich, bis zum 31. März zu antworten. Bitte gib eventuelle Ernährungseinschränkungen im Formular an.",
         "button": "Verstanden"
     },
+    "login": {
+        "title": "Willkommen",
+        "description": "Bitte gib das Passwort ein, um auf die Hochzeitsdetails zuzugreifen.",
+        "submit": "Eintreten"
+    },
     "faq": {
         "title": "Häufig gestellte Fragen (FAQ)",
         "oneliner": "Die meisten Antworten findest du auf der restlichen Website, aber diese Seite ist so umfassend wie möglich, um eine einfache Suche zu ermöglichen.",

@@ -142,6 +142,11 @@
         "message": "Ti chiediamo gentilmente di rispondere entro il 31 marzo. Per favore indica eventuali esigenze alimentari nel modulo.",
         "button": "Ho Capito"
     },
+    "login": {
+        "title": "Benvenuto",
+        "description": "Inserisci la password per accedere ai dettagli del matrimonio.",
+        "submit": "Entra"
+    },
     "faq": {
         "title": "Domande Frequenti (FAQ)",
         "oneliner": "La maggior parte delle risposte si trova nel resto del sito, ma questa pagina è il più completa possibile per facilitare la ricerca.",
