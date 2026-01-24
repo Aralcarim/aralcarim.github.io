@@ -25,6 +25,12 @@
             "hours": "Ore",
             "minutes": "Minuti",
             "seconds": "Secondi"
+        },
+        "password_prompt": {
+            "text": "Inserisci la password che ti è stata fornita per sbloccare il sito",
+            "placeholder": "Password",
+            "button": "Sblocca",
+            "error": "Password errata"
         }
     },
     "story": {

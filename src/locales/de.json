@@ -25,6 +25,12 @@
             "hours": "Stunden",
             "minutes": "Minuten",
             "seconds": "Sekunden"
+        },
+        "password_prompt": {
+            "text": "Gib das Passwort ein, das du erhalten hast, um die Website freizuschalten",
+            "placeholder": "Passwort",
+            "button": "Entsperren",
+            "error": "Falsches Passwort"
         }
     },
     "story": {

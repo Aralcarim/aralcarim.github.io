@@ -25,6 +25,12 @@
             "hours": "Hours",
             "minutes": "Minutes",
             "seconds": "Seconds"
+        },
+        "password_prompt": {
+            "text": "Input the password you were given to unlock the website",
+            "placeholder": "Password",
+            "button": "Unlock",
+            "error": "Incorrect password"
         }
     },
     "story": {
