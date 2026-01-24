@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 :root {
-  --color-gold: #D4AF37;
-  --color-gold-light: #F4E5BC;
-  --color-pink: #FADADD;
-  --color-pink-soft: #FFE4E1;
-  --color-lilac: #C8A2C8;
-  --color-lilac-light: #E8D5E8;
-  --color-lilac-pale: #F5EDF5;
-  --color-peach: #FFDAB9;
-  --color-peach-light: #FFE5D9;
-  --color-peach-pale: #FFF3ED;
+  --color-gold: #E6C200;
+  --color-gold-light: #FFEC8B;
+  --color-pink: #FFB6C1;
+  --color-pink-soft: #FFDEE3;
+  --color-lilac: #D456D4;
+  --color-lilac-light: #F3CCF3;
+  --color-lilac-pale: #FCE6FC;
+  --color-peach: #FFAD85;
+  --color-peach-light: #FFD1B3;
+  --color-peach-pale: #FFF0E6;
   --color-text: #333333;
   --color-bg: #FAFAF5;
   --font-heading: 'Playfair Display', serif;
