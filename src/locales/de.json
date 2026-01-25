@@ -272,9 +272,9 @@
         "beaches": {
             "title": "Strände & Küste",
             "desc": "Die Gargano-Küste bietet einige der schönsten Strände und Küstenstädte Italiens.",
-            "polignano": {
-                "title": "Polignano a Mare",
-                "desc": "Beeindruckende Klippen und kristallklares Wasser. Berühmt für sein Strandrestaurant in einer Höhle."
+            "rodi": {
+                "title": "Rodi Garganico",
+                "desc": "Malerische Küstenstadt, bekannt für ihre Zitrusplantagen und langen Sandstrände."
             },
             "vieste": {
                 "title": "Vieste",
@@ -286,7 +286,7 @@
             }
         },
         "towns": {
-            "title": "Historische Städte",
+            "title": "Mehr in Apulien",
             "desc": "Entdecke die charmanten historischen Städte Apuliens, jede mit einzigartigem Charakter und Geschichte.",
             "alberobello": {
                 "title": "Alberobello",
@@ -298,9 +298,9 @@
                 "desc": "Bekannt als die 'Weiße Stadt' für ihre weißgetünchte Altstadt mit verwinkelten mittelalterlichen Gassen.",
                 "tip": "Tipp: Der Sonnenuntergang vom Dom aus ist spektakulär."
             },
-            "monte": {
-                "title": "Monte Sant'Angelo",
-                "desc": "Historische Stadt, Heimat des Heiligtums Monte Sant'Angelo, ein UNESCO-Welterbe."
+            "polignano": {
+                "title": "Polignano a Mare",
+                "desc": "Beeindruckende Klippen und kristallklares Wasser. Berühmt für sein Strandrestaurant in einer Höhle."
             }
         },
         "nature": {

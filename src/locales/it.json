@@ -272,9 +272,9 @@
         "beaches": {
             "title": "Spiagge & Costa",
             "desc": "La costa del Gargano offre alcune delle spiagge più belle d'Italia e cittadine marinare affascinanti.",
-            "polignano": {
-                "title": "Polignano a Mare",
-                "desc": "Scogliere spettacolari e acque cristalline. Famoso per il ristorante sulla spiaggia in una grotta marina."
+            "rodi": {
+                "title": "Rodi Garganico",
+                "desc": "Pittoresca cittadina di mare nota per i suoi agrumeti e le lunghe spiagge sabbiose."
             },
             "vieste": {
                 "title": "Vieste",
@@ -286,7 +286,7 @@
             }
         },
         "towns": {
-            "title": "Borghi Storici",
+            "title": "Altro in Puglia",
             "desc": "Esplora le affascinanti città storiche della Puglia, ognuna con carattere e storia unici.",
             "alberobello": {
                 "title": "Alberobello",
@@ -298,9 +298,9 @@
                 "desc": "Conosciuta come la 'Città Bianca' per il suo centro storico imbiancato con vicoli medievali.",
                 "tip": "Consiglio: I tramonti dalla cattedrale sono spettacolari."
             },
-            "monte": {
-                "title": "Monte Sant'Angelo",
-                "desc": "Città storica sede del Santuario di Monte Sant'Angelo, patrimonio UNESCO."
+            "polignano": {
+                "title": "Polignano a Mare",
+                "desc": "Scogliere spettacolari e acque cristalline. Famoso per il ristorante sulla spiaggia in una grotta marina."
             }
         },
         "nature": {

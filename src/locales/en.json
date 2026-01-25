@@ -272,9 +272,9 @@
         "beaches": {
             "title": "Beaches & Coastline",
             "desc": "The Gargano coast offers some of Italy's most beautiful beaches and seaside towns.",
-            "polignano": {
-                "title": "Polignano a Mare",
-                "desc": "Stunning cliffs and crystal-clear waters. Famous for its beach restaurant on a sea cave."
+            "rodi": {
+                "title": "Rodi Garganico",
+                "desc": "Picturesque seaside town known for its citrus groves and long sandy beaches."
             },
             "vieste": {
                 "title": "Vieste",
@@ -286,7 +286,7 @@
             }
         },
         "towns": {
-            "title": "Hill Towns & Culture",
+            "title": "More in Apulia",
             "desc": "Explore the charming historic towns of Apulia, each with unique character and history.",
             "alberobello": {
                 "title": "Alberobello",
@@ -298,9 +298,9 @@
                 "desc": "Known as the 'White City' for its whitewashed old town with winding medieval streets.",
                 "tip": "Tip: The sunset views from the cathedral are spectacular."
             },
-            "monte": {
-                "title": "Monte Sant'Angelo",
-                "desc": "Historic town home to the Sanctuary of Monte Sant'Angelo, a UNESCO site."
+            "polignano": {
+                "title": "Polignano a Mare",
+                "desc": "Stunning cliffs and crystal-clear waters. Famous for its beach restaurant on a sea cave."
             }
         },
         "nature": {

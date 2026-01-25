@@ -41,10 +41,10 @@ const ThingsToDo = () => {
                             marginBottom: '8px',
                             fontSize: '1.1rem'
                         }}>
-                            🏖️ {t('things_to_do.beaches.polignano.title')}
+                            🏖️ {t('things_to_do.beaches.rodi.title')}
                         </h4>
                         <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}>
-                            {t('things_to_do.beaches.polignano.desc')}
+                            {t('things_to_do.beaches.rodi.desc')}
                         </p>
                     </div>
 
@@ -148,10 +148,10 @@ const ThingsToDo = () => {
                             marginBottom: '10px',
                             fontSize: '1.2rem'
                         }}>
-                            ⛪ {t('things_to_do.towns.monte.title')}
+                            ⛪ {t('things_to_do.towns.polignano.title')}
                         </h4>
                         <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.95rem' }}>
-                            {t('things_to_do.towns.monte.desc')}
+                            {t('things_to_do.towns.polignano.desc')}
                         </p>
                     </div>
                 </div>
