@@ -319,13 +319,32 @@
                 "desc": "Bellissimo arcipelago raggiungibile in traghetto. Perfetto per gite di un giorno e snorkeling."
             }
         },
-        "food": {
-            "title": "Esperienze in Puglia",
-            "desc": "La Puglia è un paradiso per gli amanti del cibo. Non perderti queste delizie culinarie!",
-            "wine": {
-                "title": "Degustazione Vini",
-                "desc": "Visita cantine locali per assaggiare Primitivo, Negroamaro e vini rosé."
+        "wine": {
+            "title": "Degustazione Vini",
+            "desc": "La Puglia è famosa per i suoi vini. Ecco alcuni dei nostri posti preferiti per degustarli.",
+            "visit_website": "Visita il Sito",
+            "mandrione": {
+                "name": "Tenute Il Mandrione",
+                "location": "Vieste",
+                "desc": "Offre tour e degustazioni di vini Primitivo, Montepulciano e Bombino Bianco, oltre all'olio d'oliva, spesso con cibi locali, in una splendida cornice vicino alla Foresta Umbra.",
+                "url": "https://www.tenutemandrione.it/"
             },
+            "merinum": {
+                "name": "Cantine Merinum",
+                "location": "Vieste",
+                "desc": "Conosciuta per ottime degustazioni di vino con cibo e tour dei vigneti, offrendo un'esperienza sensoriale completa. Situata presso Tenuta Padre Pio.",
+                "url": "https://www.cantinemerinum.it/esperienze/"
+            },
+            "arapri": {
+                "name": "Cantina D'Araprì",
+                "location": "San Severo",
+                "desc": "Specializzata in spumanti metodo classico (Bombino Bianco, Nero di Troia) con tour delle cantine e degustazioni.",
+                "url": "https://www.darapri.it/en/"
+            }
+        },
+        "food": {
+            "title": "Altre Esperienze",
+            "desc": "Cerchi altre cose da fare?",
             "experts": {
                 "title": "Ascoltate gli esperti!",
                 "desc": "Ci sono così tante cose da fare nella zona che sarebbe impossibile elencarle tutte qui. Consigliamo di leggere online (siti come <a href='https://www.visitvieste.com/le-migliori-escursioni-sul-gargano-alla-scoperta-di-una-terra-autentica/' target='_blank' rel='noopener noreferrer'>VisitVieste.com</a>) e scegliere fonti locali piuttosto che influencer di Instagram. Chiedete pure se avete domande!"

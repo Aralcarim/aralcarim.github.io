@@ -319,16 +319,35 @@
                 "desc": "Wunderschöner Archipel, mit der Fähre erreichbar. Perfekt für Tagesausflüge und Schnorcheln."
             }
         },
-        "food": {
-            "title": "Erlebnisse in Apulien",
-            "desc": "Apulien ist ein Paradies für Feinschmecker. Verpassen Sie nicht diese Köstlichkeiten!",
-            "wine": {
-                "title": "Weinprobe",
-                "desc": "Besuchen Sie lokale Weingüter, um Primitivo, Negroamaro und Rosé-Weine zu verkosten."
+        "wine": {
+            "title": "Weinprobe",
+            "desc": "Apulien ist berühmt für seine Weine. Hier sind einige unserer Lieblingsorte für eine Weinprobe.",
+            "visit_website": "Zur Webseite",
+            "mandrione": {
+                "name": "Tenute Il Mandrione",
+                "location": "Vieste",
+                "desc": "Bietet Touren und Verkostungen von Primitivo, Montepulciano und Bombino Bianco Weinen sowie Olivenöl, oft mit lokalen Speisen, in einer atemberaubenden Umgebung am Umbra Wald.",
+                "url": "https://www.tenutemandrione.it/"
             },
+            "merinum": {
+                "name": "Cantine Merinum",
+                "location": "Vieste",
+                "desc": "Bekannt für tolle Weinproben mit passenden Speisen und Weinberg-Touren für ein umfassendes sensorisches Erlebnis. Befindet sich bei Tenuta Padre Pio.",
+                "url": "https://www.cantinemerinum.it/esperienze/"
+            },
+            "arapri": {
+                "name": "Cantina D'Araprì",
+                "location": "San Severo",
+                "desc": "Spezialisiert auf klassische Sekte (Bombino Bianco, Nero di Troia) mit Kellertouren und Verkostungen.",
+                "url": "https://www.darapri.it/en/"
+            }
+        },
+        "food": {
+            "title": "Weitere Empfehlungen",
+            "desc": "Suchen Sie nach noch mehr Aktivitäten?",
             "experts": {
                 "title": "Hören Sie auf die Experten!",
-                "desc": "Es gibt so viele Dinge in der Umgebung zu tun, dass es unmöglich wäre, sie alle hier aufzulisten. Wir empfehlen, online zu lesen (Sachen wie <a href='https://www.visitvieste.com/le-migliori-escursioni-sul-gargano-alla-scoperta-di-una-terra-autentica/' target='_blank' rel='noopener noreferrer'>VisitVieste.com</a>) und lokale Quellen den Instagram-Influencern vorzuziehen. Fragt gerne, wenn ihr Fragen habt!"
+                "desc": "Es gibt so viele Dinge in der Umgebung zu tun, dass es unmöglich wäre, sie alle hier aufzulisten. Wir empfehlen, online zu lesen (Seiten wie <a href='https://www.visitvieste.com/le-migliori-escursioni-sul-gargano-alla-scoperta-di-una-terra-autentica/' target='_blank' rel='noopener noreferrer'>VisitVieste.com</a>) und lokale Quellen gegenüber Instagram-Influencern zu bevorzugen. Fragen Sie uns gerne!"
             }
         }
     },

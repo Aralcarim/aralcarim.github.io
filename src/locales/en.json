@@ -319,13 +319,32 @@
                 "desc": "Beautiful archipelago accessible by ferry. Perfect for day trips and snorkeling."
             }
         },
-        "food": {
-            "title": "Experiences in Gargano, Apulia",
-            "desc": "Gargano is the geographical area where we're staying, with lots of things to do!",
-            "wine": {
-                "title": "Wine Tasting",
-                "desc": "Visit local wineries to taste Primitivo, Negroamaro, and rosé wines."
+        "wine": {
+            "title": "Wine Tasting",
+            "desc": "Apulia is famous for its wines. Here are some of our favorite places to taste them.",
+            "visit_website": "Visit Website",
+            "mandrione": {
+                "name": "Tenute Il Mandrione",
+                "location": "Vieste",
+                "desc": "Offers tours and tastings of Primitivo, Montepulciano, and Bombino Bianco wines, plus olive oil, often with local foods, in a stunning setting by the Umbra Forest.",
+                "url": "https://www.tenutemandrione.it/"
             },
+            "merinum": {
+                "name": "Cantine Merinum",
+                "location": "Vieste",
+                "desc": "Known for great wine tastings with complementary food and vineyard tours, providing a full sensory experience. Located at Tenuta Padre Pio.",
+                "url": "https://www.cantinemerinum.it/esperienze/"
+            },
+            "arapri": {
+                "name": "Cantina D'Araprì",
+                "location": "San Severo",
+                "desc": "Specializes in classic method sparkling wines (Bombino Bianco, Nero di Troia) with cellar tours and tastings.",
+                "url": "https://www.darapri.it/en/"
+            }
+        },
+        "food": {
+            "title": "More Recommendations",
+            "desc": "Looking for even more things to do?",
             "experts": {
                 "title": "Listen to the experts!",
                 "desc": "There are so many things to do in the area, that it would be impossible to list them all here. We do recommend reading online (pages like <a href='https://www.visitvieste.com/le-migliori-escursioni-sul-gargano-alla-scoperta-di-una-terra-autentica/' target='_blank' rel='noopener noreferrer'>VisitVieste.com</a>) and picking local sources rather than instagram influencers. Please ask if you have questions!"

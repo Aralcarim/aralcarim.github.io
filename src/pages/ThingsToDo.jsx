@@ -218,7 +218,143 @@ const ThingsToDo = () => {
                 </div>
             </div>
 
-            {/* Food & Wine Experiences - 3 Columns */}
+            {/* Wine Tasting - 3 Columns */}
+            <div style={{ marginBottom: '60px' }}>
+                <h3 style={{
+                    fontFamily: "'Playfair Display', serif",
+                    color: 'var(--color-primary)',
+                    marginBottom: '4px',
+                    fontSize: '1.8rem',
+                    fontWeight: '600',
+                    letterSpacing: '0.3px',
+                    textShadow: '0 1px 2px rgba(0,0,0,0.1)'
+                }}>
+                    {t('things_to_do.wine.title')}
+                </h3>
+                <p style={{ color: '#666', marginBottom: '20px', fontStyle: 'italic', maxWidth: '700px' }}>
+                    {t('things_to_do.wine.desc')}
+                </p>
+                <div style={threeColumnStyle}>
+                    <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                        <h4 style={{
+                            fontFamily: "'Playfair Display', serif",
+                            color: 'var(--color-primary)',
+                            marginBottom: '4px',
+                            fontSize: '1.25rem',
+                            fontWeight: '600'
+                        }}>
+                            🍷 {t('things_to_do.wine.mandrione.name')}
+                        </h4>
+                        <div style={{
+                            fontFamily: "'Playfair Display', serif",
+                            fontSize: '1.1rem',
+                            fontWeight: '600',
+                            marginBottom: '12px',
+                            color: '#333'
+                        }}>
+                            📍 {t('things_to_do.wine.mandrione.location')}
+                        </div>
+                        <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem', flex: 1 }}>
+                            {t('things_to_do.wine.mandrione.desc')}
+                        </p>
+                        <a
+                            href={t('things_to_do.wine.mandrione.url')}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                                marginTop: '15px',
+                                display: 'inline-block',
+                                color: 'var(--color-primary)',
+                                textDecoration: 'underline',
+                                fontWeight: '500',
+                                fontSize: '0.9rem'
+                            }}
+                        >
+                            {t('things_to_do.wine.visit_website')}
+                        </a>
+                    </div>
+
+                    <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                        <h4 style={{
+                            fontFamily: "'Playfair Display', serif",
+                            color: 'var(--color-primary)',
+                            marginBottom: '4px',
+                            fontSize: '1.25rem',
+                            fontWeight: '600'
+                        }}>
+                            🍇 {t('things_to_do.wine.merinum.name')}
+                        </h4>
+                        <div style={{
+                            fontFamily: "'Playfair Display', serif",
+                            fontSize: '1.1rem',
+                            fontWeight: '600',
+                            marginBottom: '12px',
+                            color: '#333'
+                        }}>
+                            📍 {t('things_to_do.wine.merinum.location')}
+                        </div>
+                        <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem', flex: 1 }}>
+                            {t('things_to_do.wine.merinum.desc')}
+                        </p>
+                        <a
+                            href={t('things_to_do.wine.merinum.url')}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                                marginTop: '15px',
+                                display: 'inline-block',
+                                color: 'var(--color-primary)',
+                                textDecoration: 'underline',
+                                fontWeight: '500',
+                                fontSize: '0.9rem'
+                            }}
+                        >
+                            {t('things_to_do.wine.visit_website')}
+                        </a>
+                    </div>
+
+                    <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                        <h4 style={{
+                            fontFamily: "'Playfair Display', serif",
+                            color: 'var(--color-primary)',
+                            marginBottom: '4px',
+                            fontSize: '1.25rem',
+                            fontWeight: '600'
+                        }}>
+                            🥂 {t('things_to_do.wine.arapri.name')}
+                        </h4>
+                        <div style={{
+                            fontFamily: "'Playfair Display', serif",
+                            fontSize: '1.1rem',
+                            fontWeight: '600',
+                            marginBottom: '12px',
+                            color: '#333'
+                        }}>
+                            📍 {t('things_to_do.wine.arapri.location')}
+                        </div>
+                        <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem', flex: 1 }}>
+                            {t('things_to_do.wine.arapri.desc')}
+                        </p>
+                        <a
+                            href={t('things_to_do.wine.arapri.url')}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                                marginTop: '15px',
+                                display: 'inline-block',
+                                color: 'var(--color-primary)',
+                                textDecoration: 'underline',
+                                fontWeight: '500',
+                                fontSize: '0.9rem'
+                            }}
+                        >
+                            {t('things_to_do.wine.visit_website')}
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            {/* More Recommendations */}
             <div>
                 <h3 style={{
                     fontFamily: "'Playfair Display', serif",
@@ -242,23 +378,19 @@ const ThingsToDo = () => {
                             marginBottom: '8px',
                             fontSize: '1.1rem'
                         }}>
-                            🍷 {t('things_to_do.food.wine.title')}
-                        </h4>
-                        <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}>
-                            {t('things_to_do.food.wine.desc')}
-                        </p>
-                    </div>
-
-                    <div>
-                        <h4 style={{
-                            fontFamily: "'Playfair Display', serif",
-                            color: 'var(--color-primary)',
-                            marginBottom: '8px',
-                            fontSize: '1.1rem'
-                        }}>
                             💬 {t('things_to_do.food.experts.title')}
                         </h4>
+                        <style>
+                            {`
+                                .experts-desc a {
+                                    color: #9c4221 !important;
+                                    text-decoration: underline;
+                                    font-weight: 500;
+                                }
+                            `}
+                        </style>
                         <p
+                            className="experts-desc"
                             style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}
                             dangerouslySetInnerHTML={{ __html: t('things_to_do.food.experts.desc') }}
                         />
