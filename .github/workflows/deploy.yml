@@ -41,6 +41,14 @@ jobs:
       - name: Build
         env:
           VITE_WEDDING_PASSWORD: ${{ secrets.VITE_WEDDING_PASSWORD }}
+          VITE_EU_IBAN: ${{ secrets.VITE_EU_IBAN }}
+          VITE_EU_BIC: ${{ secrets.VITE_EU_BIC }}
+          VITE_EU_BANK: ${{ secrets.VITE_EU_BANK }}
+          VITE_EU_NAME: ${{ secrets.VITE_EU_NAME }}
+          VITE_UK_ACCOUNT: ${{ secrets.VITE_UK_ACCOUNT }}
+          VITE_UK_SORT: ${{ secrets.VITE_UK_SORT }}
+          VITE_UK_BANK: ${{ secrets.VITE_UK_BANK }}
+          VITE_UK_NAME: ${{ secrets.VITE_UK_NAME }}
         run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
