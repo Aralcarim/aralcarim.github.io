@@ -256,25 +256,12 @@ const ThingsToDo = () => {
                             marginBottom: '8px',
                             fontSize: '1.1rem'
                         }}>
-                            🫒 {t('things_to_do.food.oil.title')}
+                            💬 {t('things_to_do.food.experts.title')}
                         </h4>
-                        <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}>
-                            {t('things_to_do.food.oil.desc')}
-                        </p>
-                    </div>
-
-                    <div>
-                        <h4 style={{
-                            fontFamily: "'Playfair Display', serif",
-                            color: 'var(--color-primary)',
-                            marginBottom: '8px',
-                            fontSize: '1.1rem'
-                        }}>
-                            🧀 {t('things_to_do.food.cheese.title')}
-                        </h4>
-                        <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}>
-                            {t('things_to_do.food.cheese.desc')}
-                        </p>
+                        <p
+                            style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}
+                            dangerouslySetInnerHTML={{ __html: t('things_to_do.food.experts.desc') }}
+                        />
                     </div>
                 </div>
             </div>

@@ -320,19 +320,15 @@
             }
         },
         "food": {
-            "title": "Food & Wine Experiences",
-            "desc": "Apulia is a food lover's paradise. Don't miss these culinary delights!",
+            "title": "Experiences in Gargano, Apulia",
+            "desc": "Gargano is the geographical area where we're staying, with lots of things to do!",
             "wine": {
                 "title": "Wine Tasting",
                 "desc": "Visit local wineries to taste Primitivo, Negroamaro, and rosé wines."
             },
-            "oil": {
-                "title": "Olive Oil Tours",
-                "desc": "Learn about extra virgin olive oil production at historic masserie (farm estates)."
-            },
-            "cheese": {
-                "title": "Local Cheese",
-                "desc": "Try burrata, mozzarella, and cacioricotta at local dairy farms."
+            "experts": {
+                "title": "Listen to the experts!",
+                "desc": "There are so many things to do in the area, that it would be impossible to list them all here. We do recommend reading online (stuff like <a href='https://www.visitvieste.com/le-migliori-escursioni-sul-gargano-alla-scoperta-di-una-terra-autentica/' target='_blank' rel='noopener noreferrer'>VisitVieste.com</a>) and picking local sources rather than instagram influencers. Please ask if you have questions!"
             }
         }
     },
@@ -403,7 +399,7 @@
             },
             "wine": {
                 "title": "Local Wines",
-                "desc": "Puglia is known for excellent wines, especially rosé and full-bodied reds like Primitivo.",
+                "desc": "Puglia's typical wines are full-bodied, fruit-forward reds from grapes like Primitivo (like Zinfandel, rich & spicy) and Negroamaro (deep, slightly bitter, backbone of Salice Salentino), alongside aromatic whites like Verdeca and Fiano, and excellent dry rosés (rosato) from Negroamaro. Key regions include Manduria for Primitivo and Salento for Negroamaro, with standout appellations like Primitivo di Manduria DOC, Salice Salentino DOC, and Castel del Monte (often Nero di Troia).",
                 "note": "Ask for local recommendations — the wine here is fantastic and very affordable!"
             }
         }

@@ -320,19 +320,15 @@
             }
         },
         "food": {
-            "title": "Enogastronomia",
+            "title": "Esperienze in Puglia",
             "desc": "La Puglia è un paradiso per gli amanti del cibo. Non perderti queste delizie culinarie!",
             "wine": {
                 "title": "Degustazione Vini",
                 "desc": "Visita cantine locali per assaggiare Primitivo, Negroamaro e vini rosé."
             },
-            "oil": {
-                "title": "Tour dell'Olio",
-                "desc": "Scopri la produzione di olio extravergine d'oliva nelle storiche masserie."
-            },
-            "cheese": {
-                "title": "Formaggi Locali",
-                "desc": "Assaggia burrata, mozzarella e cacioricotta nelle caseifici locali."
+            "experts": {
+                "title": "Ascoltate gli esperti!",
+                "desc": "Ci sono così tante cose da fare nella zona che sarebbe impossibile elencarle tutte qui. Consigliamo di leggere online (siti come <a href='https://www.visitvieste.com/le-migliori-escursioni-sul-gargano-alla-scoperta-di-una-terra-autentica/' target='_blank' rel='noopener noreferrer'>VisitVieste.com</a>) e scegliere fonti locali piuttosto che influencer di Instagram. Chiedete pure se avete domande!"
             }
         }
     },

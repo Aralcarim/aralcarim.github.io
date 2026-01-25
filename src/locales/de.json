@@ -320,19 +320,15 @@
             }
         },
         "food": {
-            "title": "Kulinarik",
+            "title": "Erlebnisse in Apulien",
             "desc": "Apulien ist ein Paradies für Feinschmecker. Verpassen Sie nicht diese Köstlichkeiten!",
             "wine": {
                 "title": "Weinprobe",
                 "desc": "Besuchen Sie lokale Weingüter, um Primitivo, Negroamaro und Rosé-Weine zu verkosten."
             },
-            "oil": {
-                "title": "Olivenöl-Touren",
-                "desc": "Erfahren Sie mehr über die Produktion von nativem Olivenöl extra in historischen Masserien (Landgütern)."
-            },
-            "cheese": {
-                "title": "Lokaler Käse",
-                "desc": "Probieren Sie Burrata, Mozzarella und Cacioricotta auf lokalen Molkereihöfen."
+            "experts": {
+                "title": "Hören Sie auf die Experten!",
+                "desc": "Es gibt so viele Dinge in der Umgebung zu tun, dass es unmöglich wäre, sie alle hier aufzulisten. Wir empfehlen, online zu lesen (Sachen wie <a href='https://www.visitvieste.com/le-migliori-escursioni-sul-gargano-alla-scoperta-di-una-terra-autentica/' target='_blank' rel='noopener noreferrer'>VisitVieste.com</a>) und lokale Quellen den Instagram-Influencern vorzuziehen. Fragt gerne, wenn ihr Fragen habt!"
             }
         }
     },
