@@ -359,13 +359,9 @@
                 "title": "Tempo a Giugno",
                 "desc": "Soleggiato e caldo (25-30°C). Perfetto per festeggiamenti all'aperto!"
             },
-            "attire": {
-                "title": "Promemoria Dress Code",
-                "desc": "Formale / Black Tie Optional. Vedi pagina Dress Code per dettagli."
-            },
-            "footwear": {
-                "title": "Nota sulle Scarpe",
-                "desc": "La cerimonia è sull'erba — scegli scarpe comode per l'outdoor!"
+            "packing": {
+                "title": "Cosa mettere in valigia",
+                "desc": "Oltre all'essenziale come costumi e sandali, porta qualcosa di leggero per la sera. Scarpe da trekking consigliate per le escursioni."
             }
         },
         "customs": {
@@ -384,13 +380,13 @@
         },
         "essentials": {
             "title": "Essenziali Locali",
-            "language": {
-                "title": "Lingua",
-                "desc": "Qualche frase in italiano aiuta molto! 'Grazie' e 'Per favore' sono molto apprezzati."
+            "safety": {
+                "title": "Sicurezza",
+                "desc": "Oltre ai soliti consigli di evitare zone poco sicure, non lasciate mai l'auto aperta o con oggetti visibili dall'esterno."
             },
-            "water": {
-                "title": "Acqua Potabile",
-                "desc": "L'acqua del rubinetto non viene servita nei ristoranti. Acquisterai acqua in bottiglia — è la norma."
+            "transportation": {
+                "title": "Trasporti",
+                "desc": "Autobus e treni sono disponibili, ma consigliamo di noleggiare un'auto per esplorare le spiagge migliori e le gemme nascoste."
             },
             "beaches": {
                 "title": "Spiagge",
@@ -403,7 +399,7 @@
             "specialties": {
                 "title": "Piatti da Provare",
                 "desc": "Orecchiette, burrata, pesce fresco e focaccia sono highlight regionali.",
-                "examples": "Provare: orecchiette con cime di rapa, pesce stile polignano, e pasticciotto a colazione!"
+                "examples": "Provare: orecchiette con cime di rapa, pesce stile polignano, e pasticciotto a colazione! Siete ad Apricena? Provate il gelato al Bar Excelsior (Corso Roma) e i dolci alla Pasticceria d'Autore."
             },
             "wine": {
                 "title": "Vini Locali",

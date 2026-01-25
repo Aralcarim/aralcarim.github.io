@@ -127,24 +127,10 @@ const ThingsToKnow = () => {
                             marginBottom: '8px',
                             fontSize: '1.1rem'
                         }}>
-                            👗 {t('things_to_know.weather.attire.title')}
+                            👗 {t('things_to_know.weather.packing.title')}
                         </h4>
                         <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}>
-                            {t('things_to_know.weather.attire.desc')}
-                        </p>
-                    </div>
-
-                    <div>
-                        <h4 style={{
-                            fontFamily: "'Playfair Display', serif",
-                            color: 'var(--color-pink)',
-                            marginBottom: '8px',
-                            fontSize: '1.1rem'
-                        }}>
-                            👟 {t('things_to_know.weather.footwear.title')}
-                        </h4>
-                        <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}>
-                            {t('things_to_know.weather.footwear.desc')}
+                            {t('things_to_know.weather.packing.desc')}
                         </p>
                     </div>
                 </div>
@@ -236,10 +222,10 @@ const ThingsToKnow = () => {
                             marginBottom: '8px',
                             fontSize: '1.1rem'
                         }}>
-                            🗣️ {t('things_to_know.essentials.language.title')}
+                            🔒 {t('things_to_know.essentials.safety.title')}
                         </h4>
                         <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}>
-                            {t('things_to_know.essentials.language.desc')}
+                            {t('things_to_know.essentials.safety.desc')}
                         </p>
                     </div>
 
@@ -250,12 +236,13 @@ const ThingsToKnow = () => {
                             marginBottom: '8px',
                             fontSize: '1.1rem'
                         }}>
-                            💧 {t('things_to_know.essentials.water.title')}
+                            🚗 {t('things_to_know.essentials.transportation.title')}
                         </h4>
                         <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}>
-                            {t('things_to_know.essentials.water.desc')}
+                            {t('things_to_know.essentials.transportation.desc')}
                         </p>
                     </div>
+
 
                     <div>
                         <h4 style={{

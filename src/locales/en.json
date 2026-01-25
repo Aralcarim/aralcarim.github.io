@@ -342,14 +342,14 @@
             "title": "Money Matters",
             "desc": "A few practical tips about payments and tipping in Italy.",
             "currency": {
-                "title": "Currency",
-                "desc": "The currency is Euro (€). Credit cards are widely accepted in hotels, restaurants, and larger shops.",
-                "tip": "Tip: Carry some cash for small shops, markets, parking, and street vendors."
+                "title": "Currency - Euro (€)",
+                "desc": "Small payments are cash-only! That said, debit/credit card are usually accepted (not AMEX).",
+                "tip": "Tip: Always carry some cash, just to be safe. You can never know when a POS breaks... *wink*"
             },
             "tipping": {
                 "title": "Tipping",
                 "desc": "Tipping is appreciated but not mandatory. Service is usually included in the bill.",
-                "amount": "Typical: Round up the bill or leave 5-10% for excellent service."
+                "amount": "Tips are not % based, but you can leave some Euros for excellent service."
             }
         },
         "weather": {
@@ -357,15 +357,11 @@
             "desc": "June is beautiful in Apulia! Here's what to expect and pack.",
             "june": {
                 "title": "June Weather",
-                "desc": "Sunny and warm (25-30°C / 77-86°F). Perfect for outdoor celebrations!"
+                "desc": "Sunny and warm (25-35°C / 77-95°F). Perfect for outdoor celebrations!"
             },
-            "attire": {
-                "title": "Dress Code Reminder",
-                "desc": "Formal / Black Tie Optional. See Dress Code page for details."
-            },
-            "footwear": {
-                "title": "Footwear Note",
-                "desc": "Ceremony is on grass — choose comfortable shoes for the outdoors!"
+            "packing": {
+                "title": "Clothes to Pack",
+                "desc": "Beyond essentials like swimwear and sandals, bring a light layer for cooler evenings. Hiking shoes are recommended if you plan to explore nature."
             }
         },
         "customs": {
@@ -373,28 +369,28 @@
             "desc": "Embrace the local rhythm and dining traditions.",
             "riposo": {
                 "title": "The Riposo (Afternoon Break)",
-                "desc": "Many shops and businesses close between 1pm-6pm. This is the traditional Italian afternoon break.",
-                "hours": "Plan accordingly: Restaurants open for lunch 12-3pm, then dinner from 7:30pm onwards."
+                "desc": "Many shops and businesses close between 1pm-5pm. This is the traditional Italian afternoon break.",
+                "hours": "Keep in mind that Google's opening times might not be super accurate in smaller towns."
             },
             "dining": {
-                "title": "Dining Etiquette",
-                "desc": "Italians take their meals seriously! Dinner is a leisurely affair, not rushed.",
-                "reservations": "Tip: Book restaurants in advance, especially Thu-Sun and in popular towns."
+                "title": "Meals & Eating",
+                "desc": "Enjoy breakfast in a local bar with a cornetto and an espresso! Also, dinner on average happens starting 7:30pm.",
+                "reservations": "Tip: In popular towns, you should try and book restaurants in advance."
             }
         },
         "essentials": {
             "title": "Local Essentials",
-            "language": {
-                "title": "Language",
-                "desc": "A few Italian phrases go a long way! 'Grazie' (thank you) and 'Per favore' (please) are appreciated."
+            "safety": {
+                "title": "Safety & Thievery",
+                "desc": "Apart from the normal advice that applies anywhere to not go into dark alleyways, cars should never ever be left unlocked or with items visible from the outside."
             },
-            "water": {
-                "title": "Drinking Water",
-                "desc": "Tap water is not served in restaurants. You'll purchase bottled water — it's the norm."
+            "transportation": {
+                "title": "Transportation",
+                "desc": "Buses and trains are available, but we recommend renting a car to explore the best beaches and hidden gems."
             },
             "beaches": {
                 "title": "Beaches",
-                "desc": "Most beaches are private lidos (paid). Look for 'spiaggia libera' signs for free beaches."
+                "desc": "Most beaches are private lidos: they will provide you with a beach umbrella and deckchairs for a fee. Look for 'spiaggia libera' for free beaches."
             }
         },
         "food": {
@@ -402,7 +398,7 @@
             "desc": "Apulian cuisine is incredible! Don't miss these local specialties.",
             "specialties": {
                 "title": "Must-Try Dishes",
-                "desc": "Orecchiette pasta, burrata cheese, fresh seafood, and focaccia are regional highlights.",
+                "desc": "Orecchiette pasta, burrata cheese, fresh seafood, and focaccia are regional highlights. Staying in Apricena? Try the gelato at Excelsior Bar (Corso Roma) and desserts at Pasticceria d'Autore.",
                 "examples": "Look for: orecchiette con cime di rapa, polignano-style seafood, and pasticciotto for breakfast!"
             },
             "wine": {

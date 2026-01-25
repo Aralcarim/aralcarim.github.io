@@ -359,13 +359,9 @@
                 "title": "Juni-Wetter",
                 "desc": "Sonnig und warm (25-30°C). Perfekt für Feiern im Freien!"
             },
-            "attire": {
-                "title": "Kleiderordnung-Hinweis",
-                "desc": "Formell / Black Tie Optional. Siehe Dresscode-Seite für Details."
-            },
-            "footwear": {
-                "title": "Schuhwerk-Hinweis",
-                "desc": "Die Zeremonie findet auf Rasen statt — wähle bequeme Schuhe für draußen!"
+            "packing": {
+                "title": "Kleidung zum Einpacken",
+                "desc": "Neben Badesachen und Sandalen, denk an etwas Leichtes für kühlere Abende. Wanderschuhe sind empfohlen für Ausflüge in die Natur."
             }
         },
         "customs": {
@@ -384,13 +380,13 @@
         },
         "essentials": {
             "title": "Lokale Essentials",
-            "language": {
-                "title": "Sprache",
-                "desc": "Ein paar italienische Phrases helfen! 'Grazie' (danke) und 'Per favore' (bitte) werden sehr geschätzt."
+            "safety": {
+                "title": "Sicherheit",
+                "desc": "Abgesehen von den üblichen Ratschlägen, dunkle Gassen zu meiden, sollten Autos niemals unverschlossen oder mit sichtbaren Gegenständen stehen gelassen werden."
             },
-            "water": {
-                "title": "Trinkwasser",
-                "desc": "Leitungswasser wird nicht in Restaurants serviert. Du kaufst Flaschenwasser — das ist normal."
+            "transportation": {
+                "title": "Transport",
+                "desc": "Busse und Bahnen sind verfügbar, aber wir empfehlen einen Mietwagen, um die besten Strände und versteckten Orte zu erkunden."
             },
             "beaches": {
                 "title": "Strände",
@@ -403,7 +399,7 @@
             "specialties": {
                 "title": "Must-Try Gerichte",
                 "desc": "Orecchiette-Pasta, Burrata-Käse, frisches Meeresfrüchte und Focaccia sind regionale Highlights.",
-                "examples": "Probiere: Orecchiette con cime di rapa, Meeresfrüchte nach Art von Polignano und Pasticciotto zum Frühstück!"
+                "examples": "Probiere: Orecchiette con cime di rapa, Meeresfrüchte nach Art von Polignano und Pasticciotto zum Frühstück! In Apricena? Probier das Eis in der Excelsior Bar (Corso Roma) und Desserts in der Pasticceria d'Autore."
             },
             "wine": {
                 "title": "Lokale Weine",
