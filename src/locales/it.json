@@ -419,14 +419,15 @@
         "presence_text": "La cosa più importante per noi è averti lì per celebrare il nostro giorno speciale. La tua presenza, le tue risate e il tuo amore sono tutto ciò che desideriamo veramente.",
         "honeymoon_title": "Fondo Viaggio di Nozze",
         "honeymoon_text": "Se desideri onorarci con qualcosa di più, un contributo verso il nostro viaggio di nozze sarebbe meraviglioso. Stiamo pianificando un viaggio indimenticabile in Nuova Zelanda e Polinesia Francese per creare ricordi che dureranno tutta la vita.",
-        "eu_bank": "Bonifico Europeo",
+        "eu_bank": "Bonifico IBAN",
         "uk_bank": "Bonifico UK",
         "iban": "IBAN",
         "bic": "BIC / SWIFT",
         "account_number": "Numero Conto",
         "sort_code": "Sort Code",
         "reveal_details": "Rivela Dettagli",
-        "thankyou": "Grazie per il tuo amore e generosità."
+        "thankyou": "Grazie per il tuo amore e generosità.",
+        "account_name": "Intestatario Conto"
     },
     "dress_code": {
         "title": "Dress Code",

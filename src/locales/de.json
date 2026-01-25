@@ -419,14 +419,15 @@
         "presence_text": "Das Wichtigste für uns ist, dass du an unserem besonderen Tag dabei bist. Deine Anwesenheit, dein Lachen und deine Liebe sind alles, was wir uns wirklich wünschen.",
         "honeymoon_title": "Flitterwochen-Fonds",
         "honeymoon_text": "Wenn du uns mit mehr als deiner Anwesenheit ehren möchtest, wäre ein Beitrag zu unseren Flitterwochen eine wunderbare Geste. Wir planen eine unvergessliche Reise nach Neuseeland und Französisch-Polynesien, die wir ein Leben lang festhalten werden.",
-        "eu_bank": "Europäische Überweisung",
+        "eu_bank": "IBAN-Überweisung",
         "uk_bank": "UK Banküberweisung",
         "iban": "IBAN",
         "bic": "BIC / SWIFT",
         "account_number": "Kontonummer",
         "sort_code": "Sort Code",
         "reveal_details": "Details anzeigen",
-        "thankyou": "Vielen Dank für deine Liebe und Großzügigkeit."
+        "thankyou": "Vielen Dank für deine Liebe und Großzügigkeit.",
+        "account_name": "Kontoinhaber"
     },
     "dress_code": {
         "title": "Dresscode",

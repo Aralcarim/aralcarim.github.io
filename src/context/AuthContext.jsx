@@ -16,7 +16,7 @@ export const AuthProvider = ({ children }) => {
     }, []);
 
     const login = (password) => {
-        if (password === WEDDING_PASSWORD) {
+        if (btoa(password) === WEDDING_PASSWORD) {
             localStorage.setItem('wedding_auth', 'true');
             setIsAuthenticated(true);
             return true;

@@ -419,14 +419,15 @@
         "presence_text": "The most important thing for us is having you there to celebrate our special day. Your presence, laughter, and love are all we truly desire.",
         "honeymoon_title": "Honeymoon Fund",
         "honeymoon_text": "If you wish to honor us with something more, a contribution towards our honeymoon adventures would mean the world. We're planning an unforgettable trip to New Zealand and French Polynesia to create memories that will last a lifetime.",
-        "eu_bank": "European Bank Transfer",
+        "eu_bank": "IBAN Bank Transfer",
         "uk_bank": "UK Bank Transfer",
         "iban": "IBAN",
         "bic": "BIC / SWIFT",
         "account_number": "Account Number",
         "sort_code": "Sort Code",
         "reveal_details": "Reveal Details",
-        "thankyou": "Thank you for your love and generosity."
+        "thankyou": "Thank you for your love and generosity.",
+        "account_name": "Account Name"
     },
     "dress_code": {
         "title": "Dress Code",
