@@ -2,6 +2,7 @@
 
 :root {
   --color-gold: #E6C200;
+  --color-gold-dark: #B8860B;
   --color-gold-light: #FFEC8B;
   --color-pink: #FFB6C1;
   --color-pink-soft: #FFDEE3;
@@ -57,7 +58,7 @@ h2.accent {
 a {
   text-decoration: underline;
   text-underline-offset: 4px;
-  color: var(--color-gold);
+  color: var(--color-gold-dark);
   transition: color 0.3s ease;
 }
 
@@ -212,7 +213,7 @@ a:hover {
 }
 
 .social-link-inline:hover {
-  color: var(--color-gold);
+  color: var(--color-gold-dark);
   text-decoration: underline;
 }
 
@@ -235,7 +236,7 @@ a:hover {
 }
 
 .contact-link {
-  color: var(--color-gold);
+  color: var(--color-gold-dark);
   font-weight: 500;
   text-decoration: none;
   transition: color 0.3s ease;

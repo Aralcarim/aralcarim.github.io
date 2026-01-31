@@ -12,17 +12,17 @@ const Contact = () => {
     const contactData = {
         vaclav: {
             name: t('contact.vaclav_name'),
-            instagram: 'https://instagram.com/vaclav', // placeholder
-            email: 'dmFjbGF2QGV4YW1wbGUuY29t', // placeholder
-            phone: 'KzEyMzQ1Njc4OTA=', // placeholder: +1234567890
-            phone2: 'Kzk4NzY1NDMyMTA=', // placeholder: +9876543210
+            instagram: 'https://www.instagram.com/aralcarim/',
+            email: 'dmFjbGF2a2dmaWxpcEBnbWFpbC5jb20=',
+            phone: 'KzQ0IDc1MjEgMzkwMjcw',
+            phone2: 'KzMzIDc4MjIyODMwMg==',
             image: '/assets/vaclav.jpg' // placeholder image path
         },
         cinzia: {
             name: t('contact.cinzia_name'),
-            instagram: 'https://instagram.com/cinzia', // placeholder
-            email: 'Y2luemlhQGV4YW1wbGUuY29t', // placeholder
-            phone: 'KzA5ODc2NTQzMjE=', // placeholder: +0987654321
+            instagram: 'https://www.instagram.com/cynthia_lalacqua/',
+            email: 'Y2luemlhLmJldmlsYWNxdWFAbGl2ZS5pdA==',
+            phone: 'KzQ0IDc1NzcgMDA3MTU3',
             image: '/assets/cinzia.jpg' // placeholder image path
         }
     };
@@ -44,22 +44,22 @@ const Contact = () => {
             const flagIcons = {
                 uk: (
                     <svg className="phone-flag" viewBox="0 0 60 30" title="UK">
-                        <clipPath id="uk-clip"><rect width="60" height="30"/></clipPath>
+                        <clipPath id="uk-clip"><rect width="60" height="30" /></clipPath>
                         <g clipPath="url(#uk-clip)">
-                            <rect width="60" height="30" fill="#012169"/>
-                            <path d="M0 0l60 30M60 0L0 30" stroke="#fff" strokeWidth="6"/>
-                            <path d="M0 0l60 30M60 0L0 30" stroke="#C8102E" strokeWidth="4"/>
-                            <path d="M30 0v30M0 15h60" stroke="#fff" strokeWidth="10"/>
-                            <path d="M30 0v30M0 15h60" stroke="#C8102E" strokeWidth="6"/>
+                            <rect width="60" height="30" fill="#012169" />
+                            <path d="M0 0l60 30M60 0L0 30" stroke="#fff" strokeWidth="6" />
+                            <path d="M0 0l60 30M60 0L0 30" stroke="#C8102E" strokeWidth="4" />
+                            <path d="M30 0v30M0 15h60" stroke="#fff" strokeWidth="10" />
+                            <path d="M30 0v30M0 15h60" stroke="#C8102E" strokeWidth="6" />
                         </g>
                     </svg>
                 ),
                 france: (
                     <svg className="phone-flag" viewBox="0 0 90 60" title="France">
                         <g fill="none">
-                            <rect width="30" height="60" fill="#002395"/>
-                            <rect x="30" width="30" height="60" fill="#fff"/>
-                            <rect x="60" width="30" height="60" fill="#ED2939"/>
+                            <rect width="30" height="60" fill="#002395" />
+                            <rect x="30" width="30" height="60" fill="#fff" />
+                            <rect x="60" width="30" height="60" fill="#ED2939" />
                         </g>
                     </svg>
                 )
