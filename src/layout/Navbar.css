@@ -199,6 +199,7 @@
         transition: transform 0.3s ease-in-out, visibility 0.3s;
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
         padding: 20px 0;
+        margin: 0;
     }
 
     .nav-menu.active {
