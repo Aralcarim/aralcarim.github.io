@@ -115,14 +115,14 @@ const AnimatedRoutes = () => {
             </ProtectedRoute>
           }
         />
-        <Route
+        {/* <Route
           path="/map"
           element={
             <ProtectedRoute>
               <Map />
             </ProtectedRoute>
           }
-        />
+        /> */}
         <Route
           path="/admin"
           element={

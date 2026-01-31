@@ -29,7 +29,7 @@ const Navbar = () => {
             { name: t('nav.run_of_show'), path: '/run-of-show' },
             { name: t('nav.faq'), path: '/faq' },
             { name: t('nav.travel'), path: '/travel' },
-            { name: t('nav.map'), path: '/map' },
+            // { name: t('nav.map'), path: '/map' },
             { name: t('nav.things_to_know'), path: '/things-to-know' },
             { name: t('nav.things_to_do'), path: '/things-to-do' },
             { name: t('nav.gallery'), path: '/gallery' },
