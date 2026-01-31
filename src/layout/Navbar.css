@@ -32,7 +32,7 @@
 
 .nav-menu {
     display: flex;
-    gap: 15px;
+    gap: 25px;
     /* Reduced gap slightly for better fit */
     align-items: center;
     flex-wrap: nowrap;
@@ -41,6 +41,28 @@
     flex: 1;
     /* Take available space */
     margin: 0 20px;
+}
+
+@media (min-width: 769px) {
+    .nav-menu>.nav-link+.nav-link::before {
+        content: '•';
+        position: absolute;
+        left: -16px;
+        /* Position in the center of the 25px gap */
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--color-text);
+        /* Dark grey */
+        font-size: 1.2rem;
+        line-height: 1;
+        margin-top: -4px;
+        /* Move up to compensate for padding-bottom and font baseline */
+        pointer-events: none;
+        /* Ensure it doesn't interfere with clicks */
+        opacity: 0.5;
+        font-weight: 400;
+        /* Prevent inheriting bold from dropdown-trigger */
+    }
 }
 
 .nav-link {

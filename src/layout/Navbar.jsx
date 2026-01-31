@@ -58,7 +58,7 @@ const Navbar = () => {
             const hidden = [];
 
             // Get widths of all items from the hidden measure container
-            const itemWidths = Array.from(measureRef.current.children).map(child => child.offsetWidth + 15); // +15 for gap
+            const itemWidths = Array.from(measureRef.current.children).map(child => child.offsetWidth + 25); // +25 for gap
 
             // First pass: Try to fit everything
             allLinks.forEach((link, index) => {
