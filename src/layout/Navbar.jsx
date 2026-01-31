@@ -120,7 +120,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
+        <nav className={`navbar ${scrolled ? 'scrolled' : ''} ${isOpen ? 'mobile-open' : ''}`}>
             {/* Fluid container for more space */}
             <div className="container-fluid nav-container" style={{ padding: '0 30px' }}>
                 <Link to="/" className="nav-logo" style={{ marginRight: '20px' }}>
@@ -128,7 +128,7 @@ const Navbar = () => {
                 </Link>
 
                 {/* Hidden Container for Measuring */}
-                <div ref={measureRef} style={{ position: 'absolute', visibility: 'hidden', height: 0, overflow: 'hidden', whiteSpace: 'nowrap' }}>
+                <div ref={measureRef} style={{ position: 'absolute', visibility: 'hidden', height: 0, overflow: 'hidden', whiteSpace: 'nowrap', left: '-9999px', top: '-9999px' }}>
                     {allLinks.map((link) => (
                         <span key={link.path} className="nav-link" style={{ display: 'inline-block', margin: 0, padding: 0 }}>{link.name}</span>
                     ))}
