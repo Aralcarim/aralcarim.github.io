@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { useTranslation, Trans } from 'react-i18next';
 import { useAuth } from '../context/AuthContext';
 import Countdown from '../components/Countdown';
+import RecommendedSections from '../components/RecommendedSections';
 import './Home.css';
 
 const Home = () => {
@@ -62,6 +63,8 @@ const Home = () => {
                             {error && <p className="home-password-error">{error}</p>}
                         </div>
                     )}
+
+                    {isAuthenticated && <RecommendedSections />}
 
                     <Countdown />
 

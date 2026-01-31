@@ -31,7 +31,8 @@
             "placeholder": "Password",
             "button": "Unlock",
             "error": "Incorrect password"
-        }
+        },
+        "recommended_sections": "Time to get started:"
     },
     "story": {
         "title": "Our Story",

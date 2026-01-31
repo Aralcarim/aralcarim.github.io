@@ -1,0 +1,81 @@
+.recommended-sections {
+    margin-top: 1rem;
+    text-align: center;
+    padding: 0 1rem 1rem;
+    animation: fadeIn 1s ease-out 0.5s backwards;
+}
+
+.recommended-intro {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+    margin-bottom: 1rem;
+    opacity: 0.8;
+}
+
+.recommended-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.recommended-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: transform 0.3s ease, color 0.3s ease;
+    gap: 0.5rem;
+}
+
+.recommended-item:hover {
+    transform: translateY(-3px);
+    color: var(--color-gold);
+}
+
+.recommended-icon {
+    font-size: 2rem;
+    line-height: 1;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.recommended-item:hover .recommended-icon {
+    transform: scale(1.1);
+}
+
+.recommended-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+    .recommended-grid {
+        gap: 1.5rem;
+    }
+
+    .recommended-icon {
+        font-size: 1.8rem;
+    }
+
+    .recommended-label {
+        font-size: 0.7rem;
+    }
+}

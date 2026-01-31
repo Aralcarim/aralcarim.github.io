@@ -67,7 +67,7 @@ const Countdown = () => {
             display: 'flex',
             justifyContent: 'center',
             flexWrap: 'wrap',
-            marginTop: '40px',
+            marginTop: '10px',
             background: 'rgba(255,255,255,0.8)',
             padding: '20px',
             borderRadius: '8px',

@@ -31,7 +31,8 @@
             "placeholder": "Password",
             "button": "Sblocca",
             "error": "Password errata"
-        }
+        },
+        "recommended_sections": "È ora di iniziare:"
     },
     "story": {
         "title": "La Nostra Storia",

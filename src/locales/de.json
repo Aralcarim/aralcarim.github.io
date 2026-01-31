@@ -31,7 +31,8 @@
             "placeholder": "Passwort",
             "button": "Entsperren",
             "error": "Falsches Passwort"
-        }
+        },
+        "recommended_sections": "Zeit, loszulegen:"
     },
     "story": {
         "title": "Unsere Geschichte",
