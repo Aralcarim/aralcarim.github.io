@@ -284,6 +284,45 @@
             "peschici": {
                 "title": "Peschici",
                 "desc": "Picturesque whitewashed village perched on cliffs with panoramic sea views."
+            },
+            "gargano_beaches": {
+                "title": "The most beautiful beaches in Puglia: Gargano",
+                "calalunga": {
+                    "name": "Baia Calalunga",
+                    "desc": "Often considered one of the most beautiful, it is a wide bay with fine sand and shallow waters, equipped with beach clubs and bars."
+                },
+                "zaiana": {
+                    "name": "Baia Zaiana",
+                    "desc": "Characterized by two rocky headlands, it offers calm seas and sand, with beach establishments and bars."
+                },
+                "manaccora": {
+                    "name": "Baia di Manaccora",
+                    "desc": "Famous for the \"Grottona di Manaccora\", a historic cave, it is a well-serviced beach with sand and beach clubs."
+                },
+                "sfinale": {
+                    "name": "Baia di Sfinale",
+                    "desc": "A wide and well-serviced beach, with beach clubs and restaurants, located near the border with Vieste."
+                },
+                "san_nicola": {
+                    "name": "Baia San Nicola",
+                    "desc": "Close to the center, with golden sand, equipped beach clubs, restaurants, and the view of a trabucco, with the famous restaurant \"Da Mimi'\"."
+                },
+                "san_felice": {
+                    "name": "Baia di San Felice",
+                    "desc": "Mix of sand and pebbles, with the Arch of San Felice."
+                },
+                "vignanotica": {
+                    "name": "Vignanotica",
+                    "desc": "White pebble beach, famous for the \"Path of Love\" that connects it to Mergoli."
+                },
+                "campi": {
+                    "name": "Baia Di Campi",
+                    "desc": "Pebble beach shortly after Baia San Felice."
+                },
+                "tremiti": {
+                    "name": "Isole Tremiti",
+                    "desc": "If you have time and stay longer in our Gargano, it is worth spending a day at the Tremiti Islands, reachable by an hour ferry from Rodi Gargano or Peschici."
+                }
             }
         },
         "towns": {

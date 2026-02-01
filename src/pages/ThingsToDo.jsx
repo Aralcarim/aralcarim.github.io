@@ -78,6 +78,46 @@ const ThingsToDo = () => {
                 </div>
             </div>
 
+            {/* Detailed Beach List */}
+            <div style={{ marginBottom: '60px' }}>
+                <h3 style={{
+                    fontFamily: "'Playfair Display', serif",
+                    color: 'var(--color-primary)',
+                    marginBottom: '20px',
+                    fontSize: '1.4rem',
+                    fontWeight: '600'
+                }}>
+                    {t('things_to_do.beaches.gargano_beaches.title')}
+                </h3>
+                <div style={threeColumnStyle}>
+                    {[
+                        { id: 'calalunga', icon: '🌅', color: 'var(--color-lilac)' },
+                        { id: 'zaiana', icon: '🧗', color: 'var(--color-peach)' },
+                        { id: 'manaccora', icon: '🐚', color: 'var(--color-pink)' },
+                        { id: 'sfinale', icon: '🪁', color: 'var(--color-gold)' },
+                        { id: 'san_nicola', icon: '🍽️', color: 'var(--color-lilac)' },
+                        { id: 'tremiti', icon: '🚤', color: 'var(--color-primary)' },
+                        { id: 'vignanotica', icon: '🤍', color: 'var(--color-peach)' },
+                        { id: 'san_felice', icon: '🌉', color: 'var(--color-pink)' },
+                        { id: 'campi', icon: '🛶', color: 'var(--color-gold)' }
+                    ].map((beach) => (
+                        <div key={beach.id}>
+                            <h4 style={{
+                                fontFamily: "'Playfair Display', serif",
+                                color: beach.color,
+                                marginBottom: '8px',
+                                fontSize: '1.1rem'
+                            }}>
+                                {beach.icon} {t(`things_to_do.beaches.gargano_beaches.${beach.id}.name`)}
+                            </h4>
+                            <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}>
+                                {t(`things_to_do.beaches.gargano_beaches.${beach.id}.desc`)}
+                            </p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
             {/* Hill Towns & Culture - 3 Columns */}
             <div style={{ marginBottom: '60px' }}>
                 <h3 style={{
