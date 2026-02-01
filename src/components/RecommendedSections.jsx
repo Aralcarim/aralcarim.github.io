@@ -14,10 +14,10 @@ const RecommendedSections = () => {
             link: '/story'
         },
         {
-            id: 'things-to-do',
-            icon: '📍',
-            label: t('nav.things_to_do', 'Things to Do'),
-            link: '/things-to-do'
+            id: 'run-of-show',
+            icon: '🥂',
+            label: t('nav.run_of_show', 'Run of Show'),
+            link: '/run-of-show'
         },
         {
             id: 'rsvp',
