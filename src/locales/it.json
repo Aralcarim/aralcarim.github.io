@@ -399,7 +399,7 @@
             "currency": {
                 "title": "Valuta",
                 "desc": "La valuta è l'Euro (€). Le carte di credito sono accettate in hotel, ristoranti e negozi più grandi.",
-                "tip": "Consiglio: Porta contanti per piccoli negozi, mercati, parcheggi e venditori ambulanti."
+                "tip": "Consiglio: Porta sempre un po' di contanti, per sicurezza. Non si sa mai quando un POS potrebbe smettere di funzionare... *wink*"
             },
             "tipping": {
                 "title": "Mancia",
@@ -412,7 +412,7 @@
             "desc": "Giugno è stupendo in Puglia! Ecco cosa aspettarsi e cosa mettere in valigia.",
             "june": {
                 "title": "Tempo a Giugno",
-                "desc": "Soleggiato e caldo (25-30°C). Perfetto per festeggiamenti all'aperto!"
+                "desc": "Soleggiato e caldo (25-35°C). Perfetto per festeggiamenti all'aperto!"
             },
             "packing": {
                 "title": "Cosa mettere in valigia",
@@ -425,12 +425,12 @@
             "riposo": {
                 "title": "La Riposo (Pausa Pomeridiana)",
                 "desc": "Molti negozi e attività chiudono tra le 13-18. Questa è la tradizionale pausa pomeridiana italiana.",
-                "hours": "Pianifica di conseguenza: Ristoranti aperti a pranzo 12-15, poi cena a partire dalle 19:30."
+                "hours": "Tieni presente che gli orari di apertura su Google potrebbero non essere super precisi nelle città più piccole."
             },
             "dining": {
                 "title": "Etichetta a Tavola",
-                "desc": "Gli italiani prendono sul serio i pasti! La cena è un momento di relax, non da affrettare.",
-                "reservations": "Consiglio: Prenota i ristoranti in anticipo, specialmente Gio-Dom e nelle città turistiche."
+                "desc": "Goditi la colazione in un bar locale con cornetto ed espresso! Inoltre, la cena inizia mediamente alle 19:30.",
+                "reservations": "Consiglio: Nelle città più turistiche, è meglio prenotare i ristoranti in anticipo."
             }
         },
         "essentials": {
@@ -453,12 +453,12 @@
             "desc": "La cucina pugliese è incredibile! Non perderti queste specialità locali.",
             "specialties": {
                 "title": "Piatti da Provare",
-                "desc": "Orecchiette, burrata, pesce fresco e focaccia sono highlight regionali.",
-                "examples": "Provare: orecchiette con cime di rapa, pesce stile polignano, e pasticciotto a colazione! Siete ad Apricena? Provate il gelato al Bar Excelsior (Corso Roma) e i dolci alla Pasticceria d'Autore."
+                "desc": "Orecchiette, burrata, pesce fresco e focaccia sono highlight regionali. Siete ad Apricena? Provate il gelato al Bar Excelsior (Corso Roma) e i dolci alla Pasticceria d'Autore.",
+                "examples": "Provare: orecchiette con cime di rapa, pesce stile polignano, e pasticciotto a colazione!"
             },
             "wine": {
                 "title": "Vini Locali",
-                "desc": "La Puglia è famosa per vini eccellenti, specialmente rosé e rossi corposi come il Primitivo.",
+                "desc": "I vini tipici della Puglia sono rossi corposi e fruttati, come il Primitivo (ricco e speziato) e il Negroamaro (profondo, leggermente amaro, colonna portante del Salice Salentino), insieme a bianchi aromatici come Verdeca e Fiano, e eccellenti rosati secchi da Negroamaro. Le zone principali includono Manduria per il Primitivo e il Salento per il Negroamaro, con denominazioni di spicco come Primitivo di Manduria DOC, Salice Salentino DOC e Castel del Monte (spesso Nero di Troia).",
                 "note": "Chiedi raccomandazioni locali — il vino qui è fantastico e molto conveniente!"
             },
             "recommendations": {

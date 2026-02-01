@@ -399,7 +399,7 @@
             "currency": {
                 "title": "Währung",
                 "desc": "Die Währung ist Euro (€). Kreditkarten werden in Hotels, Restaurants und größeren Geschäften weitgehend akzeptiert.",
-                "tip": "Tipp: Bargeld für kleine Läden, Märkte, Parkplätze und Straßenverkäufer mitnehmen."
+                "tip": "Tipp: Habe immer etwas Bargeld dabei, nur zur Sicherheit. Man weiß nie, wann ein Kartenterminal mal ausfällt... *wink*"
             },
             "tipping": {
                 "title": "Trinkgeld",
@@ -412,7 +412,7 @@
             "desc": "Juni ist wunderschön in Apulien! Hier ist, was dich erwartet.",
             "june": {
                 "title": "Juni-Wetter",
-                "desc": "Sonnig und warm (25-30°C). Perfekt für Feiern im Freien!"
+                "desc": "Sonnig und warm (25-35°C). Perfekt für Feiern im Freien!"
             },
             "packing": {
                 "title": "Kleidung zum Einpacken",
@@ -425,12 +425,12 @@
             "riposo": {
                 "title": "Die Riposo (Mittagspause)",
                 "desc": "Viele Geschäfte schließen zwischen 13-18 Uhr. Das ist die traditionelle italienische Mittagspause.",
-                "hours": "Plane entsprechend: Restaurants mittags 12-15 Uhr geöffnet, dann abendings ab 19:30 Uhr."
+                "hours": "Denk daran, dass die Öffnungszeiten auf Google in kleineren Städten möglicherweise nicht super genau sind."
             },
             "dining": {
                 "title": "Essenskultur",
-                "desc": "Italiener nehmen ihre Mahlzeiten ernst! Abendessen ist ein entspanntes Vergnügen, kein hastiges Essen.",
-                "reservations": "Tipp: Reserviere Restaurants im Voraus, besonders Do-So und in beliebten Orten."
+                "desc": "Genieße das Frühstück in einer lokalen Bar mit einem Cornetto und einem Espresso! Das Abendessen beginnt im Durchschnitt ab 19:30 Uhr.",
+                "reservations": "Tipp: In beliebten Städten solltest du versuchen, Restaurants im Voraus zu buchen."
             }
         },
         "essentials": {
@@ -453,12 +453,12 @@
             "desc": "Apulische Küche ist unglaublich! Verpassen Sie nicht diese lokalen Spezialitäten.",
             "specialties": {
                 "title": "Must-Try Gerichte",
-                "desc": "Orecchiette-Pasta, Burrata-Käse, frisches Meeresfrüchte und Focaccia sind regionale Highlights.",
-                "examples": "Probiere: Orecchiette con cime di rapa, Meeresfrüchte nach Art von Polignano und Pasticciotto zum Frühstück! In Apricena? Probier das Eis in der Excelsior Bar (Corso Roma) und Desserts in der Pasticceria d'Autore."
+                "desc": "Orecchiette-Pasta, Burrata-Käse, frisches Meeresfrüchte und Focaccia sind regionale Highlights. In Apricena? Probier das Eis in der Excelsior Bar (Corso Roma) und Desserts in der Pasticceria d'Autore.",
+                "examples": "Probiere: Orecchiette con cime di rapa, Meeresfrüchte nach Art von Polignano und Pasticciotto zum Frühstück!"
             },
             "wine": {
                 "title": "Lokale Weine",
-                "desc": "Apulien ist bekannt für exzellente Weine, besonders Rosé und vollmundige Rotweine wie Primitivo.",
+                "desc": "Die typischen Weine Apuliens sind vollmundige, fruchtbetonte Rotweine aus Trauben wie Primitivo (reich & würzig) und Negroamaro (tief, leicht bitter, das Rückgrat des Salice Salentino), neben aromatischen Weißweinen wie Verdeca und Fiano sowie hervorragenden trockenen Rosés (Rosato) aus Negroamaro. Zu den wichtigsten Regionen gehören Manduria für Primitivo und Salento für Negroamaro, mit herausragenden Appellationen wie Primitivo di Manduria DOC, Salice Salentino DOC und Castel del Monte (oft Nero di Troia).",
                 "note": "Frage nach lokalen Empfehlungen — der Wein hier ist fantastisch und sehr erschwinglich!"
             },
             "recommendations": {
