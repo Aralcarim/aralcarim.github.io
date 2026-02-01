@@ -284,6 +284,45 @@
             "peschici": {
                 "title": "Peschici",
                 "desc": "Bianco villaggio a strapiombo sul mare con viste panoramiche mozzafiato."
+            },
+            "gargano_beaches": {
+                "title": "Le spiagge più belle della Puglia: Gargano",
+                "calalunga": {
+                    "name": "Baia Calalunga",
+                    "desc": "Spesso considerata una delle più belle, è un'ampia baia con sabbia fine e fondali bassi, attrezzata con lidi e bar."
+                },
+                "zaiana": {
+                    "name": "Baia Zaiana",
+                    "desc": "Caratterizzata da due promontori rocciosi, offre mare calmo e sabbia, con stabilimenti balneari e bar."
+                },
+                "manaccora": {
+                    "name": "Baia di Manaccora",
+                    "desc": "Famosa per il \"Grottona di Manaccora\", una grotta storica, è una spiaggia ben servita con sabbia e lidi."
+                },
+                "sfinale": {
+                    "name": "Baia di Sfinale",
+                    "desc": "Una spiaggia ampia e ben servita, con lidi e ristoranti, situata vicino al confine con Vieste."
+                },
+                "san_nicola": {
+                    "name": "Baia San Nicola",
+                    "desc": "Vicino al centro, con sabbia dorata, lidi attrezzati, ristoranti e la vista di un trabucco, con il famoso ristorante \"Da Mimi'\"."
+                },
+                "san_felice": {
+                    "name": "Baia di San Felice",
+                    "desc": "Mix di sabbia e ghiaia, con l'Arco di San Felice."
+                },
+                "vignanotica": {
+                    "name": "Vignanotica",
+                    "desc": "Spiaggia di ghiaia bianca, famosa per il \"Sentiero dell'Amore\" che la collega a Mergoli."
+                },
+                "campi": {
+                    "name": "Baia Di Campi",
+                    "desc": "Spiaggia di ghiaia poco dopo Baia San Felice."
+                },
+                "tremiti": {
+                    "name": "Isole Tremiti",
+                    "desc": "Se avete tempo e restate più a lungo nel nostro Gargano, vale la pena trascorrere una giornata alle Isole Tremiti, raggiungibili con un'ora di traghetto da Rodi Garganico o Peschici."
+                }
             }
         },
         "towns": {
