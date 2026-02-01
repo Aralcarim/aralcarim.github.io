@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import './RecommendedSections.css';
 
 const RecommendedSections = () => {
@@ -36,12 +37,12 @@ const RecommendedSections = () => {
         <div className="recommended-sections">
             <div className="recommended-grid">
                 {sections.map((section) => (
-                    <a key={section.id} href={section.link} className="recommended-item">
+                    <Link key={section.id} to={section.link} className="recommended-item">
                         <div className="recommended-icon">
                             {section.icon}
                         </div>
                         <span className="recommended-label">{section.label}</span>
-                    </a>
+                    </Link>
                 ))}
             </div>
         </div>
