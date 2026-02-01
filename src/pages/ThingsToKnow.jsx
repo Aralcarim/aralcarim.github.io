@@ -276,6 +276,78 @@ const ThingsToKnow = () => {
                 <p style={{ color: '#666', marginBottom: '20px', fontStyle: 'italic', maxWidth: '700px' }}>
                     {t('things_to_know.food.desc')}
                 </p>
+
+                <h4 style={{
+                    fontFamily: "'Playfair Display', serif",
+                    color: 'var(--color-primary)',
+                    marginBottom: '10px',
+                    fontSize: '1.2rem',
+                    marginTop: '40px'
+                }}>
+                    🍽️ {t('things_to_know.food.recommendations.title')}
+                </h4>
+                <p style={{ color: '#666', marginBottom: '20px', fontStyle: 'italic', maxWidth: '700px' }}>
+                    {t('things_to_know.food.recommendations.desc')}
+                </p>
+                <div style={threeColumnStyle}>
+                    {[
+                        'gambero_rosso',
+                        'corte_federiciana',
+                        'la_biga',
+                        'civico_82',
+                        'bar_excelsior',
+                        'bar_da_luciano'
+                    ].map((place) => {
+                        const emojis = {
+                            gambero_rosso: '🦞',
+                            corte_federiciana: '🏰',
+                            la_biga: '🍕',
+                            civico_82: '☕',
+                            bar_excelsior: '🍹',
+                            bar_da_luciano: '🥐'
+                        };
+                        const url = t(`things_to_know.food.recommendations.${place}.url`);
+                        const hasUrl = url.startsWith('http');
+                        const name = t(`things_to_know.food.recommendations.${place}.name`);
+                        const desc = t(`things_to_know.food.recommendations.${place}.desc`);
+
+                        const content = (
+                            <>
+                                <h4 style={{
+                                    fontFamily: "'Playfair Display', serif",
+                                    color: hasUrl ? 'var(--color-gold)' : 'var(--color-primary)',
+                                    marginBottom: '8px',
+                                    fontSize: '1.1rem',
+                                    textDecoration: hasUrl ? 'underline' : 'none',
+                                    textUnderlineOffset: '4px'
+                                }}>
+                                    {emojis[place]} {name}
+                                </h4>
+                                <p style={{ color: '#666', lineHeight: '1.6', margin: 0, fontSize: '0.9rem' }}>
+                                    {desc}
+                                </p>
+                            </>
+                        );
+
+                        return (
+                            <div key={place}>
+                                {hasUrl ? (
+                                    <a
+                                        href={url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        style={{ textDecoration: 'none', color: 'inherit' }}
+                                    >
+                                        {content}
+                                    </a>
+                                ) : (
+                                    content
+                                )}
+                            </div>
+                        );
+                    })}
+                </div>
+
                 <div style={twoColumnStyle}>
                     <div>
                         <h4 style={{
@@ -321,6 +393,7 @@ const ThingsToKnow = () => {
                         </p>
                     </div>
                 </div>
+
             </div>
         </InfoPage>
     );

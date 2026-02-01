@@ -421,6 +421,36 @@
                 "title": "Vini Locali",
                 "desc": "La Puglia è famosa per vini eccellenti, specialmente rosé e rossi corposi come il Primitivo.",
                 "note": "Chiedi raccomandazioni locali — il vino qui è fantastico e molto conveniente!"
+            },
+            "recommendations": {
+                "title": "Dove Mangiare e Bere",
+                "desc": "Se state ad Apricena, ecco alcune opzioni",
+                "gambero_rosso": {
+                    "name": "Trattoria Il Gambero Rosso",
+                    "desc": "Ampia selezione di pesce locale.",
+                    "url": "https://trattoriailgamberorosso.it/"
+                },
+                "corte_federiciana": {
+                    "name": "Corte Federiciana",
+                    "desc": "Cucina locale con atmosfera medievale.",
+                    "url": "https://www.cortefedericiana.it/"
+                },
+                "la_biga": {
+                    "name": "La Biga Pizzeria",
+                    "desc": "Deliziosa pizza cotta nel forno a legna."
+                },
+                "civico_82": {
+                    "name": "Civico 82 Bar",
+                    "desc": "Aperto tutto il giorno per caffè e spritz."
+                },
+                "bar_excelsior": {
+                    "name": "Bar Excelsior",
+                    "desc": "Gelato artigianale e prodotti da forno."
+                },
+                "bar_da_luciano": {
+                    "name": "Bar \"Da Luciano\"",
+                    "desc": "Gelato artigianale e prodotti da forno."
+                }
             }
         }
     },

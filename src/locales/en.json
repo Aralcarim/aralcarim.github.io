@@ -421,6 +421,36 @@
                 "title": "Local Wines",
                 "desc": "Puglia's typical wines are full-bodied, fruit-forward reds from grapes like Primitivo (like Zinfandel, rich & spicy) and Negroamaro (deep, slightly bitter, backbone of Salice Salentino), alongside aromatic whites like Verdeca and Fiano, and excellent dry rosés (rosato) from Negroamaro. Key regions include Manduria for Primitivo and Salento for Negroamaro, with standout appellations like Primitivo di Manduria DOC, Salice Salentino DOC, and Castel del Monte (often Nero di Troia).",
                 "note": "Ask for local recommendations — the wine here is fantastic and very affordable!"
+            },
+            "recommendations": {
+                "title": "Where to Eat & Drink",
+                "desc": "If you're staying in Apricena, here are a few options",
+                "gambero_rosso": {
+                    "name": "Trattoria Il Gambero Rosso",
+                    "desc": "Wide selection of fresh local fish.",
+                    "url": "https://trattoriailgamberorosso.it/"
+                },
+                "corte_federiciana": {
+                    "name": "Corte Federiciana",
+                    "desc": "Local cuisine with a medieval atmosphere.",
+                    "url": "https://www.cortefedericiana.it/"
+                },
+                "la_biga": {
+                    "name": "La Biga Pizzeria",
+                    "desc": "Delicious pizza cooked in a wood-fired oven."
+                },
+                "civico_82": {
+                    "name": "Civico 82 Bar",
+                    "desc": "Open all day for coffee and spritz."
+                },
+                "bar_excelsior": {
+                    "name": "Bar Excelsior",
+                    "desc": "Artisanal ice cream and bakery items."
+                },
+                "bar_da_luciano": {
+                    "name": "Bar \"Da Luciano\"",
+                    "desc": "Artisanal ice cream and bakery items."
+                }
             }
         }
     },
