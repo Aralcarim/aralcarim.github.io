@@ -52,6 +52,18 @@ const LanguageSwitcher = () => {
             >
                 IT
             </button>
+            <button
+                onClick={() => changeLanguage('fr')}
+                style={{ ...styles.button, ...(i18n.language.startsWith('fr') ? styles.active : {}) }}
+            >
+                FR
+            </button>
+            <button
+                onClick={() => changeLanguage('es')}
+                style={{ ...styles.button, ...(i18n.language.startsWith('es') ? styles.active : {}) }}
+            >
+                ES
+            </button>
         </div>
     );
 };

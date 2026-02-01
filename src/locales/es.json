@@ -1,0 +1,545 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "story": "Nuestra Historia",
+        "gallery": "Galería",
+        "run_of_show": "Programa",
+        "faq": "Preguntas Frecuentes",
+        "travel": "Viaje y Alojamiento",
+        "things_to_do": "Cosas que hacer",
+        "things_to_know": "Cosas que saber",
+        "registry": "Lista de Bodas",
+        "dress_code": "Código de Vestimenta",
+        "more": "Más",
+        "rsvp": "RSVP",
+        "map": "Mapa",
+        "contact": "Contacto"
+    },
+    "home": {
+        "intro": "Nos casamos",
+        "names": "Cinzia <span>&</span> Vaclav",
+        "date": "13 de Junio de 2026",
+        "location": "Le Querce di Mamre, Apulia, Italia",
+        "countdown": {
+            "days": "Días",
+            "hours": "Horas",
+            "minutes": "Minutos",
+            "seconds": "Segundos"
+        },
+        "password_prompt": {
+            "text": "Introduce la contraseña que se te dio para desbloquear el sitio web",
+            "placeholder": "Contraseña",
+            "button": "Desbloquear",
+            "error": "Contraseña incorrecta"
+        },
+        "recommended_sections": "Para empezar:"
+    },
+    "story": {
+        "title": "Nuestra Historia",
+        "couplePhotoCaption": "Osaka, Japón • 2023",
+        "profile": {
+            "movie": "Película Favorita",
+            "books": "Libros Favoritos",
+            "fact": "Dato Curioso",
+            "quote": "Cita Favorita",
+            "vaclav": {
+                "movie": "The Imitation Game",
+                "books": "Clean Code, 1984",
+                "fact": "Puede resolver un cubo de Rubik en menos de 2 minutos",
+                "quote": "Stay hungry, stay foolish"
+            },
+            "cinzia": {
+                "movie": "La Dolce Vita",
+                "books": "La Divina Comedia",
+                "fact": "Le encanta pintar acuarelas",
+                "quote": "La vita è bella"
+            }
+        },
+        "timeline": {
+            "event1": "Nos conocimos en Londres",
+            "event2": "Nuestro primer viaje juntos para celebrar el 30 cumpleaños de Cinzia",
+            "event3": "Nuestro primer viaje en familia",
+            "event4": "De vuelta a Italia para dar la bienvenida a una nueva vida en la familia, nuestro sobrino Giovanni",
+            "event5": "Nuestra primera escapada romántica",
+            "event6": "Nos mudamos oficialmente juntos, alias Geena y Cinzia se mudaron a West Ealing",
+            "event7": "Nuestro primer viaje largo juntos al otro lado del mundo. Y todavía nos caíamos bien al final",
+            "event8": "Compramos nuestra primera casa y nos mudamos juntos",
+            "event9": "Celebramos nuestro 2º aniversario con nuestras familias en nuestro primer viaje todos juntos... sobrevivimos, creo",
+            "event10": "Cimentamos nuestra relación al darnos cuenta de que ambos somos personas de playa",
+            "event11": "Reestructuramos nuestra casa para convertirla más en nuestro nido personal",
+            "event12": "Nuestra primera Navidad en la playa",
+            "event13": "Nuestra primera vez viendo la aurora boreal juntos (y Vaclav se quejó todo el tiempo)",
+            "event14": "Abrimos nuestra casa y organizamos nuestra fiesta de inauguración",
+            "event15": "Decidimos \"ponerle un anillo\"",
+            "event16": "Adoptamos a nuestros bebés gatos negros - Loki y Freya. ¡Porque la vida es mejor cuando tienes gatos!",
+            "event17": "Hora de casarse"
+        }
+    },
+    "run_of_show": {
+        "title": "Programa",
+        "venue": {
+            "title": "Le Querce di Mamre",
+            "blurb": "Ubicado en el corazón de Apulia, Le Querce di Mamre es un santuario atemporal de belleza mediterránea. Rodeado de olivos centenarios, este lugar combina el encanto rústico con la elegancia refinada, proporcionando el telón de fondo perfecto para nuestra celebración.",
+            "directions": "Obtener Direcciones"
+        },
+        "timeline": {
+            "ceremony": {
+                "title": "La Ceremonia",
+                "time": "12:30",
+                "desc": "Únete a nosotros mientras intercambiamos nuestros votos bajo la sombra de olivos centenarios en una sincera ceremonia al aire libre."
+            },
+            "entrees": {
+                "title": "Entrantes y Aperitivos",
+                "time": "13:30",
+                "desc": "Disfruta de una selección de entrantes tradicionales de Apulia y refrescos en el jardín, acompañados de música suave."
+            },
+            "lunch": {
+                "title": "Almuerzo y Fiesta",
+                "time": "14:30",
+                "desc": "Nos trasladamos al interior para un auténtico banquete de bodas italiano, baile y celebración con nuestros seres queridos."
+            },
+            "cake": {
+                "title": "Corte de la Tarta",
+                "time": "20:00",
+                "desc": "Un momento dulce mientras cortamos nuestra tarta de bodas juntos, marcando el comienzo de una noche mágica bajo las estrellas."
+            },
+            "afterparty": {
+                "title": "After Party y Barra Libre",
+                "time": "21:00",
+                "desc": "La celebración continúa con barra libre y música enérgica para bailar toda la noche."
+            }
+        }
+    },
+    "rsvp": {
+        "title": "RSVP",
+        "deadline": "Por favor, háznos saber si puedes venir antes del 31 de marzo de 2026.<br/><a href=\"/contact\">Contáctanos</a> directamente también, ya que podemos ayudar a organizar el viaje y el alojamiento.",
+        "name": "Nombre completo o Familia",
+        "email": "Dirección de Correo Electrónico",
+        "attending": "¿Asistirás?",
+        "yes": "Acepto con Alegría",
+        "no": "Declino con Pesar",
+        "guests": "Número de Invitados",
+        "dietary": "Restricciones Alimentarias",
+        "dietary_placeholder": "¿Alguna alergia o preferencia?",
+        "submit": "Enviar RSVP",
+        "guest_count": "{{count}} Invitado",
+        "guest_count_plural": "{{count}} Invitados",
+        "success": "¡Gracias por tu respuesta!",
+        "alert": "¡Gracias por tu respuesta, {{name}}!",
+        "confirmation": "Si necesitas hacer algún cambio, por favor contáctanos a través de nuestra",
+        "contact_link": "página de contacto"
+    },
+    "gallery": {
+        "title": "Galería de Fotos",
+        "subtitle": "Captura hermosos momentos de nuestro viaje juntos",
+        "photoCount": "{{count}} foto",
+        "photoCount_plural": "{{count}} fotos",
+        "filters": {
+            "all": "Todo",
+            "moments": "Momentos",
+            "friends": "Amigos",
+            "family": "Familia"
+        }
+    },
+    "footer": {
+        "hashtag": "13 de Junio de 2026"
+    },
+    "disclaimer": {
+        "title": "Actualización Importante RSVP",
+        "message": "Te pedimos amablemente que confirmes tu asistencia antes del 31 de marzo. Por favor, asegúrate de mencionar cualquier requisito dietético en el formulario.",
+        "button": "Entendido"
+    },
+    "login": {
+        "title": "Bienvenido",
+        "description": "Por favor, introduce la contraseña para acceder a los detalles de la boda.",
+        "submit": "Entrar"
+    },
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "oneliner": "La mayoría de las respuestas se pueden encontrar en el resto del sitio web, pero esta página es lo más completa posible para permitir una búsqueda fácil.",
+        "categories": {
+            "venue": "Ubicación y Horarios",
+            "dress": "Código de Vestimenta",
+            "rsvp": "Detalles de RSVP",
+            "travel": "Viaje y Alojamiento",
+            "gifts": "Regalos",
+            "photo": "Fotografía y Teléfonos",
+            "schedule": "Horario",
+            "weather": "Clima y Planes B",
+            "culture": "Notas Culturales"
+        },
+        "questions": {
+            "where_ceremony": "¿Dónde es la ceremonia?",
+            "where_ceremony_a": "La ceremonia civil se llevará a cabo al aire libre en Le Querce di Mamre, Apulia, en el patio.",
+            "where_reception": "¿Dónde es la recepción?",
+            "where_reception_a": "La recepción se llevará a cabo al aire libre. Por favor, consulta la página del <runOfShowLink>Programa</runOfShowLink> para obtener información detallada.",
+            "arrival_time": "¿A qué hora deben llegar los invitados?",
+            "arrival_time_a": "Recomendamos llegar a las 12:00 PM para encontrar su asiento cómodamente antes de la ceremonia de las 12:30 PM.",
+            "dress_code": "¿Cuál es el código de vestimenta?",
+            "dress_code_a": "Si bien apreciamos la libertad de expresión de todos, durante las bodas en Italia, se espera que los invitados se vistan para impresionar. Además, está mal visto que las mujeres se vistan de blanco.",
+            "bathing_suit": "¿Necesito traje de baño?",
+            "bathing_suit_a": "Desafortunadamente no. Nadar en la piscina del lugar está estrictamente prohibido.",
+            "jacket": "¿Necesito una chaqueta para la noche?",
+            "jacket_a": "Si bien puede hacer mucho calor durante el día, puede refrescar cuando oscurece. Nada dramático, pero tal vez algo para cubrir los hombros.",
+            "how_rsvp": "¿Cómo confirmo mi asistencia (RSVP)?",
+            "how_rsvp_a": "Puedes confirmar tu asistencia directamente en este sitio web a través de la página <rsvpLink>RSVP</rsvpLink>.",
+            "rsvp_deadline": "¿Fecha límite para confirmar asistencia?",
+            "rsvp_deadline_a": "Por razones logísticas, te pedimos amablemente que confirmes tu presencia antes del 31 de marzo de 2026.",
+            "plus_one": "¿Puedo traer a un acompañante?",
+            "plus_one_a": "Los acompañantes son bienvenidos siempre que lo sepamos antes de la fecha límite anterior. Si conoces a alguien entre marzo y junio, tu acompañante es bienvenido siempre que nos avises antes del 31 de mayo.",
+            "children": "¿Están invitados los niños?",
+            "children_a": "¡Los niños son bienvenidos! Habrá una niñera para cuidar a los niños de 3 años en adelante. Les pedimos amablemente que sigan vigilándolos por la seguridad de los trabajadores y la gente que baila.",
+            "where_to_go": "¿A dónde debo ir?",
+            "where_to_go_a": "Si bien el evento es en Le Querce di Mamre, recomendamos a todos reservar alojamiento en Apricena o San Severo, en la provincia de Foggia (FG), donde también nos alojaremos nosotros. Está a 30 minutos en coche del lugar.",
+            "how_get_there": "¿Cómo llego allí?",
+            "how_get_there_a": "Los aeropuertos más cercanos son Bari-Palese (BRI) y Pescara (PSR). El aeropuerto de Nápoles (NAP) es una opción, pero tomará una hora más. Consulta la página de <travelLink>Viajes y Alojamiento</travelLink> para más detalles.",
+            "car_rental": "¿Dónde alquilo un coche?",
+            "car_rental_a": "Recomendamos alquilar en agencias de renombre en el aeropuerto.",
+            "venue_transport": "¿Cómo llego al lugar?",
+            "venue_transport_a": "Estamos organizando transporte de ida y vuelta para que los invitados puedan beber sin preocupaciones. Si deseas conducir, eres bienvenido a hacerlo.",
+            "parking": "¿Hay aparcamiento disponible?",
+            "parking_a": "Sí, hay un amplio aparcamiento gratuito disponible en el lugar.",
+            "hotels": "¿Hay hoteles recomendados?",
+            "hotels_a": "Sí, hay hoteles y B&B. Recomendamos reservar lo antes posible ya que la disponibilidad es limitada.",
+            "gifts_expected": "¿Se esperan regalos?",
+            "gifts_expected_a": "Tu presencia es el mejor regalo. Si deseas regalar algo, consulta nuestra página de <registryLink>Lista de Bodas</registryLink>.",
+            "registry": "¿Tienen una lista de bodas?",
+            "registry_a": "No tenemos una lista tradicional, pero todo lo que necesitas saber está en la página de <registryLink>Lista de Bodas</registryLink>.",
+            "unplugged": "¿La ceremonia será 'desconectada' (sin móviles)?",
+            "unplugged_a": "Como habrá un fotógrafo profesional para documentar la ceremonia, te pedimos que te abstengas de tomar fotos o videos tú mismo. Esto te permitirá estar plenamente presente con nosotros.",
+            "take_photos": "¿Podemos tomar fotos el resto del día?",
+            "take_photos_a": "¡Sí, absolutamente! Eres bienvenido a tomar fotos durante el resto del día.",
+            "schedule": "¿Cuál es el horario?",
+            "schedule_a": "El horario completo se puede encontrar en la página del <runOfShowLink>Programa</runOfShowLink>.",
+            "reception_end": "¿A qué hora terminará el día?",
+            "reception_end_a": "Esperamos que el día termine alrededor de las 11 pm.",
+            "expected_weather": "¿Cuál es el clima esperado?",
+            "expected_weather_a": "Si bien el clima a veces puede ser impredecible, junio en Apulia puede ser muy caluroso con temperaturas que alcanzan los 35°C. Recomendamos verificar las temperaturas con anticipación y vestirse en consecuencia.",
+            "rain": "¿Qué pasa si llueve?",
+            "rain_a": "¡Sin pánico! Tenemos un plan de respaldo interior en el mismo lugar, ¡así que la celebración continuará independientemente del clima!",
+            "traditions": "¿Habrá tradiciones religiosas o culturales que los invitados deban conocer?",
+            "traditions_a": "No habrá ceremonia religiosa. Sin embargo, pedimos a todos que guarden silencio durante la ceremonia civil. Las mujeres deben evitar vestirse de blanco ya que solo la novia debe ir vestida de blanco."
+        }
+    },
+    "travel": {
+        "title": "Viajes y Alojamiento",
+        "airports": {
+            "title": "Aeropuertos",
+            "pescara": {
+                "name": "Aeropuerto de Pescara (PSR)",
+                "desc": "Aproximadamente 1 hora y 30 minutos en coche a Apricena. Un aeropuerto más pequeño con menos conexiones pero más cerca de nuestra base.",
+                "drive": "~1h 30m en coche a Apricena"
+            },
+            "bari": {
+                "name": "Aeropuerto de Bari (BRI)",
+                "desc": "El aeropuerto internacional más grande de la región con la mayor cantidad de opciones de vuelo. Aproximadamente 1 hora y 45 minutos en coche a Apricena.",
+                "drive": "~1h 45m en coche a Apricena"
+            }
+        },
+        "toCity": {
+            "title": "Llegar a Apricena",
+            "desc": "Nos alojaremos en Apricena, una encantadora ciudad en el área de Gargano y la ciudad natal de la novia. Aquí están tus opciones para llegar allí desde los aeropuertos:",
+            "rental": "Alquiler de Coches",
+            "rentalDesc": "Recomendado por flexibilidad. Alquila directamente en el aeropuerto.",
+            "taxi": "Taxi",
+            "taxiDesc": "Espera que los taxis estén disponibles solo entre el aeropuerto y las estaciones de tren.",
+            "train": "Trenes",
+            "trainDesc": "Hay trenes directos disponibles desde la estación central de Pescara y la estación central de Bari a San Severo o Foggia. El horario se puede encontrar en el <a href='https://www.trenitalia.com/it.html' target='_blank' rel='noopener noreferrer'>sitio web de Trenitalia</a>."
+        },
+        "toVenue": {
+            "title": "Llegar al Lugar",
+            "desc": "El lugar de la boda está a un corto trayecto en coche de Apricena:",
+            "fromApricena": "Desde Apricena",
+            "fromApricenaDesc": "La boda es en Querce di Mamre y Google Maps es fiable para llegar allí.",
+            "parking": "Aparcamiento Disponible",
+            "parkingDesc": "Hay aparcamiento gratuito disponible en el lugar para todos los invitados."
+        },
+        "hotels": {
+            "title": "Dónde Alojarse",
+            "hotel": {
+                "name": "Opciones de Hotel",
+                "desc": "Varios hoteles disponibles en y alrededor de Apricena. Recomendado para aquellos que prefieren servicios completos y limpieza diaria.",
+                "examples": "Hotel Palazzo, Hotel Sant'Angelo, y otros en la zona"
+            },
+            "bnb": {
+                "name": "B&B / Agriturismo",
+                "desc": "Experimenta la auténtica hospitalidad de Apulia en los bed & breakfasts locales o estancias en granjas. A menudo más encantadores y económicos.",
+                "examples": "Opciones de agriturismo y B&B locales en el campo"
+            }
+        }
+    },
+    "things_to_do": {
+        "title": "Cosas que hacer",
+        "beaches": {
+            "title": "Playas y Costa",
+            "desc": "La costa de Gargano ofrece algunas de las playas y pueblos costeros más hermosos de Italia.",
+            "rodi": {
+                "title": "Rodi Garganico",
+                "desc": "Pintoresca ciudad costera conocida por sus huertos de cítricos y largas playas de arena."
+            },
+            "vieste": {
+                "title": "Vieste",
+                "desc": "Encantadora ciudad costera con hermosas playas y espectaculares farallones marinos."
+            },
+            "peschici": {
+                "title": "Peschici",
+                "desc": "Pintoresco pueblo encalado encaramado en acantilados con vistas panorámicas al mar."
+            },
+            "gargano_beaches": {
+                "title": "Las playas más hermosas de Apulia: Gargano",
+                "calalunga": {
+                    "name": "Baia Calalunga",
+                    "desc": "A menudo considerada una de las más bellas, es una amplia bahía con arena fina y aguas poco profundas, equipada con clubes de playa y bares."
+                },
+                "zaiana": {
+                    "name": "Baia Zaiana",
+                    "desc": "Caracterizada por dos promontorios rocosos, ofrece mar en calma y arena, con establecimientos de playa y bares."
+                },
+                "manaccora": {
+                    "name": "Baia di Manaccora",
+                    "desc": "Famosa por la \"Grottona di Manaccora\", una cueva histórica, es una playa bien comunicada con arena y clubes de playa."
+                },
+                "sfinale": {
+                    "name": "Baia di Sfinale",
+                    "desc": "Una playa amplia y bien comunicada, con clubes de playa y restaurantes, ubicada cerca de la frontera con Vieste."
+                },
+                "san_nicola": {
+                    "name": "Baia San Nicola",
+                    "desc": "Cerca del centro, con arena dorada, clubes de playa equipados, restaurantes y la vista de un trabucco, con el famoso restaurante \"Da Mimi'\"."
+                },
+                "san_felice": {
+                    "name": "Baia di San Felice",
+                    "desc": "Mezcla de arena y guijarros, con el Arco de San Felice."
+                },
+                "vignanotica": {
+                    "name": "Vignanotica",
+                    "desc": "Playa de guijarros blancos, famosa por el \"Sendero del Amor\" que la conecta con Mergoli."
+                },
+                "campi": {
+                    "name": "Baia Di Campi",
+                    "desc": "Playa de guijarros poco después de Baia San Felice."
+                },
+                "tremiti": {
+                    "name": "Islas Tremiti",
+                    "desc": "Si tienes tiempo y te quedas más tiempo en nuestro Gargano, vale la pena pasar un día en las Islas Tremiti, accesibles en una hora en ferry desde Rodi Gargano o Peschici."
+                }
+            }
+        },
+        "towns": {
+            "title": "Más en Apulia",
+            "desc": "Explora las encantadoras ciudades históricas de Apulia, cada una con un carácter e historia únicos.",
+            "alberobello": {
+                "title": "Alberobello",
+                "desc": "Famoso por sus casas Trulli — viviendas únicas en forma de cono y sitio del Patrimonio Mundial de la UNESCO.",
+                "tip": "Consejo: Visita temprano en la mañana o tarde en la tarde para evitar multitudes."
+            },
+            "ostuni": {
+                "title": "Ostuni",
+                "desc": "Conocida como la 'Ciudad Blanca' por su casco antiguo encalado con sinuosas calles medievales.",
+                "tip": "Consejo: Las vistas del atardecer desde la catedral son espectaculares."
+            },
+            "polignano": {
+                "title": "Polignano a Mare",
+                "desc": "Impresionantes acantilados y aguas cristalinas. Famoso por su restaurante de playa en una cueva marina."
+            }
+        },
+        "nature": {
+            "title": "Naturaleza y Aire Libre",
+            "desc": "El Parque Nacional de Gargano ofrece una increíble belleza natural y actividades al aire libre.",
+            "forest": {
+                "title": "Bosque Umbra",
+                "desc": "Antiguo bosque de hayas y robles perfecto para caminatas y paseos por la naturaleza."
+            },
+            "caves": {
+                "title": "Cuevas de Castellana",
+                "desc": "Espectacular sistema de cuevas kársticas subterráneas con visitas guiadas disponibles."
+            },
+            "tremiti": {
+                "title": "Islas Tremiti",
+                "desc": "Hermoso archipiélago accesible por ferry. Perfecto para excursiones de un día y snorkel."
+            }
+        },
+        "wine": {
+            "title": "Cata de Vinos",
+            "desc": "Apulia es famosa por sus vinos. Aquí hay algunos de nuestros lugares favoritos para probarlos.",
+            "visit_website": "Visitar Sitio Web",
+            "mandrione": {
+                "name": "Tenute Il Mandrione",
+                "location": "Vieste",
+                "desc": "Ofrece tours y catas de vinos Primitivo, Montepulciano y Bombino Bianco, además de aceite de oliva, a menudo con comida local, en un entorno impresionante cerca del Bosque Umbra.",
+                "url": "https://www.tenutemandrione.it/"
+            },
+            "merinum": {
+                "name": "Cantine Merinum",
+                "location": "Vieste",
+                "desc": "Conocido por excelentes catas de vino con comida complementaria y visitas a viñedos, brindando una experiencia sensorial completa. Ubicado en Tenuta Padre Pio.",
+                "url": "https://www.cantinemerinum.it/esperienze/"
+            },
+            "arapri": {
+                "name": "Cantina D'Araprì",
+                "location": "San Severo",
+                "desc": "Se especializa en vinos espumosos de método clásico (Bombino Bianco, Nero di Troia) con visitas a bodegas y catas.",
+                "url": "https://www.darapri.it/en/"
+            }
+        },
+        "food": {
+            "title": "Más Recomendaciones",
+            "desc": "¿Buscas aún más cosas que hacer?",
+            "experts": {
+                "title": "¡Escucha a los expertos!",
+                "desc": "Hay tantas cosas que hacer en la zona que sería imposible enumerarlas todas aquí. Recomendamos leer en línea (páginas como <a href='https://www.visitvieste.com/le-migliori-escursioni-sul-gargano-alla-scoperta-di-una-terra-autentica/' target='_blank' rel='noopener noreferrer'>VisitVieste.com</a>) y elegir fuentes locales en lugar de personas influyentes de Instagram. ¡Por favor pregunta si tienes dudas!"
+            }
+        }
+    },
+    "things_to_know": {
+        "title": "Cosas que saber",
+        "money": {
+            "title": "Asuntos de Dinero",
+            "desc": "Algunos consejos prácticos sobre pagos y propinas en Italia.",
+            "currency": {
+                "title": "Moneda - Euro (€)",
+                "desc": "¡Los pagos pequeños son solo en efectivo! Dicho esto, las tarjetas de débito/crédito suelen ser aceptadas (no AMEX).",
+                "tip": "Consejo: Lleva siempre algo de efectivo, por si acaso. Nunca se sabe cuándo se rompe un TPV... *guiño*"
+            },
+            "tipping": {
+                "title": "Propinas",
+                "desc": "La propina se agradece pero no es obligatoria. El servicio suele estar incluido en la cuenta.",
+                "amount": "Las propinas no se basan en un %, pero puedes dejar algunos euros por un servicio excelente."
+            }
+        },
+        "weather": {
+            "title": "Clima y qué empacar",
+            "desc": "¡Junio es hermoso en Apulia! Aquí te decimos qué esperar y qué empacar.",
+            "june": {
+                "title": "Clima de Junio",
+                "desc": "Soleado y cálido (25-35°C / 77-95°F). ¡Perfecto para celebraciones al aire libre!"
+            },
+            "packing": {
+                "title": "Ropa para empacar",
+                "desc": "Más allá de lo esencial como trajes de baño y sandalias, trae una capa ligera para las noches más frescas. Se recomiendan zapatos de senderismo si planeas explorar la naturaleza."
+            }
+        },
+        "customs": {
+            "title": "Costumbres Italianas",
+            "desc": "Adopta el ritmo local y las tradiciones gastronómicas.",
+            "riposo": {
+                "title": "El Riposo (Descanso de la tarde)",
+                "desc": "Muchas tiendas y negocios cierran entre la 1 pm y las 5 pm. Este es el tradicional descanso italiano de la tarde.",
+                "hours": "Ten en cuenta que los horarios de apertura de Google pueden no ser muy precisos en ciudades más pequeñas."
+            },
+            "dining": {
+                "title": "Comidas y Comer",
+                "desc": "¡Disfruta del desayuno en un bar local con un cornetto y un espresso! Además, la cena en promedio comienza a partir de las 7:30 pm.",
+                "reservations": "Consejo: En ciudades populares, deberías intentar reservar restaurantes con anticipación."
+            }
+        },
+        "essentials": {
+            "title": "Esenciales Locales",
+            "safety": {
+                "title": "Seguridad y Robos",
+                "desc": "Aparte del consejo normal que se aplica en cualquier lugar de no ir a callejones oscuros, los coches nunca, nunca deben dejarse abiertos o con artículos visibles desde el exterior."
+            },
+            "transportation": {
+                "title": "Transporte",
+                "desc": "Hay autobuses y trenes disponibles, pero recomendamos alquilar un coche para explorar las mejores playas y joyas ocultas."
+            },
+            "beaches": {
+                "title": "Playas",
+                "desc": "La mayoría de las playas son lidos privados: te proporcionarán una sombrilla y tumbonas por una tarifa. Busca 'spiaggia libera' para playas gratuitas."
+            }
+        },
+        "food": {
+            "title": "Comida y Bebida",
+            "desc": "¡La cocina de Apulia es increíble! No te pierdas estas especialidades locales.",
+            "specialties": {
+                "title": "Platos Imperdibles",
+                "desc": "La pasta Orecchiette, el queso burrata, los mariscos frescos y la focaccia son destacados regionales. ¿Te alojas en Apricena? Prueba el helado en el Bar Excelsior (Corso Roma) y los postres en Pasticceria d'Autore.",
+                "examples": "Busca: orecchiette con cime di rapa, mariscos al estilo Polignano y pasticciotto para el desayuno."
+            },
+            "wine": {
+                "title": "Vinos Locales",
+                "desc": "Los vinos típicos de Puglia son tintos con cuerpo y sabor a fruta de uvas como Primitivo (como Zinfandel, rico y picante) y Negroamaro (profundo, ligeramente amargo, columna vertebral de Salice Salentino), junto con blancos aromáticos como Verdeca y Fiano, y excelentes rosados secos (rosato) de Negroamaro. Las regiones clave incluyen Manduria para Primitivo y Salento para Negroamaro, con denominaciones destacadas como Primitivo di Manduria DOC, Salice Salentino DOC y Castel del Monte (a menudo Nero di Troia).",
+                "note": "Pide recomendaciones locales — ¡el vino aquí es fantástico y muy asequible!"
+            },
+            "recommendations": {
+                "title": "Dónde Comer y Beber",
+                "desc": "Si te alojas en Apricena, aquí tienes algunas opciones",
+                "gambero_rosso": {
+                    "name": "Trattoria Il Gambero Rosso",
+                    "desc": "Amplia selección de pescado local fresco.",
+                    "url": "https://trattoriailgamberorosso.it/"
+                },
+                "corte_federiciana": {
+                    "name": "Corte Federiciana",
+                    "desc": "Cocina local con un ambiente medieval.",
+                    "url": "https://www.cortefedericiana.it/"
+                },
+                "la_biga": {
+                    "name": "La Biga Pizzeria",
+                    "desc": "Deliciosa pizza cocinada en horno de leña."
+                },
+                "civico_82": {
+                    "name": "Civico 82 Bar",
+                    "desc": "Abierto todo el día para café y spritz."
+                },
+                "bar_excelsior": {
+                    "name": "Bar Excelsior",
+                    "desc": "Helado artesanal y productos de panadería."
+                },
+                "bar_da_luciano": {
+                    "name": "Bar \"Da Luciano\"",
+                    "desc": "Helado artesanal y productos de panadería."
+                }
+            }
+        }
+    },
+    "registry": {
+        "title": "Lista de Bodas",
+        "desc": "Los regalos nunca se esperan, pero siempre se aprecian.",
+        "presence_title": "Tu Presencia es Nuestro Mejor Regalo",
+        "presence_text": "Lo más importante para nosotros es tenerte allí para celebrar nuestro día especial. Tu presencia, risas y amor son todo lo que realmente deseamos.",
+        "honeymoon_title": "Fondo de Luna de Miel",
+        "honeymoon_text": "Si deseas honrarnos con algo más, una contribución a nuestras aventuras de luna de miel significaría mucho. Estamos planeando un viaje inolvidable a Nueva Zelanda y la Polinesia Francesa para crear recuerdos que durarán toda la vida.",
+        "eu_bank": "Transferencia Bancaria IBAN",
+        "uk_bank": "Transferencia Bancaria UK",
+        "iban": "IBAN",
+        "bic": "BIC / SWIFT",
+        "account_number": "Número de Cuenta",
+        "sort_code": "Sort Code",
+        "reveal_details": "Revelar Detalles",
+        "thankyou": "Gracias por tu amor y generosidad.",
+        "account_name": "Nombre de la Cuenta"
+    },
+    "dress_code": {
+        "title": "Código de Vestimenta",
+        "desc": "El código de vestimenta para nuestra boda es Formal / Black Tie Opcional.",
+        "gentlemen": "Se invita a los caballeros a usar traje o esmoquin.",
+        "ladies": "Se invita a las damas a usar un vestido largo o un vestido de cóctel formal.",
+        "note": "La ceremonia y las bebidas se llevarán a cabo sobre césped, así que por favor elige tu calzado en consecuencia."
+    },
+    "contact": {
+        "title": "Contáctanos",
+        "desc": "Si tienes alguna pregunta, no dudes en contactarnos directamente.",
+        "hashtag": "",
+        "reveal": "Revelar",
+        "vaclav_name": "Vaclav",
+        "cinzia_name": "Cinzia",
+        "reveal_email": "Revelar el email de {{name}}",
+        "reveal_phone": "Revelar el número de {{name}}",
+        "alternative_view": "Vista Alternativa"
+    },
+    "map": {
+        "title": "Mapa Interactivo",
+        "desc": "Explora ubicaciones en Apulia. Pasa el cursor sobre los marcadores para ver detalles y usa los filtros para mostrar u ocultar diferentes categorías.",
+        "hint": "Pasa el cursor sobre los marcadores para ver detalles • Haz clic y arrastra para explorar • Desplázate para hacer zoom",
+        "categories": {
+            "venue": "Lugares",
+            "hotel": "Hoteles",
+            "restaurant": "Restaurantes",
+            "beach": "Playas",
+            "town": "Ciudades",
+            "nature": "Naturaleza",
+            "culture": "Cultura"
+        }
+    }
+}

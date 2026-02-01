@@ -1,0 +1,545 @@
+{
+    "nav": {
+        "home": "Accueil",
+        "story": "Notre Histoire",
+        "gallery": "Galerie",
+        "run_of_show": "Programme",
+        "faq": "FAQ",
+        "travel": "Voyage & Logement",
+        "things_to_do": "Choses à faire",
+        "things_to_know": "Bon à savoir",
+        "registry": "Liste de Mariage",
+        "dress_code": "Code Vestimentaire",
+        "more": "Plus",
+        "rsvp": "RSVP",
+        "map": "Carte",
+        "contact": "Contact"
+    },
+    "home": {
+        "intro": "Nous nous marions",
+        "names": "Cinzia <span>&</span> Vaclav",
+        "date": "13 Juin 2026",
+        "location": "Le Querce di Mamre, Apulia, Italie",
+        "countdown": {
+            "days": "Jours",
+            "hours": "Heures",
+            "minutes": "Minutes",
+            "seconds": "Secondes"
+        },
+        "password_prompt": {
+            "text": "Entrez le mot de passe qui vous a été donné pour déverrouiller le site",
+            "placeholder": "Mot de passe",
+            "button": "Déverrouiller",
+            "error": "Mot de passe incorrect"
+        },
+        "recommended_sections": "Pour commencer :"
+    },
+    "story": {
+        "title": "Notre Histoire",
+        "couplePhotoCaption": "Osaka, Japon • 2023",
+        "profile": {
+            "movie": "Film Préféré",
+            "books": "Livres Préférés",
+            "fact": "Fait Amusant",
+            "quote": "Citation Préférée",
+            "vaclav": {
+                "movie": "The Imitation Game",
+                "books": "Clean Code, 1984",
+                "fact": "Peut résoudre un Rubik's cube en moins de 2 minutes",
+                "quote": "Stay hungry, stay foolish"
+            },
+            "cinzia": {
+                "movie": "La Dolce Vita",
+                "books": "La Divine Comédie",
+                "fact": "Adore peindre des aquarelles",
+                "quote": "La vita è bella"
+            }
+        },
+        "timeline": {
+            "event1": "Nous nous sommes rencontrés à Londres",
+            "event2": "Notre premier voyage ensemble pour fêter les 30 ans de Cinzia",
+            "event3": "Notre premier voyage en famille",
+            "event4": "Retour en Italie pour accueillir une nouvelle vie dans la famille, notre neveu Giovanni",
+            "event5": "Notre première escapade romantique",
+            "event6": "Nous avons officiellement emménagé ensemble, alias Geena et Cinzia ont déménagé à West Ealing",
+            "event7": "Notre premier long voyage ensemble à l'autre bout du monde. Et nous nous aimions toujours à la fin",
+            "event8": "Nous avons acheté notre première maison et emménagé ensemble",
+            "event9": "Nous avons célébré notre 2ème anniversaire avec nos familles lors de notre premier voyage tous ensemble... nous avons survécu, je crois",
+            "event10": "Nous avons cimenté notre relation en réalisant que nous sommes tous les deux des gens de la plage",
+            "event11": "Nous avons restructuré notre maison pour en faire davantage notre nid personnel",
+            "event12": "Notre premier Noël à la plage",
+            "event13": "Notre première fois à observer les aurores boréales ensemble (et Vaclav s'est plaint tout le temps)",
+            "event14": "Nous avons ouvert notre maison et organisé notre pendaison de crémaillère",
+            "event15": "Nous avons décidé de \"lui passer la bague au doigt\"",
+            "event16": "Nous avons adopté nos bébés chats noirs - Loki et Freya. Parce que la vie est meilleure quand on a des chats !",
+            "event17": "L'heure de se marier"
+        }
+    },
+    "run_of_show": {
+        "title": "Programme",
+        "venue": {
+            "title": "Le Querce di Mamre",
+            "blurb": "Niché au cœur des Pouilles, Le Querce di Mamre est un sanctuaire intemporel de beauté méditerranéenne. Entouré d'oliviers centenaires, ce lieu allie charme rustique et élégance raffinée, offrant le décor parfait pour notre célébration.",
+            "directions": "Obtenir l'itinéraire"
+        },
+        "timeline": {
+            "ceremony": {
+                "title": "La Cérémonie",
+                "time": "12:30",
+                "desc": "Rejoignez-nous alors que nous échangeons nos vœux à l'ombre des oliviers centenaires lors d'une cérémonie en plein air sincère."
+            },
+            "entrees": {
+                "title": "Entrées & Apéritifs",
+                "time": "13:30",
+                "desc": "Profitez d'une sélection d'entrées traditionnelles des Pouilles et de rafraîchissements dans le jardin, accompagnés d'une musique douce."
+            },
+            "lunch": {
+                "title": "Déjeuner & Fête",
+                "time": "14:30",
+                "desc": "Nous nous déplaçons à l'intérieur pour un authentique festin de mariage italien, de la danse et une célébration avec nos proches."
+            },
+            "cake": {
+                "title": "Coupe du Gâteau",
+                "time": "20:00",
+                "desc": "Un moment doux alors que nous coupons notre gâteau de mariage ensemble, marquant le début d'une soirée magique sous les étoiles."
+            },
+            "afterparty": {
+                "title": "After Party & Open Bar",
+                "time": "21:00",
+                "desc": "La célébration continue avec un open bar et de la musique énergique pour danser jusqu'au bout de la nuit."
+            }
+        }
+    },
+    "rsvp": {
+        "title": "RSVP",
+        "deadline": "Merci de nous faire savoir si vous pouvez venir avant le 31 Mars 2026.<br/><a href=\"/contact\">Contactez-nous</a> directement aussi car nous pouvons aider à organiser le voyage et l'hébergement.",
+        "name": "Nom complet ou Nom de famille",
+        "email": "Adresse Email",
+        "attending": "Serez-vous présent ?",
+        "yes": "Accepte avec joie",
+        "no": "Décline avec regret",
+        "guests": "Nombre d'invités",
+        "dietary": "Restrictions Alimentaires",
+        "dietary_placeholder": "Allergies ou préférences ?",
+        "submit": "Envoyer RSVP",
+        "guest_count": "{{count}} Invité",
+        "guest_count_plural": "{{count}} Invités",
+        "success": "Merci pour votre réponse !",
+        "alert": "Merci pour votre réponse, {{name}} !",
+        "confirmation": "Si vous devez apporter des modifications, veuillez nous contacter via notre",
+        "contact_link": "page de contact"
+    },
+    "gallery": {
+        "title": "Galerie Photo",
+        "subtitle": "Capturez de beaux moments de notre voyage ensemble",
+        "photoCount": "{{count}} photo",
+        "photoCount_plural": "{{count}} photos",
+        "filters": {
+            "all": "Tout",
+            "moments": "Moments",
+            "friends": "Amis",
+            "family": "Famille"
+        }
+    },
+    "footer": {
+        "hashtag": "13 Juin 2026"
+    },
+    "disclaimer": {
+        "title": "Mise à jour importante RSVP",
+        "message": "Nous vous demandons gentiment de confirmer votre présence avant le 31 Mars. Merci de mentionner toute exigence alimentaire dans le formulaire.",
+        "button": "Je comprends"
+    },
+    "login": {
+        "title": "Bienvenue",
+        "description": "Veuillez entrer le mot de passe pour accéder aux détails du mariage.",
+        "submit": "Entrer"
+    },
+    "faq": {
+        "title": "Foire Aux Questions",
+        "oneliner": "La plupart des réponses se trouvent sur le reste du site, mais cette page est aussi complète que possible pour faciliter la recherche.",
+        "categories": {
+            "venue": "Lieu & Horaires",
+            "dress": "Code Vestimentaire",
+            "rsvp": "Détails RSVP",
+            "travel": "Voyage & Hébergement",
+            "gifts": "Cadeaux",
+            "photo": "Photographie & Téléphones",
+            "schedule": "Programme",
+            "weather": "Météo & Plans B",
+            "culture": "Notes Culturelles"
+        },
+        "questions": {
+            "where_ceremony": "Où est la cérémonie ?",
+            "where_ceremony_a": "La cérémonie civile se tiendra en extérieur aux Querce di Mamre, dans les Pouilles, dans la cour.",
+            "where_reception": "Où est la réception ?",
+            "where_reception_a": "La réception se tiendra à l'extérieur. Veuillez consulter la page <runOfShowLink>Programme</runOfShowLink> pour des informations détaillées.",
+            "arrival_time": "À quelle heure les invités doivent-ils arriver ?",
+            "arrival_time_a": "Nous recommandons d'arriver vers 12h00 pour trouver votre place confortablement avant la cérémonie de 12h30.",
+            "dress_code": "Quel est le code vestimentaire ?",
+            "dress_code_a": "Bien que nous apprécions la liberté d'expression de chacun, lors des mariages en Italie, il est attendu que les invités soient sur leur 31. De plus, il est mal vu pour les femmes de s'habiller en blanc.",
+            "bathing_suit": "Ai-je besoin d'un maillot de bain ?",
+            "bathing_suit_a": "Malheureusement non. La baignade dans la piscine du lieu est strictement interdite.",
+            "jacket": "Ai-je besoin d'une veste pour la soirée ?",
+            "jacket_a": "Bien qu'il puisse faire très chaud pendant la journée, il peut faire frais à la tombée de la nuit. Rien de dramatique, mais peut-être quelque chose pour couvrir les épaules.",
+            "how_rsvp": "Comment répondre (RSVP) ?",
+            "how_rsvp_a": "Vous pouvez répondre directement sur ce site via la page <rsvpLink>RSVP</rsvpLink>.",
+            "rsvp_deadline": "Date limite de réponse ?",
+            "rsvp_deadline_a": "Pour des raisons logistiques, nous vous demandons gentiment de confirmer votre présence avant le 31 Mars 2026.",
+            "plus_one": "Puis-je venir avec un accompagnant ?",
+            "plus_one_a": "Les accompagnants sont les bienvenus tant que nous le savons avant la date limite ci-dessus. Si vous rencontrez quelqu'un entre mars et juin, votre accompagnant est le bienvenu tant que vous nous prévenez avant le 31 Mai.",
+            "children": "Les enfants sont-ils invités ?",
+            "children_a": "Les enfants sont les bienvenus ! Il y aura une baby-sitter pour s'occuper des enfants de 3 ans et plus. Nous vous demandons tout de même de garder un œil sur eux pour la sécurité des travailleurs et des gens qui dansent.",
+            "where_to_go": "Où dois-je aller ?",
+            "where_to_go_a": "Bien que l'événement soit à Le Querce di Mamre, nous recommandons à tout le monde de réserver un logement à Apricena ou San Severo, dans la province de Foggia (FG), où nous séjournerons également. C'est à 30 minutes de route du lieu.",
+            "how_get_there": "Comment s'y rendre ?",
+            "how_get_there_a": "Les aéroports les plus proches sont Bari-Palese (BRI) et Pescara (PSR). L'aéroport de Naples (NAP) est une option, mais cela prendra une heure de plus. Voir la page <travelLink>Voyage & Hébergement</travelLink> pour plus de détails.",
+            "car_rental": "Où louer une voiture ?",
+            "car_rental_a": "Nous recommandons de louer auprès d'agences réputées à l'aéroport.",
+            "venue_transport": "Comment se rendre au lieu ?",
+            "venue_transport_a": "Nous organisons des navettes aller-retour pour que les invités puissent boire sans souci. Si vous souhaitez conduire, vous êtes les bienvenus.",
+            "parking": "Y a-t-il un parking ?",
+            "parking_a": "Oui, un grand parking gratuit est disponible sur place.",
+            "hotels": "Y a-t-il des hôtels recommandés ?",
+            "hotels_a": "Oui, il y a des hôtels et des B&B. Nous recommandons de réserver dès que possible car la disponibilité est limitée.",
+            "gifts_expected": "Les cadeaux sont-ils attendus ?",
+            "gifts_expected_a": "Votre présence est le plus beau cadeau. Si vous souhaitez offrir quelque chose, veuillez consulter notre page <registryLink>Liste de Mariage</registryLink>.",
+            "registry": "Avez-vous une liste de mariage ?",
+            "registry_a": "Nous n'avons pas de liste traditionnelle, mais tout ce que vous devez savoir est sur la page <registryLink>Liste de Mariage</registryLink>.",
+            "unplugged": "La cérémonie est-elle déconnectée ?",
+            "unplugged_a": "Comme il y aura un photographe professionnel pour documenter la cérémonie, nous vous demandons de ne pas prendre de photos ou de vidéos vous-même. Cela vous permettra d'être pleinement présents avec nous.",
+            "take_photos": "Pouvons-nous prendre des photos le reste de la journée ?",
+            "take_photos_a": "Oui, absolument ! Vous êtes les bienvenus pour prendre des photos pendant le reste de la journée.",
+            "schedule": "Quel est le programme ?",
+            "schedule_a": "Le programme complet se trouve sur la page <runOfShowLink>Programme</runOfShowLink>.",
+            "reception_end": "À quelle heure la journée se terminera-t-elle ?",
+            "reception_end_a": "Nous prévoyons que la journée se termine vers 23h.",
+            "expected_weather": "Quelle est la météo prévue ?",
+            "expected_weather_a": "Bien que la météo soit parfois imprévisible, juin dans les Pouilles peut être très chaud avec des températures atteignant 35°C. Nous recommandons de vérifier les températures à l'avance et de s'habiller en conséquence.",
+            "rain": "Que se passe-t-il s'il pleut ?",
+            "rain_a": "Pas de panique ! Nous avons un plan de secours intérieur au même endroit, donc la fête continuera peu importe la météo !",
+            "traditions": "Y aura-t-il des traditions religieuses ou culturelles que les invités devraient connaître ?",
+            "traditions_a": "Il n'y aura pas de cérémonie religieuse. Cependant, nous demandons à chacun d'être calme pendant la cérémonie civile. Les femmes devraient éviter de s'habiller en blanc car seule la mariée doit être habillée en blanc."
+        }
+    },
+    "travel": {
+        "title": "Voyage & Hébergement",
+        "airports": {
+            "title": "Aéroports",
+            "pescara": {
+                "name": "Aéroport de Pescara (PSR)",
+                "desc": "Environ 1h30 de route jusqu'à Apricena. Un petit aéroport avec moins de correspondances mais plus proche de notre base.",
+                "drive": "~1h30 de route jusqu'à Apricena"
+            },
+            "bari": {
+                "name": "Aéroport de Bari (BRI)",
+                "desc": "Le plus grand aéroport international de la région avec le plus d'options de vol. Environ 1h45 de route jusqu'à Apricena.",
+                "drive": "~1h45 de route jusqu'à Apricena"
+            }
+        },
+        "toCity": {
+            "title": "Se rendre à Apricena",
+            "desc": "Nous séjournerons à Apricena, une charmante ville dans la région du Gargano et ville natale de la mariée. Voici vos options pour y arriver depuis les aéroports :",
+            "rental": "Location de Voiture",
+            "rentalDesc": "Recommandé pour la flexibilité. Louez directement à l'aéroport.",
+            "taxi": "Taxi",
+            "taxiDesc": "Attendez-vous à ce que les taxis soient disponibles uniquement entre l'aéroport et les gares.",
+            "train": "Trains",
+            "trainDesc": "Des trains directs sont disponibles depuis la gare de Pescara Centrale et la gare de Bari Centrale vers San Severo ou Foggia. Les horaires sont disponibles sur le <a href='https://www.trenitalia.com/it.html' target='_blank' rel='noopener noreferrer'>site de Trenitalia</a>."
+        },
+        "toVenue": {
+            "title": "Se rendre au lieu",
+            "desc": "Le lieu du mariage est à quelques minutes en voiture d'Apricena :",
+            "fromApricena": "Depuis Apricena",
+            "fromApricenaDesc": "Le mariage est à Querce di Mamre et Google Maps est fiable pour y arriver.",
+            "parking": "Parking Disponible",
+            "parkingDesc": "Un parking gratuit est disponible sur place pour tous les invités."
+        },
+        "hotels": {
+            "title": "Où Séjourner",
+            "hotel": {
+                "name": "Hôtels",
+                "desc": "Plusieurs hôtels disponibles à et autour d'Apricena. Recommandé pour ceux qui préfèrent des équipements complets et un ménage quotidien.",
+                "examples": "Hotel Palazzo, Hotel Sant'Angelo, et autres dans la région"
+            },
+            "bnb": {
+                "name": "B&B / Agriturisme",
+                "desc": "Découvrez l'hospitalité authentique des Pouilles dans des chambres d'hôtes locales ou des fermes. Souvent plus charmants et économiques.",
+                "examples": "Options d'agriturisme et B&B locaux à la campagne"
+            }
+        }
+    },
+    "things_to_do": {
+        "title": "Choses à faire",
+        "beaches": {
+            "title": "Plages & Littoral",
+            "desc": "La côte du Gargano offre certaines des plus belles plages et villes balnéaires d'Italie.",
+            "rodi": {
+                "title": "Rodi Garganico",
+                "desc": "Ville balnéaire pittoresque connue pour ses vergers d'agrumes et ses longues plages de sable."
+            },
+            "vieste": {
+                "title": "Vieste",
+                "desc": "Charmante ville côtière avec de belles plages et des stacks spectaculaires."
+            },
+            "peschici": {
+                "title": "Peschici",
+                "desc": "Village pittoresque blanchi à la chaux perché sur des falaises avec des vues panoramiques sur la mer."
+            },
+            "gargano_beaches": {
+                "title": "Les plus belles plages des Pouilles : Gargano",
+                "calalunga": {
+                    "name": "Baia Calalunga",
+                    "desc": "Souvent considérée comme l'une des plus belles, c'est une large baie avec du sable fin et des eaux peu profondes, équipée de clubs de plage et de bars."
+                },
+                "zaiana": {
+                    "name": "Baia Zaiana",
+                    "desc": "Caractérisée par deux promontoires rocheux, elle offre une mer calme et du sable, avec des établissements de plage et des bars."
+                },
+                "manaccora": {
+                    "name": "Baia di Manaccora",
+                    "desc": "Célèbre pour la \"Grottona di Manaccora\", une grotte historique, c'est une plage bien desservie avec du sable et des clubs de plage."
+                },
+                "sfinale": {
+                    "name": "Baia di Sfinale",
+                    "desc": "Une plage large et bien desservie, avec des clubs de plage et des restaurants, située près de la frontière avec Vieste."
+                },
+                "san_nicola": {
+                    "name": "Baia San Nicola",
+                    "desc": "Proche du centre, avec du sable doré, des clubs de plage équipés, des restaurants, et la vue d'un trabucco, avec le célèbre restaurant \"Da Mimi'\"."
+                },
+                "san_felice": {
+                    "name": "Baia di San Felice",
+                    "desc": "Mélange de sable et de galets, avec l'Arche de San Felice."
+                },
+                "vignanotica": {
+                    "name": "Vignanotica",
+                    "desc": "Plage de galets blancs, célèbre pour le \"Sentier de l'Amore\" qui la relie à Mergoli."
+                },
+                "campi": {
+                    "name": "Baia Di Campi",
+                    "desc": "Plage de galets peu après Baia San Felice."
+                },
+                "tremiti": {
+                    "name": "Îles Tremiti",
+                    "desc": "Si vous avez le temps et restez plus longtemps dans notre Gargano, cela vaut la peine de passer une journée aux îles Tremiti, accessibles en une heure de ferry depuis Rodi Gargano ou Peschici."
+                }
+            }
+        },
+        "towns": {
+            "title": "Plus dans les Pouilles",
+            "desc": "Explorez les charmantes villes historiques des Pouilles, chacune avec son caractère et son histoire uniques.",
+            "alberobello": {
+                "title": "Alberobello",
+                "desc": "Célèbre pour ses maisons Trulli — habitations uniques en forme de cône et site du patrimoine mondial de l'UNESCO.",
+                "tip": "Conseil : Visitez tôt le matin ou tard l'après-midi pour éviter la foule."
+            },
+            "ostuni": {
+                "title": "Ostuni",
+                "desc": "Connue sous le nom de 'La Ville Blanche' pour sa vieille ville blanchie à la chaux avec des rues médiévales sinueuses.",
+                "tip": "Conseil : Les vues du coucher de soleil depuis la cathédrale sont spectaculaires."
+            },
+            "polignano": {
+                "title": "Polignano a Mare",
+                "desc": "Falaises magnifiques et eaux cristallines. Célèbre pour son restaurant de plage dans une grotte marine."
+            }
+        },
+        "nature": {
+            "title": "Nature & Extérieur",
+            "desc": "Le Parc National du Gargano offre une beauté naturelle incroyable et des activités de plein air.",
+            "forest": {
+                "title": "Forêt Umbra",
+                "desc": "Ancienne forêt de hêtres et de chênes parfaite pour la randonnée et les promenades dans la nature."
+            },
+            "caves": {
+                "title": "Grottes de Castellana",
+                "desc": "Système spectaculaire de grottes karstiques souterraines avec des visites guidées disponibles."
+            },
+            "tremiti": {
+                "title": "Îles Tremiti",
+                "desc": "Bel archipel accessible par ferry. Parfait pour des excursions d'une journée et le snorkeling."
+            }
+        },
+        "wine": {
+            "title": "Dégustation de Vin",
+            "desc": "Les Pouilles sont célèbres pour leurs vins. Voici quelques-uns de nos endroits préférés pour les goûter.",
+            "visit_website": "Visiter le site",
+            "mandrione": {
+                "name": "Tenute Il Mandrione",
+                "location": "Vieste",
+                "desc": "Offre des visites et dégustations de vins Primitivo, Montepulciano, et Bombino Bianco, plus huile d'olive, souvent avec des produits locaux, dans un cadre magnifique près de la Forêt Umbra.",
+                "url": "https://www.tenutemandrione.it/"
+            },
+            "merinum": {
+                "name": "Cantine Merinum",
+                "location": "Vieste",
+                "desc": "Connu pour d'excellentes dégustations de vin avec nourriture complémentaire et visites de vignobles, offrant une expérience sensorielle complète. Situé à Tenuta Padre Pio.",
+                "url": "https://www.cantinemerinum.it/esperienze/"
+            },
+            "arapri": {
+                "name": "Cantina D'Araprì",
+                "location": "San Severo",
+                "desc": "Se spécialise dans les vins mousseux de méthode classique (Bombino Bianco, Nero di Troia) avec visites de cave et dégustations.",
+                "url": "https://www.darapri.it/en/"
+            }
+        },
+        "food": {
+            "title": "Plus de Recommandations",
+            "desc": "Vous cherchez encore plus de choses à faire ?",
+            "experts": {
+                "title": "Écoutez les experts !",
+                "desc": "Il y a tellement de choses à faire dans la région qu'il serait impossible de tout lister ici. Nous recommandons de lire en ligne (des pages comme <a href='https://www.visitvieste.com/le-migliori-escursioni-sul-gargano-alla-scoperta-di-una-terra-autentica/' target='_blank' rel='noopener noreferrer'>VisitVieste.com</a>) et de choisir des sources locales plutôt que des influenceurs Instagram. N'hésitez pas à demander si vous avez des questions !"
+            }
+        }
+    },
+    "things_to_know": {
+        "title": "Bon à savoir",
+        "money": {
+            "title": "Questions d'argent",
+            "desc": "Quelques conseils pratiques sur les paiements et les pourboires en Italie.",
+            "currency": {
+                "title": "Monnaie - Euro (€)",
+                "desc": "Les petits paiements se font uniquement en espèces ! Cela dit, les cartes de débit/crédit sont généralement acceptées (pas AMEX).",
+                "tip": "Conseil : Ayez toujours un peu d'argent liquide, juste au cas où. On ne sait jamais quand un TPE tombe en panne... *clin d'œil*"
+            },
+            "tipping": {
+                "title": "Pourboire",
+                "desc": "Le pourboire est apprécié mais pas obligatoire. Le service est généralement inclus dans l'addition.",
+                "amount": "Les pourboires ne sont pas basés sur un %, mais vous pouvez laisser quelques euros pour un excellent service."
+            }
+        },
+        "weather": {
+            "title": "Météo & Quoi emporter",
+            "desc": "Juin est magnifique dans les Pouilles ! Voici ce à quoi s'attendre et quoi emporter.",
+            "june": {
+                "title": "Météore de Juin",
+                "desc": "Ensoleillé et chaud (25-35°C / 77-95°F). Parfait pour les célébrations en extérieur !"
+            },
+            "packing": {
+                "title": "Vêtements à emporter",
+                "desc": "Au-delà des essentiels comme les maillots de bain et les sandales, apportez une couche légère pour les soirées plus fraîches. Des chaussures de randonnée sont recommandées si vous prévoyez d'explorer la nature."
+            }
+        },
+        "customs": {
+            "title": "Coutumes Italiennes",
+            "desc": "Adoptez le rythme local et les traditions culinaires.",
+            "riposo": {
+                "title": "Le Riposo (Pause de l'après-midi)",
+                "desc": "De nombreux magasins et entreprises ferment entre 13h et 17h. C'est la pause traditionnelle italienne de l'après-midi.",
+                "hours": "Gardez à l'esprit que les horaires d'ouverture de Google peuvent ne pas être super précis dans les petites villes."
+            },
+            "dining": {
+                "title": "Repas & Manger",
+                "desc": "Profitez du petit-déjeuner dans un bar local avec un cornetto et un expresso ! Aussi, le dîner commence en moyenne à partir de 19h30.",
+                "reservations": "Conseil : Dans les villes populaires, vous devriez essayer de réserver les restaurants à l'avance."
+            }
+        },
+        "essentials": {
+            "title": "Essentiels Locaux",
+            "safety": {
+                "title": "Sécurité & Vol",
+                "desc": "Outre les conseils normaux qui s'appliquent partout de ne pas aller dans les ruelles sombres, les voitures ne doivent jamais, au grand jamais, être laissées déverrouillées ou avec des objets visibles de l'extérieur."
+            },
+            "transportation": {
+                "title": "Transport",
+                "desc": "Les bus et les trains sont disponibles, mais nous recommandons de louer une voiture pour explorer les meilleures plages et les joyaux cachés."
+            },
+            "beaches": {
+                "title": "Plages",
+                "desc": "La plupart des plages sont des lidos privés : ils vous fourniront un parasol et des chiliennes moyennant des frais. Cherchez 'spiaggia libera' pour les plages gratuites."
+            }
+        },
+        "food": {
+            "title": "Nourriture & Boisson",
+            "desc": "La cuisine des Pouilles est incroyable ! Ne manquez pas ces spécialités locales.",
+            "specialties": {
+                "title": "Plats Incontournables",
+                "desc": "Les pâtes Orecchiette, le fromage burrata, les fruits de mer frais et la focaccia sont des points forts régionaux. Vous restez à Apricena ? Essayez la glace au Bar Excelsior (Corso Roma) et les desserts à la Pasticceria d'Autore.",
+                "examples": "Cherchez : orecchiette con cime di rapa, fruits de mer façon Polignano, et pasticciotto pour le petit-déjeuner !"
+            },
+            "wine": {
+                "title": "Vins Locaux",
+                "desc": "Les vins typiques des Pouilles sont des rouges corsés et fruités issus de raisins comme le Primitivo (comme le Zinfandel, riche et épicé) et le Negroamaro (profond, légèrement amer, colonne vertébrale du Salice Salentino), aux côtés de blancs aromatiques comme le Verdeca et le Fiano, et d'excellents rosés secs (rosato) de Negroamaro. Les régions clés incluent Manduria pour le Primitivo et le Salento pour le Negroamaro, avec des appellations remarquables comme Primitivo di Manduria DOC, Salice Salentino DOC et Castel del Monte (souvent Nero di Troia).",
+                "note": "Demandez des recommandations locales — le vin ici est fantastique et très abordable !"
+            },
+            "recommendations": {
+                "title": "Où Manger & Boire",
+                "desc": "Si vous restez à Apricena, voici quelques options",
+                "gambero_rosso": {
+                    "name": "Trattoria Il Gambero Rosso",
+                    "desc": "Large sélection de poissons locaux frais.",
+                    "url": "https://trattoriailgamberorosso.it/"
+                },
+                "corte_federiciana": {
+                    "name": "Corte Federiciana",
+                    "desc": "Cuisine locale avec une atmosphère médiévale.",
+                    "url": "https://www.cortefedericiana.it/"
+                },
+                "la_biga": {
+                    "name": "La Biga Pizzeria",
+                    "desc": "Délicieuse pizza cuite au four à bois."
+                },
+                "civico_82": {
+                    "name": "Civico 82 Bar",
+                    "desc": "Ouvert toute la journée pour café et spritz."
+                },
+                "bar_excelsior": {
+                    "name": "Bar Excelsior",
+                    "desc": "Glace artisanale et boulangerie."
+                },
+                "bar_da_luciano": {
+                    "name": "Bar \"Da Luciano\"",
+                    "desc": "Glace artisanale et boulangerie."
+                }
+            }
+        }
+    },
+    "registry": {
+        "title": "Liste de Mariage",
+        "desc": "Les cadeaux ne sont jamais attendus, mais toujours appréciés.",
+        "presence_title": "Votre Présence est Notre Plus Beau Cadeau",
+        "presence_text": "La chose la plus importante pour nous est de vous avoir là pour célébrer notre journée spéciale. Votre présence, vos rires et votre amour sont tout ce que nous désirons vraiment.",
+        "honeymoon_title": "Fonds Lune de Miel",
+        "honeymoon_text": "Si vous souhaitez nous honorer avec quelque chose de plus, une contribution à nos aventures de lune de miel signifierait beaucoup. Nous prévoyons un voyage inoubliable en Nouvelle-Zélande et en Polynésie française pour créer des souvenirs qui dureront toute une vie.",
+        "eu_bank": "Virement Bancaire IBAN",
+        "uk_bank": "Virement Bancaire UK",
+        "iban": "IBAN",
+        "bic": "BIC / SWIFT",
+        "account_number": "Numéro de Compte",
+        "sort_code": "Code Guichet",
+        "reveal_details": "Révéler les Détails",
+        "thankyou": "Merci pour votre amour et votre générosité.",
+        "account_name": "Nom du Compte"
+    },
+    "dress_code": {
+        "title": "Code Vestimentaire",
+        "desc": "Le code vestimentaire pour notre mariage est Formel / Black Tie Optionnel.",
+        "gentlemen": "Les messieurs sont invités à porter un costume ou un smoking.",
+        "ladies": "Les dames sont invitées à porter une robe longue ou une robe de cocktail formelle.",
+        "note": "La cérémonie et les boissons se tiendront sur l'herbe, veuillez donc choisir vos chaussures en conséquence."
+    },
+    "contact": {
+        "title": "Contactez-nous",
+        "desc": "Si vous avez des questions, n'hésitez pas à nous contacter directement.",
+        "hashtag": "",
+        "reveal": "Révéler",
+        "vaclav_name": "Vaclav",
+        "cinzia_name": "Cinzia",
+        "reveal_email": "Révéler l'email de {{name}}",
+        "reveal_phone": "Révéler le numéro de {{name}}",
+        "alternative_view": "Vue Alternative"
+    },
+    "map": {
+        "title": "Carte Interactive",
+        "desc": "Explorez les lieux à travers les Pouilles. Survolez les marqueurs pour voir les détails, et utilisez les filtres pour afficher ou masquer différentes catégories.",
+        "hint": "Survolez les marqueurs pour voir les détails • Cliquez et glissez pour explorer • Scrollez pour zoomer",
+        "categories": {
+            "venue": "Lieux",
+            "hotel": "Hôtels",
+            "restaurant": "Restaurants",
+            "beach": "Plages",
+            "town": "Villes",
+            "nature": "Nature",
+            "culture": "Culture"
+        }
+    }
+}
